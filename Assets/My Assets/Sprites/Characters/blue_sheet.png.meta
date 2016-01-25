@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: 84f7e6ab37709ac488af4924df2dac9f
+timeCreated: 1453564864
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blue_sheet_0
+    21300002: blue_sheet_1
+    21300004: blue_sheet_2
+    21300006: blue_sheet_3
+    21300008: blue_sheet_4
+    21300010: blue_sheet_5
+    21300012: blue_sheet_6
+    21300014: blue_sheet_7
+    21300016: blue_sheet_8
+    21300018: blue_sheet_9
+    21300020: blue_sheet_10
+    21300022: blue_sheet_11
+    21300024: blue_sheet_12
+    21300026: blue_sheet_13
+    21300028: blue_sheet_14
+    21300030: blue_sheet_15
+    21300032: blue_sheet_16
+    21300034: blue_sheet_17
+    21300036: blue_sheet_18
+    21300038: blue_sheet_19
+    21300040: blue_sheet_20
+    21300042: blue_sheet_21
+    21300044: blue_sheet_22
+    21300046: blue_sheet_23
+    21300048: blue_sheet_24
+    21300050: blue_sheet_25
+    21300052: blue_sheet_26
+    21300054: blue_sheet_27
+    21300056: blue_sheet_28
+    21300058: blue_sheet_29
+    21300060: blue_sheet_30
+    21300062: blue_sheet_31
+    21300064: blue_sheet_32
+    21300066: blue_sheet_33
+    21300068: blue_sheet_34
+    21300070: blue_sheet_35
+    21300072: blue_sheet_36
+    21300074: blue_sheet_37
+    21300076: blue_sheet_38
+    21300078: blue_sheet_39
+    21300080: blue_sheet_40
+    21300082: blue_sheet_41
+    21300084: blue_sheet_42
+    21300086: blue_sheet_43
+    21300088: blue_sheet_44
+    21300090: blue_sheet_45
+    21300092: blue_sheet_46
+    21300094: blue_sheet_47
+    21300096: blue_sheet_48
+    21300098: blue_sheet_49
+    21300100: blue_sheet_50
+    21300102: blue_sheet_51
+    21300104: blue_sheet_52
+    21300106: blue_sheet_53
+    21300108: blue_sheet_54
+    21300110: blue_sheet_55
+    21300112: blue_sheet_56
+    21300114: blue_sheet_57
+    21300116: blue_sheet_58
+    21300118: blue_sheet_59
+    21300120: blue_sheet_60
+    21300122: blue_sheet_61
+    21300124: blue_sheet_62
+    21300126: blue_sheet_63
+    21300128: blue_sheet_64
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: blue_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 46.5}
+        - {x: -33, y: -46.5}
+        - {x: 33, y: -46.5}
+        - {x: 33, y: 44.5}
+        - {x: 31, y: 46.5}
+    - name: blue_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 425
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 46.5}
+        - {x: -33, y: 44.5}
+        - {x: -33, y: -46.5}
+        - {x: 33, y: -46.5}
+        - {x: 33, y: 43.5}
+        - {x: 24, y: 46.5}
+    - name: blue_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 423
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 47.5}
+        - {x: -23.5, y: 47.5}
+        - {x: -34.5, y: 36.5}
+        - {x: -34.5, y: -31.5}
+        - {x: -31.5, y: -47.5}
+        - {x: 18.5, y: -47.5}
+        - {x: 30.5, y: -42.5}
+        - {x: 34.5, y: -30.5}
+        - {x: 34.5, y: 32.5}
+    - name: blue_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 425
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 36}
+        - {x: -18, y: 36}
+        - {x: -35, y: 23}
+        - {x: -35, y: -36}
+        - {x: 32, y: -36}
+        - {x: 35, y: -18}
+        - {x: 35, y: 26}
+        - {x: 30, y: 34}
+    - name: blue_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 425
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 46.5}
+        - {x: -35, y: 29.5}
+        - {x: -35, y: -27.5}
+        - {x: -15, y: -46.5}
+        - {x: 35, y: -46.5}
+        - {x: 35, y: 46.5}
+    - name: blue_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 426
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 47}
+        - {x: -34, y: 42}
+        - {x: -34, y: -47}
+        - {x: 27, y: -47}
+        - {x: 34, y: -25}
+        - {x: 34, y: 34}
+        - {x: 20, y: 47}
+    - name: blue_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 426
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 48}
+        - {x: -35.5, y: 45}
+        - {x: -35.5, y: -28}
+        - {x: -15.5, y: -48}
+        - {x: 31.5, y: -48}
+        - {x: 35.5, y: -40}
+        - {x: 35.5, y: 44}
+        - {x: 28.5, y: 48}
+    - name: blue_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 425
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -37.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 33.5, y: -46.5}
+        - {x: 33.5, y: 46.5}
+        - {x: -30.5, y: 46.5}
+        - {x: -33.5, y: 38.5}
+    - name: blue_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 425
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 46.5}
+        - {x: -33, y: 41.5}
+        - {x: -33, y: -37.5}
+        - {x: -27, y: -43.5}
+        - {x: -20, y: -41.5}
+        - {x: -18, y: -39.5}
+        - {x: 5, y: -46.5}
+        - {x: 21, y: -46.5}
+        - {x: 33, y: -6.5}
+        - {x: 33, y: 31.5}
+        - {x: 21, y: 46.5}
+    - name: blue_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 422
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 48}
+        - {x: -34.5, y: 33}
+        - {x: -34.5, y: -30}
+        - {x: -28.5, y: -47}
+        - {x: -22.5, y: -48}
+        - {x: 16.5, y: -48}
+        - {x: 34.5, y: -28}
+        - {x: 34.5, y: 35}
+        - {x: 18.5, y: 48}
+    - name: blue_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 420
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 49}
+        - {x: -35, y: 37}
+        - {x: -35, y: -28}
+        - {x: -33, y: -49}
+        - {x: 11, y: -49}
+        - {x: 16, y: -45}
+        - {x: 35, y: -24}
+        - {x: 35, y: 49}
+    - name: blue_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 444
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 24.5}
+        - {x: -24, y: 17.5}
+        - {x: -24, y: -20.5}
+        - {x: -21, y: -24.5}
+        - {x: 23, y: -24.5}
+        - {x: 24, y: -19.5}
+        - {x: 24, y: 17.5}
+        - {x: 17, y: 24.5}
+    - name: blue_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 444
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 24.5}
+        - {x: -24, y: 15.5}
+        - {x: -24, y: -19.5}
+        - {x: -20, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 24, y: -21.5}
+        - {x: 24, y: 20.5}
+        - {x: 18, y: 24.5}
+    - name: blue_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 46.5}
+        - {x: -21, y: 46.5}
+        - {x: -33, y: 38.5}
+        - {x: -33, y: -46.5}
+        - {x: 33, y: -46.5}
+        - {x: 33, y: 38.5}
+        - {x: 24, y: 44.5}
+    - name: blue_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 325
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 46.5}
+        - {x: -33, y: 42.5}
+        - {x: -33, y: -40.5}
+        - {x: -25, y: -39.5}
+        - {x: -22, y: -36.5}
+        - {x: -22, y: -32.5}
+        - {x: -22, y: -38.5}
+        - {x: -24, y: -38.5}
+        - {x: -26, y: -46.5}
+        - {x: 31, y: -46.5}
+        - {x: 33, y: -45.5}
+        - {x: 33, y: 43.5}
+        - {x: 27, y: 46.5}
+    - name: blue_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 323
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 47.5}
+        - {x: -33.5, y: -40.5}
+        - {x: -29.5, y: -47.5}
+        - {x: 33.5, y: -47.5}
+        - {x: 33.5, y: 47.5}
+    - name: blue_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 324
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 36.5}
+        - {x: -34, y: 34.5}
+        - {x: -34, y: -33.5}
+        - {x: -32, y: -36.5}
+        - {x: 27, y: -36.5}
+        - {x: 34, y: -12.5}
+        - {x: 34, y: 25.5}
+        - {x: 27, y: 36.5}
+    - name: blue_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 324
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 30}
+        - {x: 25, y: 47}
+        - {x: -28, y: 47}
+        - {x: -34, y: 41}
+        - {x: -34, y: -38}
+        - {x: -23, y: -47}
+        - {x: 32, y: -47}
+        - {x: 34, y: -24}
+        - {x: 33, y: -21}
+        - {x: 34, y: -13}
+    - name: blue_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 325
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 47.5}
+        - {x: -33.5, y: 30.5}
+        - {x: -33.5, y: -40.5}
+        - {x: -26.5, y: -47.5}
+        - {x: 33.5, y: -47.5}
+        - {x: 33.5, y: 33.5}
+        - {x: 20.5, y: 47.5}
+    - name: blue_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 325
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 48.5}
+        - {x: -34, y: 43.5}
+        - {x: -34, y: -39.5}
+        - {x: -16, y: -48.5}
+        - {x: 12, y: -48.5}
+        - {x: 34, y: -30.5}
+        - {x: 34, y: 36.5}
+        - {x: 24, y: 48.5}
+    - name: blue_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 325
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 46.5}
+        - {x: -33.5, y: 31.5}
+        - {x: -33.5, y: -15.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 28.5, y: -46.5}
+        - {x: 33.5, y: -45.5}
+        - {x: 33.5, y: 33.5}
+        - {x: 22.5, y: 46.5}
+    - name: blue_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 325
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 46.5}
+        - {x: -33, y: 37.5}
+        - {x: -33, y: -43.5}
+        - {x: -10, y: -46.5}
+        - {x: 25, y: -46.5}
+        - {x: 33, y: -17.5}
+        - {x: 33, y: 38.5}
+        - {x: 25, y: 46.5}
+    - name: blue_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 322
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 48}
+        - {x: -34.5, y: 44}
+        - {x: -34.5, y: -48}
+        - {x: 23.5, y: -48}
+        - {x: 34.5, y: -32}
+        - {x: 34.5, y: 33}
+        - {x: 29.5, y: 48}
+    - name: blue_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 320
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -17}
+        - {x: -31, y: -17}
+        - {x: -23, y: -49}
+        - {x: 21, y: -49}
+        - {x: 35, y: -34}
+        - {x: 35, y: 35}
+        - {x: 31, y: 49}
+        - {x: -31, y: 49}
+        - {x: -35, y: 32}
+    - name: blue_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 344
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 24}
+        - {x: -17, y: 24}
+        - {x: -24, y: 16}
+        - {x: -24, y: -22}
+        - {x: -18, y: -24}
+        - {x: 21, y: -24}
+        - {x: 24, y: -16}
+        - {x: 24, y: 19}
+    - name: blue_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 344
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 24}
+        - {x: -24, y: 16}
+        - {x: -24, y: -15}
+        - {x: -15, y: -24}
+        - {x: 15, y: -24}
+        - {x: 24, y: -15}
+        - {x: 24, y: 21}
+        - {x: 16, y: 24}
+    - name: blue_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -29}
+        - {x: 33, y: 35}
+        - {x: 22, y: 47}
+        - {x: -20, y: 47}
+        - {x: -33, y: 32}
+        - {x: -33, y: -35}
+        - {x: -21, y: -47}
+        - {x: -8, y: -47}
+        - {x: -7, y: -44}
+        - {x: 4, y: -47}
+        - {x: 21, y: -47}
+    - name: blue_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 210
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 47}
+        - {x: -32, y: 41}
+        - {x: -33, y: 33}
+        - {x: -33, y: -45}
+        - {x: -32, y: -47}
+        - {x: 20, y: -47}
+        - {x: 33, y: -28}
+        - {x: 33, y: 35}
+        - {x: 24, y: 47}
+    - name: blue_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 210
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 47.5}
+        - {x: -34.5, y: -47.5}
+        - {x: 34.5, y: -47.5}
+        - {x: 34.5, y: 47.5}
+    - name: blue_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 210
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 36.5}
+        - {x: -35, y: 19.5}
+        - {x: -35, y: -26.5}
+        - {x: -33, y: -36.5}
+        - {x: 35, y: -36.5}
+        - {x: 35, y: 36.5}
+    - name: blue_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 210
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 47}
+        - {x: -34, y: 41}
+        - {x: -35, y: 35}
+        - {x: -35, y: -32}
+        - {x: -20, y: -47}
+        - {x: 35, y: -47}
+        - {x: 35, y: 42}
+        - {x: 23, y: 47}
+    - name: blue_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 211
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 47}
+        - {x: -34, y: 41}
+        - {x: -34, y: -42}
+        - {x: -31, y: -47}
+        - {x: 34, y: -47}
+        - {x: 34, y: 47}
+    - name: blue_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 211
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 48}
+        - {x: -35.5, y: 43}
+        - {x: -35.5, y: -25}
+        - {x: -10.5, y: -48}
+        - {x: 12.5, y: -48}
+        - {x: 35.5, y: -23}
+        - {x: 35.5, y: 37}
+        - {x: 27.5, y: 48}
+    - name: blue_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 210
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 47}
+        - {x: -33.5, y: -16}
+        - {x: -25.5, y: -47}
+        - {x: 33.5, y: -47}
+        - {x: 33.5, y: 47}
+    - name: blue_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 210
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 47}
+        - {x: -33, y: 43}
+        - {x: -33, y: -41}
+        - {x: -29, y: -47}
+        - {x: 21, y: -47}
+        - {x: 33, y: -27}
+        - {x: 33, y: 35}
+        - {x: 29, y: 47}
+    - name: blue_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 211
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 48}
+        - {x: -34.5, y: 41}
+        - {x: -34.5, y: -38}
+        - {x: -31.5, y: -48}
+        - {x: 15.5, y: -48}
+        - {x: 34.5, y: -36}
+        - {x: 34.5, y: 48}
+    - name: blue_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 211
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 48.5}
+        - {x: -35, y: -48.5}
+        - {x: 16, y: -48.5}
+        - {x: 35, y: -32.5}
+        - {x: 35, y: 48.5}
+    - name: blue_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 244
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 24}
+        - {x: -24, y: 19}
+        - {x: -24, y: -14}
+        - {x: -21, y: -24}
+        - {x: 15, y: -24}
+        - {x: 24, y: -15}
+        - {x: 24, y: 21}
+        - {x: 18, y: 24}
+    - name: blue_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 244
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -22, y: 17}
+        - {x: -24, y: 11}
+        - {x: -24, y: -11}
+        - {x: -23, y: -13}
+        - {x: -16, y: -24}
+        - {x: 19, y: -24}
+        - {x: 24, y: -23}
+        - {x: 24, y: 22}
+        - {x: 17, y: 24}
+    - name: blue_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 41.5}
+        - {x: -16, y: 41.5}
+        - {x: -33, y: 29.5}
+        - {x: -33, y: -29.5}
+        - {x: -24, y: -41.5}
+        - {x: 21, y: -41.5}
+        - {x: 33, y: -26.5}
+        - {x: 33, y: 24.5}
+        - {x: 21, y: 40.5}
+    - name: blue_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 110
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 41.5}
+        - {x: -33, y: 29.5}
+        - {x: -33, y: -41.5}
+        - {x: 33, y: -41.5}
+        - {x: 33, y: 41.5}
+    - name: blue_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 110
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 42.5}
+        - {x: -23.5, y: 42.5}
+        - {x: -34.5, y: 31.5}
+        - {x: -34.5, y: -42.5}
+        - {x: 31.5, y: -42.5}
+        - {x: 34.5, y: -23.5}
+        - {x: 34.5, y: 27.5}
+        - {x: 24.5, y: 37.5}
+    - name: blue_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 110
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 34}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: -34}
+        - {x: 30.5, y: -34}
+        - {x: 34.5, y: -27}
+        - {x: 34.5, y: 20}
+        - {x: 29.5, y: 34}
+    - name: blue_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 110
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 41}
+        - {x: -35, y: -27}
+        - {x: -28, y: -41}
+        - {x: 35, y: -41}
+        - {x: 35, y: 36}
+        - {x: 24, y: 41}
+    - name: blue_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 110
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 31}
+        - {x: 21, y: 42}
+        - {x: -24, y: 42}
+        - {x: -34, y: 28}
+        - {x: -34, y: -31}
+        - {x: -25, y: -42}
+        - {x: 34, y: -42}
+    - name: blue_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 110
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 43.5}
+        - {x: -35.5, y: 42.5}
+        - {x: -35.5, y: -26.5}
+        - {x: -12.5, y: -43.5}
+        - {x: 32.5, y: -43.5}
+        - {x: 35.5, y: -36.5}
+        - {x: 35.5, y: 43.5}
+    - name: blue_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 110
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 41.5}
+        - {x: -33.5, y: 27.5}
+        - {x: -33.5, y: -12.5}
+        - {x: -27.5, y: -41.5}
+        - {x: 33.5, y: -41.5}
+        - {x: 33.5, y: 41.5}
+    - name: blue_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 110
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 41.5}
+        - {x: -33, y: 33.5}
+        - {x: -33, y: -20.5}
+        - {x: -32, y: -33.5}
+        - {x: -25, y: -36.5}
+        - {x: -20, y: -36.5}
+        - {x: -18, y: -34.5}
+        - {x: 5, y: -41.5}
+        - {x: 21, y: -41.5}
+        - {x: 33, y: -6.5}
+        - {x: 33, y: 28.5}
+        - {x: 27, y: 41.5}
+    - name: blue_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 110
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 43}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -34}
+        - {x: -32.5, y: -43}
+        - {x: 17.5, y: -43}
+        - {x: 34.5, y: -29}
+        - {x: 34.5, y: 33}
+        - {x: 31.5, y: 43}
+    - name: blue_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 110
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -39}
+        - {x: -29, y: -44}
+        - {x: 19, y: -44}
+        - {x: 35, y: -21}
+        - {x: 35, y: 23}
+        - {x: 33, y: 36}
+        - {x: 24, y: 44}
+        - {x: -19, y: 44}
+        - {x: -35, y: 38}
+    - name: blue_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 24}
+        - {x: -24, y: 16}
+        - {x: -24, y: -20}
+        - {x: -17, y: -24}
+        - {x: 14, y: -24}
+        - {x: 24, y: -18}
+        - {x: 24, y: 17}
+        - {x: 22, y: 24}
+    - name: blue_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 143
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 24}
+        - {x: -24, y: 17}
+        - {x: -24, y: -19}
+        - {x: -16, y: -24}
+        - {x: 15, y: -24}
+        - {x: 24, y: -15}
+        - {x: 24, y: 23}
+        - {x: 22, y: 24}
+    - name: blue_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 46.5}
+        - {x: -33, y: 37.5}
+        - {x: -33, y: -46.5}
+        - {x: 27, y: -46.5}
+        - {x: 33, y: -30.5}
+        - {x: 33, y: 41.5}
+        - {x: 18, y: 46.5}
+    - name: blue_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 46.5}
+        - {x: -33, y: -46.5}
+        - {x: 25, y: -46.5}
+        - {x: 33, y: -35.5}
+        - {x: 33, y: 40.5}
+        - {x: 24, y: 46.5}
+    - name: blue_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 47}
+        - {x: -33.5, y: 44}
+        - {x: -33.5, y: -34}
+        - {x: -30.5, y: -47}
+        - {x: 26.5, y: -47}
+        - {x: 33.5, y: -25}
+        - {x: 33.5, y: 44}
+        - {x: 27.5, y: 47}
+    - name: blue_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 36}
+        - {x: -34, y: 35}
+        - {x: -34, y: -31}
+        - {x: -32, y: -36}
+        - {x: 30, y: -36}
+        - {x: 34, y: -15}
+        - {x: 34, y: 34}
+        - {x: 33, y: 36}
+    - name: blue_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 46.5}
+        - {x: -34, y: 38.5}
+        - {x: -34, y: -30.5}
+        - {x: -15, y: -46.5}
+        - {x: 34, y: -46.5}
+        - {x: 34, y: 41.5}
+        - {x: 25, y: 46.5}
+    - name: blue_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 0
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 47}
+        - {x: -34, y: 41}
+        - {x: -34, y: -47}
+        - {x: 34, y: -47}
+        - {x: 34, y: 40}
+        - {x: 28, y: 47}
+    - name: blue_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 71
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 48.5}
+        - {x: -13.5, y: 48.5}
+        - {x: -22.5, y: 47.5}
+        - {x: -35.5, y: 36.5}
+        - {x: -35.5, y: -31.5}
+        - {x: -12.5, y: -48.5}
+        - {x: 11.5, y: -48.5}
+        - {x: 35.5, y: -26.5}
+        - {x: 35.5, y: 41.5}
+    - name: blue_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 48}
+        - {x: -31.5, y: 48}
+        - {x: -33.5, y: 37}
+        - {x: -33.5, y: -26}
+        - {x: -24.5, y: -48}
+        - {x: 1.5, y: -48}
+        - {x: 31.5, y: -44}
+        - {x: 33.5, y: -30}
+        - {x: 33.5, y: 36}
+    - name: blue_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 48}
+        - {x: -33, y: 39}
+        - {x: -33, y: -42}
+        - {x: -20, y: -46}
+        - {x: -8, y: -48}
+        - {x: 25, y: -48}
+        - {x: 33, y: -18}
+        - {x: 33, y: 42}
+        - {x: 27, y: 48}
+    - name: blue_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 0
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 49.5}
+        - {x: -34.5, y: 35.5}
+        - {x: -34.5, y: -49.5}
+        - {x: 25.5, y: -49.5}
+        - {x: 34.5, y: -37.5}
+        - {x: 34.5, y: 37.5}
+        - {x: 29.5, y: 49.5}
+    - name: blue_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 0
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 50}
+        - {x: -35, y: 46}
+        - {x: -35, y: -50}
+        - {x: -19, y: -50}
+        - {x: -16, y: -48}
+        - {x: -11, y: -45}
+        - {x: -4, y: -50}
+        - {x: 14, y: -50}
+        - {x: 35, y: -27}
+        - {x: 35, y: 40}
+        - {x: 28, y: 50}
+    - name: blue_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 33
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -24, y: 12}
+        - {x: -24, y: -16}
+        - {x: -16, y: -24}
+        - {x: 17, y: -24}
+        - {x: 24, y: -20}
+        - {x: 24, y: 16}
+        - {x: 21, y: 24}
+    - name: blue_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 33
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 24}
+        - {x: -24, y: 16}
+        - {x: -24, y: -14}
+        - {x: -15, y: -24}
+        - {x: 15, y: -24}
+        - {x: 24, y: -15}
+        - {x: 24, y: 14}
+        - {x: 16, y: 24}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
