@@ -84,7 +84,7 @@ public class DraggableCharacter : CharacterMove {
         toggleDragging();
     }
 
-    void OnMouseDrag()
+    void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(1))
         {
