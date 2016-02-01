@@ -67,7 +67,7 @@ public class DraggableCharacter : CharacterMove {
             gameObject.layer = 8;
 
             //Turn gravity back on.
-            myRigidbody.gravityScale = 1;
+			myRigidbody.gravityScale = GravButton.getGravityScale();
 
             //Zero out their velocity. Don't want them flying around.
             myRigidbody.velocity = Vector2.zero;
@@ -126,6 +126,5 @@ public class DraggableCharacter : CharacterMove {
 
         return pos;
     }
-
 
 }

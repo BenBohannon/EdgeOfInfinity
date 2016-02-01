@@ -34,7 +34,7 @@ public class CharacterMove : MonoBehaviour {
 
         if (!isMovingRight)
         {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
+            transform.Rotate(0, 180, 0);
         }
 
         //Set the animation speed based on the Character speed.
@@ -101,11 +101,11 @@ public class CharacterMove : MonoBehaviour {
         isMovingRight = !isMovingRight;
         if (!isMovingRight)
         {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
+			transform.Rotate (0, 180, 0);
         }
         else
         {
-            transform.localRotation = Quaternion.identity;
+			transform.Rotate (0, 180, 0);
         }
     }
 
