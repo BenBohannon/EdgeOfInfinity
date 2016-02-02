@@ -24,9 +24,11 @@ public class MasterDriver : MonoBehaviour {
             Destroy(this);
         }
 
-        //Raycasts ignore layers 3 and 8
-        selectedCharacterMask = ~0 & ~((1 << 3) | (1 << 10));
-        allCharactersMask = ~0 & ~((1 << 3) | (1 << 10) | (1 << 8));
+        //Raycasts ignore the ignoreRaycast, select character, and non-draggable area layers.
+        selectedCharacterMask = ~0 & ~((1 << 2) | (1 << 10) | (1 << 11));
+
+        //Raycasts ignore the ignoreRaycast, selectCharacters, and other characters.
+        allCharactersMask = ~0 & ~((1 << 2) | (1 << 10) | (1 << 8));
 
         //Ignore collision between characters and the selected characters.
         Physics2D.IgnoreLayerCollision(8, 10, true);
