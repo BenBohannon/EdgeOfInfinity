@@ -104,7 +104,7 @@ public class DraggableCharacter : CharacterMove {
         Vector2 direction = (pos - (Vector2)transform.position);
 
         //Cast to that position, to ensure we don't jump over walls.
-        RaycastHit2D hit = Physics2D.Raycast(myRigidbody.position, direction, direction.magnitude, MasterDriver.allCharactersMask);
+        RaycastHit2D hit = Physics2D.Raycast(myRigidbody.position, direction, direction.magnitude, MasterDriver.draggedCharacterMask);
 
         //If we do hit a wall or floor.
         if (hit.collider != null)

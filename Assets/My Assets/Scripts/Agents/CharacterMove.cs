@@ -62,7 +62,7 @@ public class CharacterMove : MonoBehaviour {
             //Debug.DrawRay(pos, new Vector2(0, -1 * dropDistanceBeforeDeath), Color.blue, 2f);
 
             //If we hit something to land on.
-            RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(0, -1), dropDistanceBeforeDeath, MasterDriver.selectedCharacterMask);
+            RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(0, -1), dropDistanceBeforeDeath, MasterDriver.regularCharacterMask);
             if (hit.collider == null)
             {
                 reverseDirection();
@@ -77,7 +77,7 @@ public class CharacterMove : MonoBehaviour {
         //Debug.DrawRay(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), Color.blue, 2f);
 
         //If we hit a wall.
-        RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), 1f, MasterDriver.selectedCharacterMask);
+        RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), 1f, MasterDriver.regularCharacterMask);
         if (hit.collider != null)
         {
             reverseDirection();
