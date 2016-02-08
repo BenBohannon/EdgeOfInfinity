@@ -95,6 +95,9 @@ public class DraggableCharacter : CharacterMove {
     void OnMouseUp()
     {
         toggleDragging();
+
+        //Do a collision check to esure we're not stuck on anything.
+        OnCollisionEnter2D(new Collision2D());
     }
 
 

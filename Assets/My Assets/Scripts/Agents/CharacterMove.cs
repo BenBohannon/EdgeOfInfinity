@@ -83,7 +83,7 @@ public class CharacterMove : MonoBehaviour {
             reverseDirection();
 
             //If we hit another character, reverse them too.
-            if (hit.transform.tag == "Character")
+            if (hit.transform.tag == "Ally")
             {
                 //If they're already going away from us, don't reverse them.
                 CharacterMove script = hit.transform.GetComponent<CharacterMove>();

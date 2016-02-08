@@ -7,7 +7,9 @@ public class MasterDriver : MonoBehaviour {
 
     public static LayerMask regularCharacterMask;
     public static LayerMask draggedCharacterMask;
-    
+
+    public Texture2D cursorTexture;
+    public Texture2D cursorDownTexture;
 
     public float dragSpeed = 10.0f;
 
@@ -32,6 +34,20 @@ public class MasterDriver : MonoBehaviour {
 
         //Ignore collision between characters and the selected characters.
         Physics2D.IgnoreLayerCollision(8, 10, true);
+
+        Cursor.SetCursor(cursorTexture, new Vector2(13, 13), CursorMode.Auto);
+    }
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Cursor.SetCursor(cursorDownTexture, new Vector2(13, 13), CursorMode.Auto);
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            Cursor.SetCursor(cursorTexture, new Vector2(13, 13), CursorMode.Auto);
+        }
     }
 
 }
