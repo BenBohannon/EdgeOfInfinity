@@ -14,8 +14,6 @@ public class EndElevator : MonoBehaviour {
         doorAnimator = transform.GetChild(0).GetComponent<Animator>();
         myAnimator = gameObject.GetComponent<Animator>();
         myCollider = gameObject.GetComponent<Collider2D>();
-
-
 	}
 
     void OnTriggerEnter2D(Collider2D coll)
@@ -34,8 +32,8 @@ public class EndElevator : MonoBehaviour {
 
         Debug.Log("Playing animation!");
 
-        myAnimator.Play("elevator_anim");
-        doorAnimator.Play("elevatorDoors_anim");
+        myAnimator.SetTrigger("isClosed");
+        doorAnimator.SetTrigger("isClosed");
         
 
         isTakingCharacter = false;
