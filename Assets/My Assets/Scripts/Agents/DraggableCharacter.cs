@@ -38,45 +38,14 @@ public class DraggableCharacter : CharacterMove {
         base.OnCollisionEnter2D(coll);
     }
 
-    //Turn dragging on and off.
-    public void toggleDragging()
+    override public void die()
     {
-        isBeingDragged = !isBeingDragged;
-        
-        //If we're starting to be dragged around.
         if (isBeingDragged)
         {
-            if (myWaitPlatform != null)
-            {
-                myWaitPlatform.removeCharacter(this);
-                myWaitPlatform = null;
-            }
-            //Stop trying to walk onto a waitPlatform, if you are.
-            this.StopCoroutine("walkToAndStop");
-
-            //Put the character on the selected character layer. (ignores collisions and raycasts with other characters)
-            gameObject.layer = 10;
-
-            //Turn off gravity for this character.
-            myRigidbody.gravityScale = 0;
+            toggleDragging();
         }
-        //Else, we're stopping being dragged.
-        else
-        {
-            //Put the character on the regular character layer.
-            gameObject.layer = 8;
 
-            //Turn gravity back on.
-			myRigidbody.gravityScale = GravButton.getGravityScale();
-
-            //Zero out their velocity. Don't want them flying around.
-            myRigidbody.velocity = Vector2.zero;
-
-            autoWalk = true;
-
-            myAnimator.ResetTrigger("isIdle");
-            myAnimator.SetTrigger("isWalking");
-        }
+        base.die();
     }
 
     void OnMouseDown()
@@ -100,7 +69,7 @@ public class DraggableCharacter : CharacterMove {
         OnCollisionEnter2D(new Collision2D());
     }
 
-
+    //Gets a vector pointing to the closest position to the input pos reachable without collision.
     private Vector2 moveToPosition(Vector2 pos)
     {
         //Get direction the character has to travel.
@@ -128,6 +97,48 @@ public class DraggableCharacter : CharacterMove {
         }
 
         return pos;
+    }
+
+
+    //Turn dragging on and off.
+    public void toggleDragging()
+    {
+        isBeingDragged = !isBeingDragged;
+
+        //If we're starting to be dragged around.
+        if (isBeingDragged)
+        {
+            if (myWaitPlatform != null)
+            {
+                myWaitPlatform.removeCharacter(this);
+                myWaitPlatform = null;
+            }
+            //Stop trying to walk onto a waitPlatform, if you are.
+            this.StopCoroutine("walkToAndStop");
+
+            //Put the character on the selected character layer. (ignores collisions and raycasts with other characters)
+            gameObject.layer = 10;
+
+            //Turn off gravity for this character.
+            myRigidbody.gravityScale = 0;
+        }
+        //Else, we're stopping being dragged.
+        else
+        {
+            //Put the character on the regular character layer.
+            gameObject.layer = 8;
+
+            //Turn gravity back on.
+            myRigidbody.gravityScale = GravButton.getGravityScale();
+
+            //Zero out their velocity. Don't want them flying around.
+            myRigidbody.velocity = Vector2.zero;
+
+            autoWalk = true;
+
+            myAnimator.ResetTrigger("isIdle");
+            myAnimator.SetTrigger("isWalking");
+        }
     }
 
 }

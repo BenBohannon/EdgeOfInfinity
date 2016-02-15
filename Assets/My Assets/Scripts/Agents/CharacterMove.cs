@@ -109,6 +109,15 @@ public class CharacterMove : MonoBehaviour {
         }
     }
 
+    public virtual void die()
+    {
+        //Override and put death animations here!
+
+        Destroy(this.gameObject);
+    }
+
+
+
     //Move the character to the specified position and stops them there.
     public IEnumerator walkToAndStop(Vector2 pos, WaitPlatform platform)
     {
@@ -122,7 +131,7 @@ public class CharacterMove : MonoBehaviour {
             //Get the direction we need to move in.
             Vector2 direction = (pos - myRigidbody.position);
 
-            //If we're already pretty much there.
+            //If we're already pretty much there, stop.
             if (direction.magnitude < 0.1)
             {
                 //Stop moving.
