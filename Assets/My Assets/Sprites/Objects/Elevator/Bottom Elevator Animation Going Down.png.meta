@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: a7029c6195c8ab643be1682442b2d3fe
+timeCreated: 1454973479
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bottom Elevator Animation Going Down_0
+    21300002: Bottom Elevator Animation Going Down_1
+    21300004: Bottom Elevator Animation Going Down_2
+    21300006: Bottom Elevator Animation Going Down_3
+    21300008: Bottom Elevator Animation Going Down_4
+    21300010: Bottom Elevator Animation Going Down_5
+    21300012: Bottom Elevator Animation Going Down_6
+    21300014: Bottom Elevator Animation Going Down_7
+    21300016: Bottom Elevator Animation Going Down_8
+    21300018: Bottom Elevator Animation Going Down_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bottom Elevator Animation Going Down_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_4
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_5
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_6
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_7
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_8
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    - name: Bottom Elevator Animation Going Down_9
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 54.5}
+        - {x: -42.5, y: 53.5}
+        - {x: -44.5, y: 37.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 44.5, y: 32.5}
+        - {x: 13.5, y: 54.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

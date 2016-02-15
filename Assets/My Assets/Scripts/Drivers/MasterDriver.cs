@@ -44,6 +44,7 @@ public class MasterDriver : MonoBehaviour {
         {
             Cursor.SetCursor(cursorDownTexture, new Vector2(13, 13), CursorMode.Auto);
         }
+
         if (Input.GetMouseButtonUp(0))
         {
             Cursor.SetCursor(cursorTexture, new Vector2(13, 13), CursorMode.Auto);
