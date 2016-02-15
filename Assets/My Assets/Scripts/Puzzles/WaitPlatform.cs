@@ -7,7 +7,7 @@ public class WaitPlatform : MonoBehaviour {
     public int space = 1;
     public float spacePadding = 2f;
 
-    private List<CharacterMove> heldCharacters = new List<CharacterMove>();
+    protected List<CharacterMove> heldCharacters = new List<CharacterMove>();
 
 	void OnTriggerEnter2D(Collider2D coll)
     {
