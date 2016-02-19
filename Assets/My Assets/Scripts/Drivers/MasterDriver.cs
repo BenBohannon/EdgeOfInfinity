@@ -13,6 +13,8 @@ public class MasterDriver : MonoBehaviour {
 
     public float dragSpeed = 10.0f;
 
+    public static LevelDriver levelDriver;
+
     //Initialize things on the global scale.
     void Awake()
     {
