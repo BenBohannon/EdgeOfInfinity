@@ -38,6 +38,7 @@ public class EndElevator : MonoBehaviour {
         //Disable this character's collider, so others will walk by.
         character.GetComponent<Collider2D>().enabled = false;
         character.GetComponent<Rigidbody2D>().gravityScale = 0;
+        character.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 
         //Render the door over the character.
         doorRenderer.sortingLayerName = "Character";
@@ -51,6 +52,8 @@ public class EndElevator : MonoBehaviour {
         //Destroy the character, render the door back again.
         DestroyImmediate(character.gameObject);
         doorRenderer.sortingLayerName = "Background Object";
+
+        yield return new WaitForSeconds(1f);
 
         isTakingCharacter = false;
         yield return null;
