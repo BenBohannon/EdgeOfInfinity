@@ -1,0 +1,1403 @@
+fileFormatVersion: 2
+guid: a6c9762b21ec1904f9dbf0e16f304c01
+timeCreated: 1455745311
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: potato_walkLeft_0
+    21300002: potato_walkLeft_1
+    21300004: potato_walkLeft_2
+    21300006: potato_walkLeft_3
+    21300008: potato_walkLeft_4
+    21300010: potato_walkLeft_5
+    21300012: potato_walkLeft_6
+    21300014: potato_walkRight_0
+    21300016: potato_walkRight_1
+    21300018: potato_walkRight_2
+    21300020: potato_walkRight_3
+    21300022: potato_walkRight_4
+    21300024: potato_walkRight_5
+    21300026: potato_walkRight_6
+    21300028: potato_jumpLeft_0
+    21300030: potato_jumpLeft_1
+    21300032: potato_jumpLeft_2
+    21300034: potato_jumpLeft_3
+    21300036: potato_jumpLeft_4
+    21300038: potato_jumpLeft_5
+    21300040: potato_jumpRight_0
+    21300042: potato_jumpRight_1
+    21300044: potato_jumpRight_2
+    21300046: potato_jumpRight_3
+    21300048: potato_jumpRight_4
+    21300050: potato_jumpRight_5
+    21300052: potato_deathLeft_0
+    21300054: potato_deathLeft_1
+    21300056: potato_deathLeft_2
+    21300058: potato_deathLeft_3
+    21300060: potato_deathLeft_4
+    21300062: potato_deathLeft_5
+    21300064: potato_deathLeft_6
+    21300066: potato_deathLeft_7
+    21300068: potato_deathLeft_8
+    21300070: potato_deathLeft_9
+    21300072: potato_deathLeft_10
+    21300074: potato_deathLeft_11
+    21300076: potato_deathLeft_12
+    21300078: potato_deathLeft_13
+    21300080: potato_deathLeft_14
+    21300082: potato_deathRight_0
+    21300084: potato_deathRight_1
+    21300086: potato_deathRight_2
+    21300088: potato_deathRight_3
+    21300090: potato_deathRight_4
+    21300092: potato_deathRight_5
+    21300094: potato_deathRight_6
+    21300096: potato_deathRight_7
+    21300098: potato_deathRight_8
+    21300100: potato_deathRight_9
+    21300102: potato_deathRight_10
+    21300104: potato_deathRight_11
+    21300106: potato_deathRight_12
+    21300108: potato_deathRight_13
+    21300110: potato_deathRight_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: potato_walkLeft_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 300
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 28.5}
+        - {x: -24.5, y: 28.5}
+        - {x: -29.5, y: 7.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 28.5, y: -28.5}
+        - {x: 29.5, y: -25.5}
+        - {x: 29.5, y: 11.5}
+    - name: potato_walkLeft_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 27.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 27.5}
+    - name: potato_walkLeft_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 26.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 15.5}
+        - {x: 17.5, y: 26.5}
+    - name: potato_walkLeft_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 300
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 27.5}
+        - {x: -29.5, y: 16.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 8.5}
+        - {x: 14.5, y: 27.5}
+    - name: potato_walkLeft_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 300
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 14.5}
+        - {x: 4.5, y: 28.5}
+        - {x: -18.5, y: 28.5}
+        - {x: -28.5, y: 16.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+    - name: potato_walkLeft_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 301
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 6.5}
+        - {x: 20.5, y: 18.5}
+        - {x: 1.5, y: 28.5}
+        - {x: -18.5, y: 28.5}
+        - {x: -29.5, y: 2.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+    - name: potato_walkLeft_6
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 301
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 28.5}
+        - {x: -23.5, y: 28.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 9.5}
+        - {x: 20.5, y: 19.5}
+    - name: potato_walkRight_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 240
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -5.5}
+        - {x: 20.5, y: 26.5}
+        - {x: 12.5, y: 28.5}
+        - {x: 1.5, y: 28.5}
+        - {x: -18.5, y: 19.5}
+        - {x: -29.5, y: 7.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 26.5, y: -27.5}
+        - {x: 29.5, y: -17.5}
+    - name: potato_walkRight_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 240
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 27.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 9.5}
+        - {x: 25.5, y: 27.5}
+    - name: potato_walkRight_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 240
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 26.5}
+        - {x: -29.5, y: 10.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 16.5}
+        - {x: 19.5, y: 26.5}
+    - name: potato_walkRight_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 240
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 27.5}
+        - {x: -20.5, y: 17.5}
+        - {x: -29.5, y: 4.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 12.5}
+        - {x: 24.5, y: 27.5}
+    - name: potato_walkRight_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 240
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 28.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 28.5, y: -28.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 5.5}
+        - {x: 21.5, y: 28.5}
+    - name: potato_walkRight_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 241
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 28.5}
+        - {x: -21.5, y: 18.5}
+        - {x: -29.5, y: 8.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 1.5}
+        - {x: 21.5, y: 28.5}
+    - name: potato_walkRight_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 241
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 28.5}
+        - {x: -29.5, y: 22.5}
+        - {x: -29.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 29.5, y: 7.5}
+        - {x: 22.5, y: 28.5}
+    - name: potato_jumpLeft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 21}
+        - {x: 0.5, y: 27}
+        - {x: -18.5, y: 27}
+        - {x: -29.5, y: 8}
+        - {x: -29.5, y: -27}
+        - {x: 27.5, y: -27}
+        - {x: 29.5, y: -26}
+        - {x: 29.5, y: 3}
+        - {x: 27.5, y: 12}
+    - name: potato_jumpLeft_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 182
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 27}
+        - {x: -20.5, y: 22}
+        - {x: -29.5, y: -1}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 14}
+        - {x: 3.5, y: 27}
+    - name: potato_jumpLeft_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 182
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 27}
+        - {x: -29.5, y: 20}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 15}
+        - {x: 18.5, y: 27}
+    - name: potato_jumpLeft_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 182
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 27}
+        - {x: -20.5, y: 27}
+        - {x: -29.5, y: 8}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 9}
+        - {x: 21.5, y: 23}
+    - name: potato_jumpLeft_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 182
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 27}
+        - {x: -29.5, y: -1}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 7}
+        - {x: 21.5, y: 27}
+    - name: potato_jumpLeft_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 182
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: -19.5, y: 27}
+        - {x: -24.5, y: 24}
+        - {x: -29.5, y: 12}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 7}
+        - {x: 21.5, y: 26}
+    - name: potato_jumpRight_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 122
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 27}
+        - {x: -29.5, y: 18}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 12}
+        - {x: 23.5, y: 27}
+    - name: potato_jumpRight_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 122
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 27}
+        - {x: -29.5, y: 10}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 4}
+        - {x: 26.5, y: 27}
+    - name: potato_jumpRight_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 122
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 27}
+        - {x: -29.5, y: 21}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 22}
+        - {x: 20.5, y: 27}
+    - name: potato_jumpRight_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 122
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 27}
+        - {x: -25.5, y: 25}
+        - {x: -29.5, y: 11}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 20}
+        - {x: 22.5, y: 27}
+    - name: potato_jumpRight_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 122
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: -22.5, y: 27}
+        - {x: -29.5, y: 9}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: -3}
+        - {x: 23.5, y: 22}
+    - name: potato_jumpRight_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 122
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 27}
+        - {x: -15.5, y: 25}
+        - {x: -29.5, y: 8}
+        - {x: -29.5, y: -27}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 15}
+        - {x: 20.5, y: 27}
+    - name: potato_deathLeft_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 27.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 9.5}
+        - {x: 14.5, y: 27.5}
+    - name: potato_deathLeft_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 27.5}
+        - {x: -29.5, y: 16.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -28.5, y: -27.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 18.5}
+        - {x: 9.5, y: 27.5}
+    - name: potato_deathLeft_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 26.5}
+        - {x: -24.5, y: 26.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -29.5, y: -24.5}
+        - {x: -28.5, y: -27.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 11.5}
+        - {x: 22.5, y: 20.5}
+    - name: potato_deathLeft_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 24.5}
+        - {x: -29.5, y: 12.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -28.5, y: -27.5}
+        - {x: 28.5, y: -27.5}
+        - {x: 28.5, y: 7.5}
+        - {x: 24.5, y: 23.5}
+        - {x: 18.5, y: 24.5}
+    - name: potato_deathLeft_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 60
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 22.5}
+        - {x: -21.5, y: 22.5}
+        - {x: -25.5, y: 21.5}
+        - {x: -28.5, y: 11.5}
+        - {x: -28.5, y: -24.5}
+        - {x: -27.5, y: -27.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 25.5, y: 6.5}
+        - {x: 17.5, y: 12.5}
+    - name: potato_deathLeft_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 27.5}
+        - {x: -29.5, y: 21.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 18.5}
+        - {x: 6.5, y: 27.5}
+    - name: potato_deathLeft_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -6.5}
+        - {x: -8.5, y: -8.5}
+        - {x: -4.5, y: -8.5}
+        - {x: 2.5, y: -2.5}
+        - {x: -3.5, y: -8.5}
+        - {x: -3.5, y: -9.5}
+        - {x: -1.5, y: -11.5}
+        - {x: 3.5, y: -11.5}
+        - {x: 7.5, y: -12.5}
+        - {x: 12.5, y: -13.5}
+        - {x: 17.5, y: -10.5}
+        - {x: 15.5, y: -14.5}
+        - {x: 3.5, y: -11.5}
+        - {x: 1.5, y: -15.5}
+        - {x: 0.5, y: -24.5}
+        - {x: 2.5, y: -26.5}
+        - {x: 23.5, y: -26.5}
+        - {x: 24.5, y: -25.5}
+        - {x: 24.5, y: 4.5}
+        - {x: 22.5, y: 13.5}
+        - {x: -1.5, y: 27.5}
+        - {x: -24.5, y: 27.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -26.5, y: -26.5}
+        - {x: -23.5, y: -23.5}
+        - {x: -11.5, y: -7.5}
+        - {x: -12.5, y: 0.5}
+      - - {x: -11.5, y: -9.5}
+        - {x: -17.5, y: -16.5}
+        - {x: -17.5, y: -24.5}
+        - {x: -15.5, y: -26.5}
+        - {x: -13.5, y: -26.5}
+        - {x: -9.5, y: -24.5}
+        - {x: -5.5, y: -20.5}
+        - {x: -5.5, y: -11.5}
+        - {x: -6.5, y: -9.5}
+    - name: potato_deathLeft_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -6.5}
+        - {x: -8.5, y: -8.5}
+        - {x: -4.5, y: -8.5}
+        - {x: 2.5, y: -2.5}
+        - {x: -3.5, y: -8.5}
+        - {x: -3.5, y: -9.5}
+        - {x: -1.5, y: -11.5}
+        - {x: 3.5, y: -11.5}
+        - {x: 7.5, y: -12.5}
+        - {x: 12.5, y: -13.5}
+        - {x: 17.5, y: -10.5}
+        - {x: 15.5, y: -14.5}
+        - {x: 3.5, y: -11.5}
+        - {x: 1.5, y: -15.5}
+        - {x: 0.5, y: -24.5}
+        - {x: 2.5, y: -26.5}
+        - {x: 23.5, y: -26.5}
+        - {x: 24.5, y: -25.5}
+        - {x: 24.5, y: 4.5}
+        - {x: 22.5, y: 13.5}
+        - {x: -1.5, y: 27.5}
+        - {x: -24.5, y: 27.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -26.5, y: -26.5}
+        - {x: -23.5, y: -23.5}
+        - {x: -11.5, y: -7.5}
+        - {x: -12.5, y: 0.5}
+      - - {x: -11.5, y: -9.5}
+        - {x: -17.5, y: -16.5}
+        - {x: -17.5, y: -24.5}
+        - {x: -15.5, y: -26.5}
+        - {x: -13.5, y: -26.5}
+        - {x: -9.5, y: -24.5}
+        - {x: -5.5, y: -20.5}
+        - {x: -5.5, y: -11.5}
+        - {x: -6.5, y: -9.5}
+    - name: potato_deathLeft_8
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -7.5}
+        - {x: -9.5, y: -10.5}
+        - {x: -2.5, y: -12.5}
+        - {x: 12.5, y: -13.5}
+        - {x: 17.5, y: -10.5}
+        - {x: 15.5, y: -14.5}
+        - {x: 5.5, y: -13.5}
+        - {x: 4.5, y: -13.5}
+        - {x: 1.5, y: -16.5}
+        - {x: 0.5, y: -25.5}
+        - {x: 4.5, y: -27.5}
+        - {x: 23.5, y: -27.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 9.5}
+        - {x: 1.5, y: 27.5}
+        - {x: -29.5, y: 27.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -26.5, y: -27.5}
+        - {x: -23.5, y: -24.5}
+        - {x: -11.5, y: -7.5}
+        - {x: -12.5, y: 0.5}
+      - - {x: -11.5, y: -10.5}
+        - {x: -17.5, y: -17.5}
+        - {x: -17.5, y: -25.5}
+        - {x: -15.5, y: -27.5}
+        - {x: -13.5, y: -27.5}
+        - {x: -9.5, y: -25.5}
+        - {x: -5.5, y: -21.5}
+        - {x: -5.5, y: -12.5}
+        - {x: -6.5, y: -10.5}
+    - name: potato_deathLeft_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 26.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -16.5, y: -27.5}
+        - {x: 9.5, y: 1.5}
+        - {x: 9.5, y: 14.5}
+        - {x: -0.5, y: 26.5}
+      - - {x: 10.5, y: -7.5}
+        - {x: 5.5, y: -13.5}
+        - {x: 6.5, y: -16.5}
+        - {x: 12.5, y: -17.5}
+        - {x: 17.5, y: -14.5}
+        - {x: 15.5, y: -17.5}
+        - {x: 7.5, y: -17.5}
+        - {x: 5.5, y: -15.5}
+        - {x: 4.5, y: -15.5}
+        - {x: 0.5, y: -17.5}
+        - {x: 0.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: 2.5}
+        - {x: 18.5, y: 9.5}
+        - {x: -0.5, y: 9.5}
+        - {x: -2.5, y: 8.5}
+        - {x: -9.5, y: 5.5}
+        - {x: -17.5, y: -19.5}
+        - {x: -17.5, y: -27.5}
+        - {x: -9.5, y: -27.5}
+        - {x: -5.5, y: -20.5}
+        - {x: 6.5, y: -12.5}
+    - name: potato_deathLeft_10
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: -16.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -21.5, y: -27.5}
+        - {x: -21.5, y: -19.5}
+        - {x: -26.5, y: -16.5}
+      - - {x: -0.5, y: -12.5}
+        - {x: -0.5, y: -13.5}
+        - {x: 2.5, y: -16.5}
+        - {x: 5.5, y: -16.5}
+        - {x: 1.5, y: -20.5}
+        - {x: 1.5, y: -27.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 25.5, y: 3.5}
+        - {x: 2.5, y: 20.5}
+        - {x: -19.5, y: 20.5}
+        - {x: -28.5, y: 10.5}
+        - {x: -28.5, y: 5.5}
+        - {x: -26.5, y: 1.5}
+        - {x: -28.5, y: -1.5}
+        - {x: -28.5, y: -16.5}
+        - {x: -18.5, y: -18.5}
+        - {x: -10.5, y: -10.5}
+        - {x: -10.5, y: -6.5}
+        - {x: -8.5, y: -1.5}
+        - {x: -8.5, y: -0.5}
+        - {x: -11.5, y: 2.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -2.5, y: 4.5}
+        - {x: -5.5, y: 4.5}
+        - {x: -8.5, y: 1.5}
+        - {x: -8.5, y: -0.5}
+        - {x: -6.5, y: -2.5}
+        - {x: -10.5, y: -10.5}
+        - {x: -18.5, y: -19.5}
+        - {x: -16.5, y: -27.5}
+        - {x: -7.5, y: -27.5}
+        - {x: -1.5, y: -19.5}
+        - {x: -5.5, y: -15.5}
+        - {x: 2.5, y: -7.5}
+    - name: potato_deathLeft_11
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -3.5}
+        - {x: -29.5, y: -9.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -20.5, y: -27.5}
+        - {x: -6.5, y: -10.5}
+        - {x: -6.5, y: -7.5}
+        - {x: -8.5, y: -3.5}
+      - - {x: 0.5, y: -13.5}
+        - {x: 1.5, y: -10.5}
+        - {x: 3.5, y: -10.5}
+        - {x: -3.5, y: -17.5}
+        - {x: -3.5, y: -18.5}
+        - {x: -0.5, y: -21.5}
+        - {x: 1.5, y: -27.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 25.5, y: -2.5}
+        - {x: 0.5, y: 13.5}
+        - {x: -20.5, y: 13.5}
+        - {x: -25.5, y: 8.5}
+        - {x: -29.5, y: -0.5}
+        - {x: -29.5, y: -6.5}
+        - {x: -16.5, y: -27.5}
+        - {x: -5.5, y: -27.5}
+        - {x: -1.5, y: -25.5}
+        - {x: -4.5, y: -19.5}
+        - {x: -6.5, y: -19.5}
+    - name: potato_deathLeft_12
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 7.5}
+        - {x: -29.5, y: 0.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: -6.5}
+        - {x: 0.5, y: 7.5}
+    - name: potato_deathLeft_13
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 60
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 2.5}
+        - {x: -16.5, y: 2.5}
+        - {x: -29.5, y: -8.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: -12.5}
+        - {x: 22.5, y: -11.5}
+    - name: potato_deathLeft_14
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 60
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -2.5}
+        - {x: -15, y: -2.5}
+        - {x: -28, y: -18.5}
+        - {x: -28, y: -27.5}
+        - {x: 26, y: -27.5}
+        - {x: 26, y: -23.5}
+        - {x: 17, y: -12.5}
+    - name: potato_deathRight_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 27.5}
+        - {x: -20.5, y: 18.5}
+        - {x: -29.5, y: 5.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 13.5}
+        - {x: 24.5, y: 27.5}
+    - name: potato_deathRight_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: -27.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 27.5}
+        - {x: -7.5, y: 27.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -29.5, y: 5.5}
+    - name: potato_deathRight_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 26.5}
+        - {x: -21.5, y: 16.5}
+        - {x: -29.5, y: 6.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 28.5, y: -27.5}
+        - {x: 29.5, y: -25.5}
+        - {x: 29.5, y: 13.5}
+        - {x: 21.5, y: 26.5}
+    - name: potato_deathRight_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 24.5}
+        - {x: -7.5, y: 24.5}
+        - {x: -27.5, y: 21.5}
+        - {x: -29.5, y: 13.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 28.5, y: 5.5}
+        - {x: 20.5, y: 22.5}
+    - name: potato_deathRight_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 22.5}
+        - {x: -28.5, y: 8.5}
+        - {x: -28.5, y: -27.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 25.5, y: 7.5}
+        - {x: 18.5, y: 22.5}
+    - name: potato_deathRight_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 27.5}
+        - {x: -18.5, y: 23.5}
+        - {x: -29.5, y: 14.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 20.5}
+        - {x: 24.5, y: 27.5}
+    - name: potato_deathRight_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -11.5}
+        - {x: -5.5, y: -11.5}
+        - {x: -3.5, y: -9.5}
+        - {x: -3.5, y: -8.5}
+        - {x: -6.5, y: -5.5}
+        - {x: -2.5, y: -8.5}
+        - {x: 1.5, y: -8.5}
+        - {x: 3.5, y: -6.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 3.5, y: -7.5}
+        - {x: 17.5, y: -26.5}
+        - {x: 20.5, y: -26.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 24.5, y: -22.5}
+        - {x: 24.5, y: 6.5}
+        - {x: 19.5, y: 27.5}
+        - {x: -5.5, y: 27.5}
+        - {x: -29.5, y: 13.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -9.5, y: -26.5}
+        - {x: -5.5, y: -14.5}
+        - {x: -10.5, y: -11.5}
+        - {x: -15.5, y: -13.5}
+      - - {x: 4.5, y: -9.5}
+        - {x: 0.5, y: -9.5}
+        - {x: -1.5, y: -12.5}
+        - {x: -1.5, y: -17.5}
+        - {x: 2.5, y: -24.5}
+        - {x: 6.5, y: -26.5}
+        - {x: 7.5, y: -26.5}
+        - {x: 10.5, y: -23.5}
+        - {x: 10.5, y: -16.5}
+    - name: potato_deathRight_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -11.5}
+        - {x: -5.5, y: -11.5}
+        - {x: -3.5, y: -9.5}
+        - {x: -3.5, y: -8.5}
+        - {x: -6.5, y: -5.5}
+        - {x: -2.5, y: -8.5}
+        - {x: 1.5, y: -8.5}
+        - {x: 3.5, y: -6.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 3.5, y: -7.5}
+        - {x: 17.5, y: -26.5}
+        - {x: 20.5, y: -26.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 24.5, y: -22.5}
+        - {x: 24.5, y: 6.5}
+        - {x: 19.5, y: 27.5}
+        - {x: -5.5, y: 27.5}
+        - {x: -29.5, y: 13.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -9.5, y: -26.5}
+        - {x: -5.5, y: -14.5}
+        - {x: -10.5, y: -11.5}
+        - {x: -15.5, y: -13.5}
+      - - {x: 4.5, y: -9.5}
+        - {x: 0.5, y: -9.5}
+        - {x: -1.5, y: -12.5}
+        - {x: -1.5, y: -17.5}
+        - {x: 2.5, y: -24.5}
+        - {x: 6.5, y: -26.5}
+        - {x: 7.5, y: -26.5}
+        - {x: 10.5, y: -23.5}
+        - {x: 10.5, y: -16.5}
+    - name: potato_deathRight_8
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 27.5}
+        - {x: -29.5, y: 8.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -27.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: 27.5}
+      - - {x: 4.5, y: -10.5}
+        - {x: 0.5, y: -10.5}
+        - {x: -1.5, y: -13.5}
+        - {x: -1.5, y: -18.5}
+        - {x: 2.5, y: -25.5}
+        - {x: 6.5, y: -27.5}
+        - {x: 7.5, y: -27.5}
+        - {x: 10.5, y: -24.5}
+        - {x: 10.5, y: -17.5}
+    - name: potato_deathRight_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -15.5}
+        - {x: -12.5, y: -15.5}
+        - {x: -14.5, y: -17.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: -12.5, y: -14.5}
+        - {x: -13.5, y: -11.5}
+        - {x: -13.5, y: -12.5}
+        - {x: 2.5, y: -27.5}
+        - {x: 10.5, y: -27.5}
+        - {x: 10.5, y: -16.5}
+        - {x: 4.5, y: -7.5}
+        - {x: 2.5, y: 5.5}
+        - {x: -2.5, y: 9.5}
+        - {x: -20.5, y: 9.5}
+        - {x: -23.5, y: 7.5}
+        - {x: -26.5, y: 6.5}
+        - {x: -29.5, y: 1.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -8.5, y: -27.5}
+        - {x: -8.5, y: -18.5}
+      - - {x: 20.5, y: 26.5}
+        - {x: -3.5, y: 26.5}
+        - {x: -16.5, y: 20.5}
+        - {x: -16.5, y: 3.5}
+        - {x: 14.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: 22.5}
+        - {x: 23.5, y: 25.5}
+    - name: potato_deathRight_10
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -26.5}
+        - {x: 1.5, y: -27.5}
+        - {x: 11.5, y: -27.5}
+        - {x: 12.5, y: -19.5}
+        - {x: 1.5, y: -7.5}
+        - {x: 2.5, y: -0.5}
+        - {x: 2.5, y: 1.5}
+        - {x: -0.5, y: 4.5}
+        - {x: -2.5, y: 4.5}
+        - {x: 4.5, y: 4.5}
+        - {x: 2.5, y: -0.5}
+        - {x: 2.5, y: -1.5}
+        - {x: 4.5, y: -10.5}
+        - {x: 8.5, y: -14.5}
+        - {x: 13.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 21.5, y: -15.5}
+        - {x: 22.5, y: -10.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 12.5, y: 20.5}
+        - {x: -6.5, y: 20.5}
+        - {x: -18.5, y: 12.5}
+        - {x: -29.5, y: 2.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -7.5, y: -27.5}
+        - {x: -7.5, y: -20.5}
+        - {x: -5.5, y: -13.5}
+        - {x: -5.5, y: -12.5}
+      - - {x: 17.5, y: -16.5}
+        - {x: 15.5, y: -19.5}
+        - {x: 15.5, y: -23.5}
+        - {x: 17.5, y: -27.5}
+        - {x: 23.5, y: -27.5}
+        - {x: 25.5, y: -26.5}
+        - {x: 25.5, y: -17.5}
+        - {x: 24.5, y: -16.5}
+    - name: potato_deathRight_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: -13.5}
+        - {x: -6.5, y: -13.5}
+        - {x: 1.5, y: -20.5}
+        - {x: -1.5, y: -19.5}
+        - {x: -4.5, y: -25.5}
+        - {x: -2.5, y: -27.5}
+        - {x: 21.5, y: -27.5}
+        - {x: 23.5, y: -23.5}
+        - {x: 23.5, y: 10.5}
+        - {x: 16.5, y: 13.5}
+        - {x: -4.5, y: 13.5}
+        - {x: -25.5, y: 2.5}
+        - {x: -29.5, y: -0.5}
+        - {x: -29.5, y: -9.5}
+        - {x: -25.5, y: -13.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -28.5, y: -15.5}
+        - {x: -29.5, y: -16.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -7.5, y: -27.5}
+        - {x: -2.5, y: -18.5}
+        - {x: -2.5, y: -17.5}
+        - {x: -5.5, y: -14.5}
+      - - {x: 15.5, y: -3.5}
+        - {x: 2.5, y: -3.5}
+        - {x: 0.5, y: -7.5}
+        - {x: 0.5, y: -11.5}
+        - {x: 4.5, y: -16.5}
+        - {x: 14.5, y: -27.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 25.5, y: -19.5}
+        - {x: 23.5, y: -9.5}
+    - name: potato_deathRight_12
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 7.5}
+        - {x: -17.5, y: 7.5}
+        - {x: -29.5, y: -0.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: -6.5}
+    - name: potato_deathRight_13
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 2.5}
+        - {x: -29.5, y: 0.5}
+        - {x: -29.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: -3.5}
+        - {x: 22.5, y: 2.5}
+    - name: potato_deathRight_14
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 0
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -2.5}
+        - {x: -28, y: -20.5}
+        - {x: -28, y: -27.5}
+        - {x: 26, y: -27.5}
+        - {x: 26, y: -15.5}
+        - {x: 7, y: -2.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
