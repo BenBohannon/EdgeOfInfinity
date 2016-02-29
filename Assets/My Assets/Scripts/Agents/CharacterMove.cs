@@ -132,7 +132,7 @@ public class CharacterMove : MonoBehaviour {
             Vector2 direction = (pos - myRigidbody.position);
 
             //If we're already pretty much there, stop.
-            if (direction.magnitude < 0.1)
+            if (direction.magnitude < 0.1 || Mathf.Abs(direction.x) < 0.01)
             {
                 //Stop moving.
                 myRigidbody.velocity = Vector2.zero;
