@@ -80,7 +80,11 @@ public class CharacterMove : MonoBehaviour {
         RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), 1f, MasterDriver.regularCharacterMask);
         if (hit.collider != null)
         {
-            reverseDirection();
+            // If we don't hit a pushable crate
+            if (hit.transform.tag != "Crate")
+            {                
+                reverseDirection();
+            }           
 
             //If we hit another character, reverse them too.
             if (hit.transform.tag == "Ally")
@@ -95,7 +99,7 @@ public class CharacterMove : MonoBehaviour {
         }
     }
 
-    protected void reverseDirection()
+    public virtual void reverseDirection()
     {
         //Reverse movement direction and animation facing.
         isMovingRight = !isMovingRight;

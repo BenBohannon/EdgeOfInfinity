@@ -28,8 +28,10 @@ public class HoldButton : MonoBehaviour {
             return;
         }
 
-        //Only allies can activate 
-        if (!isPressed && coll.gameObject.tag == "Ally")
+        //Only allies or crates can activate 
+        if (!isPressed && coll.gameObject.tag == "Ally"
+                || coll.gameObject.tag == "Crate"
+                || coll.gameObject.tag == "Heavy Crate")
         {
             foreach (Activatable a in connectedObjects)
             {
@@ -38,7 +40,10 @@ public class HoldButton : MonoBehaviour {
 
             //Make the character stop walking.
             CharacterMove character = coll.gameObject.GetComponent<CharacterMove>();
-            character.autoWalk = false;
+            if (character != null)
+            {
+                character.autoWalk = false;
+            }
 
             //Change sprite to the pressedSprite.
             myRenderer.sprite = pressedSprite;
@@ -49,8 +54,10 @@ public class HoldButton : MonoBehaviour {
 
     void OnTriggerExit2D(Collider2D coll)
     {
-        if (isPressed && coll.gameObject.tag == "Ally")
-        {
+        if (isPressed && coll.gameObject.tag == "Ally"
+                || coll.gameObject.tag == "Crate"
+                || coll.gameObject.tag == "Heavy Crate")
+        {            
             foreach (Activatable a in connectedObjects)
             {
                 a.Activate();
