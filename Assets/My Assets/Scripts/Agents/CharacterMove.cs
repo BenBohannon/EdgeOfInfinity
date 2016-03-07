@@ -20,6 +20,16 @@ public class CharacterMove : MonoBehaviour {
 
     protected WaitPlatform myWaitPlatform; //Platform this character is currently waiting on.
 
+
+
+	/*
+	 * MATTHEW IELUSIC:
+	 * I'm seeing a few bugs related to collision detection.  Under some circumstances, characters move through doors,
+	 * or just walk into other characters and stop moving.  The following are my attempts to fix this...
+	 */
+	Vector3 previousPosition;
+
+
 	// Use this for initialization
 	public virtual void Start () {
         myAnimator = gameObject.GetComponent<Animator>();
@@ -52,6 +62,10 @@ public class CharacterMove : MonoBehaviour {
         //If the character is walking, move him in the direction he's walking.
         if (autoWalk)
         {
+			if (GetComponent<Transform> ().position.Equals (previousPosition)) {
+				//We're jammed against... something.  Turn around.
+				reverseDirection ();
+			}
             myRigidbody.velocity = new Vector2(speed * (isMovingRight ? 1 : -1), myRigidbody.velocity.y);
         }
 
@@ -68,6 +82,7 @@ public class CharacterMove : MonoBehaviour {
                 reverseDirection();
             }
         }
+		previousPosition = GetComponent<Transform> ().position;
     }
 
     //Called when gameobject collides with another collider.
