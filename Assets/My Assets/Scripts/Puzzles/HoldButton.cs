@@ -43,6 +43,7 @@ public class HoldButton : MonoBehaviour {
             if (character != null)
             {
                 character.autoWalk = false;
+                character.stop();
             }
 
             //Change sprite to the pressedSprite.

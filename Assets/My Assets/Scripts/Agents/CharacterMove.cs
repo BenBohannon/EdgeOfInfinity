@@ -17,6 +17,7 @@ public class CharacterMove : MonoBehaviour {
     public bool isMovingRight = true;
     public float speed = 1f; //in Units per second
     public bool avoidsLedges = false;
+    public bool falling = false;
 
     protected WaitPlatform myWaitPlatform; //Platform this character is currently waiting on.
 
@@ -116,7 +117,7 @@ public class CharacterMove : MonoBehaviour {
     public virtual void die()
     {
         //Override and put death animations here!
-
+                
         Destroy(this.gameObject);
     }
 
@@ -139,9 +140,7 @@ public class CharacterMove : MonoBehaviour {
             if (direction.magnitude < 0.1 || Mathf.Abs(direction.x) < 0.01)
             {
                 //Stop moving.
-                myRigidbody.velocity = Vector2.zero;
-                myAnimator.ResetTrigger("isWalking");
-                myAnimator.SetTrigger("isIdle");
+                stop();
                 break;
             }
 
@@ -152,6 +151,13 @@ public class CharacterMove : MonoBehaviour {
         }
 
         yield return null;
+    }
+
+    public void stop()
+    {
+        myRigidbody.velocity = Vector2.zero;
+        myAnimator.ResetTrigger("isWalking");
+        myAnimator.SetTrigger("isIdle");
     }
 
 }

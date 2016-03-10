@@ -17,9 +17,14 @@ public class Crate : MonoBehaviour
     public virtual void OnCollisionStay2D(Collision2D coll)
     {       
         CharacterMove character = coll.transform.GetComponent<CharacterMove>();
-        if (character != null && myRigidbody.velocity.magnitude < .64)
+        if (character != null && myRigidbody.velocity.magnitude < .64
+                && System.Math.Abs(character.transform.position.y - this.transform.position.y) < 1.5)                
         {
-            character.reverseDirection();                       
-        }        
+            character.reverseDirection();            
+        }
+        if (coll.transform.tag == "Crate" || coll.transform.tag == "Heavy Crate")
+        {
+            myRigidbody.velocity = Vector2.zero;
+        }
     }    
 }
