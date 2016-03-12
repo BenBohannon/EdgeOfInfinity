@@ -19,6 +19,10 @@ public class DraggableCharacter : CharacterMove {
             base.FixedUpdate();
             return;
         }
+        //Dragging a character can save it from faling to its death
+        falling = false;
+        distanceFallen = 0.0f;
+        prevPos = new Vector2(0.0f, 0.0f);
 
         //Otherwise, be dragged!
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

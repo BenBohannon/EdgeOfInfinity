@@ -40,7 +40,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154768}
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -137,7 +137,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_Mass
-      value: 1000
+      value: 100000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

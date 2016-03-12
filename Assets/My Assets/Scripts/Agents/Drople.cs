@@ -27,6 +27,11 @@ public class Drople : DraggableCharacter {
         {
             gravity = 0.1f;
             speed = 1.5f;
+
+            inWater = true;
+            falling = false;
+            distanceFallen = 0.0f;
+            prevPos = new Vector2(0.0f, 0.0f);
         }
     }
 
@@ -36,6 +41,8 @@ public class Drople : DraggableCharacter {
         {
             gravity = 1.0f;
             speed = 3.0f;
+
+            inWater = false;
         }
     }
 }
