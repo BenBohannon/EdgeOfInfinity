@@ -11,7 +11,6 @@ public class CharacterMove : MonoBehaviour {
     protected Collider2D myCollider;
 
     public float dropDistanceBeforeDeath = 6.0f;
-    protected bool falling = false;
     protected float distanceFallen = 0.0f;
     protected Vector3 prevPos = new Vector2(0.0f, 0.0f);
     protected bool inWater = false;
@@ -22,6 +21,7 @@ public class CharacterMove : MonoBehaviour {
     public float speed = 1f; //in Units per second
     public bool avoidsLedges = false;
     public bool falling = false;
+    public Vector3 previousPosition;
 
     protected WaitPlatform myWaitPlatform; //Platform this character is currently waiting on.
 
