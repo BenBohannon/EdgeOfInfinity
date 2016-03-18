@@ -21,18 +21,9 @@ public class CharacterMove : MonoBehaviour {
     public bool isMovingRight = true;
     public float speed = 1f; //in Units per second
     public bool avoidsLedges = false;
+    public bool falling = false;
 
     protected WaitPlatform myWaitPlatform; //Platform this character is currently waiting on.
-
-
-
-	/*
-	 * MATTHEW IELUSIC:
-	 * I'm seeing a few bugs related to collision detection.  Under some circumstances, characters move through doors,
-	 * or just walk into other characters and stop moving.  The following are my attempts to fix this...
-	 */
-	Vector3 previousPosition;
-
 
 	// Use this for initialization
 	public virtual void Start () {
@@ -66,10 +57,6 @@ public class CharacterMove : MonoBehaviour {
         //If the character is walking, move him in the direction he's walking.
         if (autoWalk)
         {
-			if (GetComponent<Transform> ().position.Equals (previousPosition)) {
-				//We're jammed against... something.  Turn around.
-				reverseDirection ();
-			}
             myRigidbody.velocity = new Vector2(speed * (isMovingRight ? 1 : -1), myRigidbody.velocity.y);
         }
 
@@ -131,7 +118,11 @@ public class CharacterMove : MonoBehaviour {
         RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), 1f, MasterDriver.regularCharacterMask);
         if (hit.collider != null)
         {
-            reverseDirection();
+            // If we don't hit a pushable crate
+            if (hit.transform.tag != "Crate")
+            {                
+                reverseDirection();
+            }           
 
             //If we hit another character, reverse them too.
             if (hit.transform.tag == "Ally")
@@ -146,7 +137,7 @@ public class CharacterMove : MonoBehaviour {
         }
     }
 
-    protected void reverseDirection()
+    public virtual void reverseDirection()
     {
         //Reverse movement direction and animation facing.
         isMovingRight = !isMovingRight;
@@ -163,7 +154,7 @@ public class CharacterMove : MonoBehaviour {
     public virtual void die()
     {
         //Override and put death animations here!
-
+                
         Destroy(this.gameObject);
     }
 
@@ -186,9 +177,7 @@ public class CharacterMove : MonoBehaviour {
             if (direction.magnitude < 0.1 || Mathf.Abs(direction.x) < 0.01)
             {
                 //Stop moving.
-                myRigidbody.velocity = Vector2.zero;
-                myAnimator.ResetTrigger("isWalking");
-                myAnimator.SetTrigger("isIdle");
+                stop();
                 break;
             }
 
@@ -199,6 +188,13 @@ public class CharacterMove : MonoBehaviour {
         }
 
         yield return null;
+    }
+
+    public void stop()
+    {
+        myRigidbody.velocity = Vector2.zero;
+        myAnimator.ResetTrigger("isWalking");
+        myAnimator.SetTrigger("isIdle");
     }
 
 }
