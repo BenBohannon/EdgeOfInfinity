@@ -10,13 +10,18 @@ public class CharacterMove : MonoBehaviour {
     protected Rigidbody2D myRigidbody;
     protected Collider2D myCollider;
 
-    protected float dropDistanceBeforeDeath = 6.0f;
+    public float dropDistanceBeforeDeath = 6.0f;
+    protected float distanceFallen = 0.0f;
+    protected Vector3 prevPos = new Vector2(0.0f, 0.0f);
+    protected bool inWater = false;
 
     //Movement Variables,
     public bool autoWalk = true;
     public bool isMovingRight = true;
     public float speed = 1f; //in Units per second
     public bool avoidsLedges = false;
+    public bool falling = false;
+    public Vector3 previousPosition;
 
     protected WaitPlatform myWaitPlatform; //Platform this character is currently waiting on.
 
@@ -56,16 +61,34 @@ public class CharacterMove : MonoBehaviour {
         }
 
         //If this character automatically avoids falling to his death.
-        if (avoidsLedges)
-        {
-            Vector3 pos = transform.position + (isMovingRight ? new Vector3(0.7f, 0, 0) : new Vector3(-0.7f, 0, 0));
-            //Debug.DrawRay(pos, new Vector2(0, -1 * dropDistanceBeforeDeath), Color.blue, 2f);
+        Vector3 pos = transform.position + (isMovingRight ? new Vector3(0.7f, 0, 0) : new Vector3(-0.7f, 0, 0));
+        //Debug.DrawRay(pos, new Vector2(0, -1 * dropDistanceBeforeDeath), Color.blue, 2f);
 
-            //If we hit something to land on.
-            RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(0, -1), dropDistanceBeforeDeath, MasterDriver.regularCharacterMask);
+        //If we hit something to land on.
+        RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(0, -1), dropDistanceBeforeDeath, MasterDriver.regularCharacterMask);
+        //had to update the following line to avoid the character rapidly changing direction in the air/water
+        if (avoidsLedges && (prevPos.y - transform.position.y < 0.001 && prevPos.y - transform.position.y > -0.999) && !inWater)
+        {
             if (hit.collider == null)
             {
+                Debug.Log(Time.time);
                 reverseDirection();
+            }
+        }
+		previousPosition = GetComponent<Transform> ().position;
+        //The following section is for falling death
+        //It keeps track of how far the character has fallen
+        if (hit.collider == null)
+        {
+            falling = true;
+            if (prevPos.x == 0.0f && prevPos.y == 0.0f)
+            {
+                prevPos = transform.position;
+            }
+            else
+            {
+                distanceFallen = distanceFallen + (prevPos.y - transform.position.y);
+                prevPos = transform.position;
             }
         }
     }
@@ -73,6 +96,21 @@ public class CharacterMove : MonoBehaviour {
     //Called when gameobject collides with another collider.
     public virtual void OnCollisionEnter2D(Collision2D coll)
     {
+        if (falling)
+        {
+            if (distanceFallen >= dropDistanceBeforeDeath && !inWater)
+            {
+                die();
+                return;
+            }
+            else
+            {
+                falling = false;
+                distanceFallen = 0.0f;
+                prevPos = new Vector2(0.0f, 0.0f);
+            }
+        }
+
         Vector3 pos = transform.position + (isMovingRight ? new Vector3(0.6f, 0, 0) : new Vector3(-0.6f, 0, 0));
         //Debug.DrawRay(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), Color.blue, 2f);
 
@@ -80,7 +118,11 @@ public class CharacterMove : MonoBehaviour {
         RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), 1f, MasterDriver.regularCharacterMask);
         if (hit.collider != null)
         {
-            reverseDirection();
+            // If we don't hit a pushable crate
+            if (hit.transform.tag != "Crate")
+            {                
+                reverseDirection();
+            }           
 
             //If we hit another character, reverse them too.
             if (hit.transform.tag == "Ally")
@@ -95,7 +137,7 @@ public class CharacterMove : MonoBehaviour {
         }
     }
 
-    protected void reverseDirection()
+    public virtual void reverseDirection()
     {
         //Reverse movement direction and animation facing.
         isMovingRight = !isMovingRight;
@@ -112,7 +154,7 @@ public class CharacterMove : MonoBehaviour {
     public virtual void die()
     {
         //Override and put death animations here!
-
+                
         Destroy(this.gameObject);
     }
 
@@ -132,12 +174,10 @@ public class CharacterMove : MonoBehaviour {
             Vector2 direction = (pos - myRigidbody.position);
 
             //If we're already pretty much there, stop.
-            if (direction.magnitude < 0.1)
+            if (direction.magnitude < 0.1 || Mathf.Abs(direction.x) < 0.01)
             {
                 //Stop moving.
-                myRigidbody.velocity = Vector2.zero;
-                myAnimator.ResetTrigger("isWalking");
-                myAnimator.SetTrigger("isIdle");
+                stop();
                 break;
             }
 
@@ -148,6 +188,13 @@ public class CharacterMove : MonoBehaviour {
         }
 
         yield return null;
+    }
+
+    public void stop()
+    {
+        myRigidbody.velocity = Vector2.zero;
+        myAnimator.ResetTrigger("isWalking");
+        myAnimator.SetTrigger("isIdle");
     }
 
 }

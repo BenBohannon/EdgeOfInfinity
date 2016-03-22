@@ -23,8 +23,9 @@ public class CamScroll : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (!screenRect.Contains(Input.mousePosition))
+        if (!screenRect.Contains(Input.mousePosition) || Time.timeScale <= 0)
         {
+			//Don't scroll if the muse isn't outside the screen, or if the game is paused.
             return;
         }
 
