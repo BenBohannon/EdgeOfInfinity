@@ -1,9 +1,81 @@
 fileFormatVersion: 2
 guid: 2c268a192ad30b845ac918ff5793935c
-timeCreated: 1458638946
+timeCreated: 1458682076
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Flamel-Death-Right-01
+    21300002: Flamel-Death-Right-02
+    21300004: Flamel-Death-Right-03
+    21300006: Flamel-Death-Right-04
+    21300008: Flamel-Death-Right-05
+    21300010: Flamel-Death-Right-06
+    21300012: Flamel-Death-Right-07
+    21300014: Flamel-Death-Right-08
+    21300016: Flamel-Death-Right-09
+    21300018: Flamel-Death-Right-10
+    21300020: Flamel-Death-Right-11
+    21300022: Flamel-Death-Right-12
+    21300024: Flamel-Death-Right-13
+    21300026: Flamel-Death-Right-14
+    21300028: Flamel-Death-Right-15
+    21300030: Flamel-Death-Right-16
+    21300032: Flamel-Death-Right-17
+    21300034: Flamel-Death-Right-18
+    21300036: Flamel-Death-Right-19
+    21300038: Flamel-Death-Right-20
+    21300040: Flamel-Death-Right-21
+    21300042: Flamel-Death-Right-22
+    21300044: Flamel-Death-Right-23
+    21300046: Flamel-Death-Left-01
+    21300048: Flamel-Death-Left-02
+    21300050: Flamel-Death-Left-03
+    21300052: Flamel-Idle-Left-01
+    21300054: Flamel-Idle-Right-01
+    21300056: Flamel-Death-Left-04
+    21300058: Flamel-Death-Left-05
+    21300060: Flamel-Death-Left-06
+    21300062: Flamel-Death-Left-07
+    21300064: Flamel-Death-Left-08
+    21300066: Flamel-Death-Left-09
+    21300068: Flamel-Death-Left-10
+    21300070: Flamel-Death-Left-11
+    21300072: Flamel-Death-Left-12
+    21300074: Flamel-Death-Left-13
+    21300076: Flamel-Death-Left-14
+    21300078: Flamel-Death-Left-15
+    21300080: Flamel-Death-Left-16
+    21300082: Flamel-Death-Left-17
+    21300084: Flamel-Death-Left-18
+    21300086: Flamel-Death-Left-19
+    21300088: Flamel-Death-Left-20
+    21300090: Flamel-Death-Left-21
+    21300092: Flamel-Death-Left-22
+    21300094: Flamel-Death-Left-23
+    21300096: Flamel-Hold-Left-01
+    21300098: Flamel-Hold-Left-02
+    21300100: Flamel-Hold-Left-03
+    21300102: Flamel-Hold-Left-04
+    21300104: Flamel-Hold-Right-01
+    21300106: Flamel-Hold-Right-02
+    21300108: Flamel-Hold-Right-03
+    21300110: Flamel-Hold-Right-04
+    21300112: Flamel-Walking-Left-01
+    21300114: Flamel-Walking-Left-02
+    21300116: Flamel-Walking-Left-03
+    21300118: Flamel-Walking-Left-04
+    21300120: Flamel-Walking-Right-01
+    21300122: Flamel-Walking-Right-02
+    21300124: Flamel-Walking-Right-03
+    21300126: Flamel-Walking-Right-04
+    21300128: Flamel-Falling-Left-01
+    21300130: Flamel-Falling-Left-02
+    21300132: Flamel-Falling-Left-03
+    21300134: Flamel-Falling-Left-04
+    21300136: Flamel-Falling-Right-01
+    21300138: Flamel-Falling-Right-02
+    21300140: Flamel-Falling-Right-03
+    21300142: Flamel-Falling-Right-04
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -44,12 +116,1488 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Flamel-Death-Right-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -11}
+        - {x: -9, y: -21}
+        - {x: 10, y: -21}
+        - {x: 15, y: -19}
+        - {x: 17, y: -11}
+        - {x: 17, y: 13}
+        - {x: 8, y: 19}
+    - name: Flamel-Death-Right-02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19}
+        - {x: -16, y: 18}
+        - {x: -16, y: -13}
+        - {x: -15, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 9}
+        - {x: 14, y: 19}
+    - name: Flamel-Death-Right-03
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 19}
+        - {x: -13, y: 10}
+        - {x: -13, y: -15}
+        - {x: -6, y: -18}
+        - {x: 14, y: -18}
+        - {x: 14, y: 7}
+        - {x: 9, y: 19}
+    - name: Flamel-Death-Right-04
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 22}
+        - {x: -10, y: 15}
+        - {x: -10, y: -12}
+        - {x: -7, y: -18}
+        - {x: 6, y: -18}
+        - {x: 11, y: -16}
+        - {x: 11, y: 15}
+        - {x: 6, y: 22}
+    - name: Flamel-Death-Right-05
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 23}
+        - {x: -8, y: 14}
+        - {x: -8, y: -13}
+        - {x: -6, y: -18}
+        - {x: 9, y: -18}
+        - {x: 9, y: 23}
+    - name: Flamel-Death-Right-06
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 23}
+        - {x: -8, y: 23}
+        - {x: -8, y: -15}
+        - {x: -3, y: -18}
+        - {x: 5, y: -18}
+        - {x: 9, y: -12}
+        - {x: 9, y: 15}
+    - name: Flamel-Death-Right-07
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 24}
+        - {x: -4, y: 24}
+        - {x: -10, y: 18}
+        - {x: -10, y: -3}
+        - {x: -5, y: -15}
+        - {x: 5, y: -15}
+        - {x: 9, y: -9}
+        - {x: 10, y: -5}
+        - {x: 10, y: 21}
+    - name: Flamel-Death-Right-08
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 19}
+        - {x: -3, y: 19}
+        - {x: -6, y: 16}
+        - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: -3, y: -12}
+        - {x: 5, y: -12}
+        - {x: 8, y: -7}
+        - {x: 8, y: 16}
+    - name: Flamel-Death-Right-09
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 19}
+        - {x: -3, y: 19}
+        - {x: -6, y: 16}
+        - {x: -7, y: 9}
+        - {x: -7, y: -5}
+        - {x: -3, y: -10}
+        - {x: 5, y: -10}
+        - {x: 8, y: -6}
+        - {x: 8, y: 16}
+    - name: Flamel-Death-Right-10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 19}
+        - {x: -3, y: 19}
+        - {x: -7, y: 12}
+        - {x: -7, y: -7}
+        - {x: -4, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -4}
+        - {x: 8, y: 16}
+    - name: Flamel-Death-Right-11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 17}
+        - {x: -6, y: 15}
+        - {x: -7, y: 6}
+        - {x: -7, y: 1}
+        - {x: -4, y: -5}
+        - {x: 4, y: -5}
+        - {x: 8, y: -4}
+        - {x: 8, y: 15}
+        - {x: 7, y: 17}
+    - name: Flamel-Death-Right-12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -7, y: 10}
+        - {x: -7, y: 0}
+        - {x: -1, y: -5}
+        - {x: 8, y: -5}
+        - {x: 11, y: 1}
+        - {x: 11, y: 11}
+        - {x: 7, y: 16}
+    - name: Flamel-Death-Right-13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -5, y: 16}
+        - {x: -6, y: 13}
+        - {x: -7, y: 6}
+        - {x: -7, y: 1}
+        - {x: -1, y: -5}
+        - {x: 4, y: -5}
+        - {x: 9, y: 1}
+        - {x: 10, y: 10}
+        - {x: 10, y: 13}
+    - name: Flamel-Death-Right-14
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -5, y: 16}
+        - {x: -6, y: 13}
+        - {x: -7, y: 6}
+        - {x: -7, y: 1}
+        - {x: -1, y: -5}
+        - {x: 4, y: -5}
+        - {x: 9, y: 1}
+        - {x: 10, y: 10}
+        - {x: 10, y: 13}
+    - name: Flamel-Death-Right-15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 15}
+        - {x: -5, y: 15}
+        - {x: -6, y: 14}
+        - {x: -7, y: 6}
+        - {x: -7, y: 1}
+        - {x: -3, y: -5}
+        - {x: 2, y: -5}
+        - {x: 6, y: -4}
+        - {x: 10, y: 2}
+        - {x: 10, y: 10}
+        - {x: 7, y: 14}
+    - name: Flamel-Death-Right-16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 12}
+        - {x: -2, y: 14}
+        - {x: -8, y: 14}
+        - {x: -8, y: 2}
+        - {x: -1, y: -4}
+        - {x: 4, y: -4}
+        - {x: 11, y: 4}
+        - {x: 11, y: 8}
+    - name: Flamel-Death-Right-17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 6}
+        - {x: -4, y: -2}
+        - {x: 5, y: -2}
+        - {x: 12, y: 1}
+        - {x: 12, y: 8}
+        - {x: 11, y: 11}
+        - {x: 1, y: 13}
+        - {x: -10, y: 13}
+        - {x: -11, y: 12}
+    - name: Flamel-Death-Right-18
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 10}
+        - {x: -2, y: 11}
+        - {x: -8, y: 11}
+        - {x: -10, y: 8}
+        - {x: -10, y: 3}
+        - {x: -4, y: -1}
+        - {x: 8, y: -1}
+        - {x: 10, y: 0}
+        - {x: 10, y: 6}
+        - {x: 9, y: 9}
+    - name: Flamel-Death-Right-19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 10}
+        - {x: -7, y: 9}
+        - {x: -7, y: 2}
+        - {x: -3, y: -1}
+        - {x: 5, y: -1}
+        - {x: 9, y: 2}
+        - {x: 9, y: 6}
+        - {x: 8, y: 10}
+    - name: Flamel-Death-Right-20
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10}
+        - {x: -6, y: 5}
+        - {x: -6, y: 1}
+        - {x: -4, y: -1}
+        - {x: 4, y: -1}
+        - {x: 8, y: 0}
+        - {x: 8, y: 6}
+        - {x: 4, y: 10}
+    - name: Flamel-Death-Right-21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 9}
+        - {x: -4, y: 6}
+        - {x: -4, y: 3}
+        - {x: -1, y: 0}
+        - {x: 3, y: 0}
+        - {x: 6, y: 3}
+        - {x: 6, y: 6}
+        - {x: 3, y: 9}
+    - name: Flamel-Death-Right-22
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 8}
+        - {x: -2, y: 8}
+        - {x: -3, y: 5}
+        - {x: -3, y: 4}
+        - {x: 0, y: 1}
+        - {x: 2, y: 1}
+        - {x: 5, y: 4}
+        - {x: 5, y: 7}
+    - name: Flamel-Death-Right-23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Flamel-Death-Left-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 3}
+        - {x: 13, y: 12}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -8}
+        - {x: -17, y: -12}
+        - {x: -7, y: -21}
+        - {x: 3, y: -21}
+        - {x: 10, y: -16}
+        - {x: 15, y: -11}
+        - {x: 16, y: -9}
+    - name: Flamel-Death-Left-02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 11}
+        - {x: 10, y: 11}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -5}
+        - {x: -17, y: -12}
+        - {x: -10, y: -18}
+        - {x: 12, y: -18}
+        - {x: 16, y: -10}
+        - {x: 16, y: 5}
+        - {x: 14, y: 9}
+    - name: Flamel-Death-Left-03
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19}
+        - {x: -14, y: 11}
+        - {x: -14, y: -12}
+        - {x: -8, y: -18}
+        - {x: 4, y: -18}
+        - {x: 13, y: -17}
+        - {x: 13, y: 13}
+        - {x: 6, y: 19}
+    - name: Flamel-Idle-Left-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 3}
+        - {x: 13, y: 12}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -8}
+        - {x: -17, y: -12}
+        - {x: -7, y: -21}
+        - {x: 3, y: -21}
+        - {x: 10, y: -16}
+        - {x: 15, y: -11}
+        - {x: 16, y: -9}
+    - name: Flamel-Idle-Right-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -11}
+        - {x: -9, y: -21}
+        - {x: 10, y: -21}
+        - {x: 15, y: -19}
+        - {x: 17, y: -11}
+        - {x: 17, y: 13}
+        - {x: 8, y: 19}
+    - name: Flamel-Death-Left-04
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -16}
+        - {x: -10, y: -18}
+        - {x: 6, y: -18}
+        - {x: 10, y: -17}
+        - {x: 10, y: 13}
+        - {x: 7, y: 22}
+        - {x: -9, y: 22}
+        - {x: -11, y: 10}
+    - name: Flamel-Death-Left-05
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -9, y: -18}
+        - {x: 6, y: -18}
+        - {x: 8, y: -16}
+        - {x: 8, y: 10}
+        - {x: 5, y: 23}
+    - name: Flamel-Death-Left-06
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 23}
+        - {x: -9, y: 22}
+        - {x: -9, y: -18}
+        - {x: 6, y: -18}
+        - {x: 8, y: -9}
+        - {x: 8, y: 20}
+        - {x: 2, y: 23}
+    - name: Flamel-Death-Left-07
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 24}
+        - {x: -8, y: 24}
+        - {x: -10, y: 23}
+        - {x: -10, y: -10}
+        - {x: -9, y: -13}
+        - {x: -3, y: -15}
+        - {x: 4, y: -15}
+        - {x: 8, y: -7}
+        - {x: 10, y: 4}
+        - {x: 10, y: 17}
+    - name: Flamel-Death-Left-08
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 19}
+        - {x: -5, y: 19}
+        - {x: -8, y: 16}
+        - {x: -8, y: -11}
+        - {x: -7, y: -12}
+        - {x: 2, y: -12}
+        - {x: 7, y: -10}
+        - {x: 7, y: 7}
+        - {x: 6, y: 16}
+    - name: Flamel-Death-Left-09
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 19}
+        - {x: -8, y: 14}
+        - {x: -8, y: -6}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 17}
+        - {x: 3, y: 19}
+    - name: Flamel-Death-Left-10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 19}
+        - {x: -8, y: 15}
+        - {x: -8, y: -6}
+        - {x: -3, y: -8}
+        - {x: 4, y: -8}
+        - {x: 7, y: -5}
+        - {x: 7, y: 10}
+        - {x: 4, y: 19}
+    - name: Flamel-Death-Left-11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 17}
+        - {x: -4, y: 17}
+        - {x: -8, y: 14}
+        - {x: -8, y: 0}
+        - {x: -4, y: -5}
+        - {x: 2, y: -5}
+        - {x: 7, y: -1}
+        - {x: 7, y: 9}
+        - {x: 6, y: 14}
+    - name: Flamel-Death-Left-12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -1}
+        - {x: -4, y: -5}
+        - {x: 5, y: -5}
+        - {x: 7, y: -2}
+        - {x: 7, y: 11}
+        - {x: 6, y: 16}
+    - name: Flamel-Death-Left-13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 14}
+        - {x: -11, y: -3}
+        - {x: -6, y: -5}
+        - {x: 4, y: -5}
+        - {x: 6, y: -2}
+        - {x: 6, y: 9}
+        - {x: 5, y: 16}
+    - name: Flamel-Death-Left-14
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -10, y: 14}
+        - {x: -10, y: -3}
+        - {x: -5, y: -5}
+        - {x: 5, y: -5}
+        - {x: 7, y: -2}
+        - {x: 7, y: 11}
+        - {x: 6, y: 16}
+    - name: Flamel-Death-Left-15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 15}
+        - {x: -3, y: 15}
+        - {x: -10, y: 11}
+        - {x: -10, y: 4}
+        - {x: -4, y: -5}
+        - {x: 2, y: -5}
+        - {x: 7, y: 1}
+        - {x: 7, y: 14}
+    - name: Flamel-Death-Left-16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -8, y: 13}
+        - {x: -11, y: 8}
+        - {x: -11, y: 0}
+        - {x: -7, y: -4}
+        - {x: 3, y: -4}
+        - {x: 8, y: -1}
+        - {x: 8, y: 13}
+        - {x: 6, y: 14}
+    - name: Flamel-Death-Left-17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 13}
+        - {x: -10, y: 11}
+        - {x: -12, y: 6}
+        - {x: -12, y: 2}
+        - {x: -11, y: -1}
+        - {x: -7, y: -2}
+        - {x: 4, y: -2}
+        - {x: 11, y: 6}
+        - {x: 11, y: 12}
+        - {x: 10, y: 13}
+    - name: Flamel-Death-Left-18
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 11}
+        - {x: -5, y: 11}
+        - {x: -10, y: 7}
+        - {x: -10, y: -1}
+        - {x: 2, y: -1}
+        - {x: 10, y: 3}
+        - {x: 10, y: 10}
+    - name: Flamel-Death-Left-19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -9, y: 9}
+        - {x: -9, y: 0}
+        - {x: -7, y: -1}
+        - {x: 4, y: -1}
+        - {x: 7, y: 3}
+        - {x: 7, y: 5}
+        - {x: 5, y: 10}
+    - name: Flamel-Death-Left-20
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10}
+        - {x: -8, y: 6}
+        - {x: -8, y: 0}
+        - {x: -5, y: -1}
+        - {x: 5, y: -1}
+        - {x: 6, y: 2}
+        - {x: 6, y: 8}
+        - {x: 2, y: 10}
+    - name: Flamel-Death-Left-21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 9}
+        - {x: -6, y: 6}
+        - {x: -6, y: 3}
+        - {x: -3, y: 0}
+        - {x: 1, y: 0}
+        - {x: 4, y: 3}
+        - {x: 4, y: 6}
+        - {x: 1, y: 9}
+    - name: Flamel-Death-Left-22
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 8}
+        - {x: -4, y: 8}
+        - {x: -5, y: 5}
+        - {x: -5, y: 4}
+        - {x: -2, y: 1}
+        - {x: 0, y: 1}
+        - {x: 3, y: 4}
+        - {x: 3, y: 7}
+    - name: Flamel-Death-Left-23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Flamel-Hold-Left-01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 3}
+        - {x: 13, y: 12}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -8}
+        - {x: -17, y: -12}
+        - {x: -7, y: -21}
+        - {x: 3, y: -21}
+        - {x: 10, y: -16}
+        - {x: 15, y: -11}
+        - {x: 16, y: -9}
+    - name: Flamel-Hold-Left-02
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 12}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -10}
+        - {x: -17, y: -11}
+        - {x: -9, y: -21}
+        - {x: 6, y: -21}
+        - {x: 12, y: -18}
+        - {x: 16, y: -10}
+        - {x: 16, y: 5}
+    - name: Flamel-Hold-Left-03
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -10}
+        - {x: -17, y: -12}
+        - {x: -14, y: -21}
+        - {x: 8, y: -21}
+        - {x: 16, y: -18}
+        - {x: 16, y: 11}
+        - {x: 1, y: 19}
+    - name: Flamel-Hold-Left-04
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -10}
+        - {x: -17, y: -12}
+        - {x: -12, y: -21}
+        - {x: 9, y: -21}
+        - {x: 16, y: -18}
+        - {x: 16, y: 13}
+        - {x: 1, y: 19}
+    - name: Flamel-Hold-Right-01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -11}
+        - {x: -9, y: -21}
+        - {x: 10, y: -21}
+        - {x: 15, y: -19}
+        - {x: 17, y: -11}
+        - {x: 17, y: 13}
+        - {x: 8, y: 19}
+    - name: Flamel-Hold-Right-02
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: 2, y: 19}
+        - {x: -3, y: 19}
+        - {x: -16, y: 11}
+        - {x: -16, y: -11}
+        - {x: -9, y: -21}
+        - {x: 10, y: -21}
+        - {x: 17, y: -13}
+        - {x: 17, y: -1}
+        - {x: 16, y: 8}
+    - name: Flamel-Hold-Right-03
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -17}
+        - {x: -12, y: -21}
+        - {x: 10, y: -21}
+        - {x: 17, y: -17}
+        - {x: 17, y: 4}
+        - {x: 12, y: 19}
+    - name: Flamel-Hold-Right-04
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 19}
+        - {x: -3, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -15}
+        - {x: -6, y: -21}
+        - {x: 13, y: -21}
+        - {x: 16, y: -19}
+        - {x: 17, y: -11}
+        - {x: 17, y: 12}
+    - name: Flamel-Walking-Left-01
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 3}
+        - {x: 13, y: 12}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -8}
+        - {x: -17, y: -12}
+        - {x: -7, y: -21}
+        - {x: 3, y: -21}
+        - {x: 10, y: -16}
+        - {x: 15, y: -11}
+        - {x: 16, y: -9}
+    - name: Flamel-Walking-Left-02
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 12}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -10}
+        - {x: -17, y: -11}
+        - {x: -9, y: -21}
+        - {x: 6, y: -21}
+        - {x: 12, y: -18}
+        - {x: 16, y: -10}
+        - {x: 16, y: 5}
+    - name: Flamel-Walking-Left-03
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -10}
+        - {x: -17, y: -12}
+        - {x: -14, y: -21}
+        - {x: 8, y: -21}
+        - {x: 16, y: -18}
+        - {x: 16, y: 11}
+        - {x: 1, y: 19}
+    - name: Flamel-Walking-Left-04
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -10}
+        - {x: -17, y: -12}
+        - {x: -12, y: -21}
+        - {x: 9, y: -21}
+        - {x: 16, y: -18}
+        - {x: 16, y: 13}
+        - {x: 1, y: 19}
+    - name: Flamel-Walking-Right-01
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -11}
+        - {x: -9, y: -21}
+        - {x: 10, y: -21}
+        - {x: 15, y: -19}
+        - {x: 17, y: -11}
+        - {x: 17, y: 13}
+        - {x: 8, y: 19}
+    - name: Flamel-Walking-Right-02
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: 2, y: 19}
+        - {x: -3, y: 19}
+        - {x: -16, y: 11}
+        - {x: -16, y: -11}
+        - {x: -9, y: -21}
+        - {x: 10, y: -21}
+        - {x: 17, y: -13}
+        - {x: 17, y: -1}
+        - {x: 16, y: 8}
+    - name: Flamel-Walking-Right-03
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -17}
+        - {x: -12, y: -21}
+        - {x: 10, y: -21}
+        - {x: 17, y: -17}
+        - {x: 17, y: 4}
+        - {x: 12, y: 19}
+    - name: Flamel-Walking-Right-04
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 19}
+        - {x: -3, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -15}
+        - {x: -6, y: -21}
+        - {x: 13, y: -21}
+        - {x: 16, y: -19}
+        - {x: 17, y: -11}
+        - {x: 17, y: 12}
+    - name: Flamel-Falling-Left-01
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 3}
+        - {x: 13, y: 12}
+        - {x: 1, y: 19}
+        - {x: -2, y: 19}
+        - {x: -7, y: 14}
+        - {x: -7, y: 12}
+        - {x: -6, y: 10}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -15, y: 7}
+        - {x: -17, y: -8}
+        - {x: -17, y: -12}
+        - {x: -7, y: -21}
+        - {x: 3, y: -21}
+        - {x: 10, y: -16}
+        - {x: 15, y: -11}
+        - {x: 16, y: -9}
+    - name: Flamel-Falling-Left-02
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 14}
+        - {x: -17, y: 3}
+        - {x: -17, y: -14}
+        - {x: -13, y: -20}
+        - {x: 10, y: -20}
+        - {x: 16, y: -18}
+        - {x: 16, y: 9}
+        - {x: 14, y: 15}
+        - {x: 4, y: 20}
+        - {x: -9, y: 20}
+        - {x: -10, y: 19}
+    - name: Flamel-Falling-Left-03
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 22}
+        - {x: -10, y: 22}
+        - {x: -17, y: 14}
+        - {x: -17, y: -11}
+        - {x: -9, y: -20}
+        - {x: 5, y: -20}
+        - {x: 16, y: -13}
+        - {x: 16, y: 1}
+        - {x: 14, y: 17}
+    - name: Flamel-Falling-Left-04
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 22}
+        - {x: -10, y: 22}
+        - {x: -17, y: 14}
+        - {x: -17, y: -11}
+        - {x: -9, y: -20}
+        - {x: 5, y: -20}
+        - {x: 16, y: -13}
+        - {x: 16, y: 1}
+        - {x: 14, y: 17}
+    - name: Flamel-Falling-Right-01
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19}
+        - {x: -16, y: 12}
+        - {x: -16, y: -11}
+        - {x: -9, y: -21}
+        - {x: 10, y: -21}
+        - {x: 15, y: -19}
+        - {x: 17, y: -11}
+        - {x: 17, y: 13}
+        - {x: 8, y: 19}
+    - name: Flamel-Falling-Right-02
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20}
+        - {x: -15, y: 15}
+        - {x: -16, y: 4}
+        - {x: -16, y: -13}
+        - {x: -6, y: -20}
+        - {x: 12, y: -20}
+        - {x: 17, y: -13}
+        - {x: 17, y: 19}
+        - {x: 16, y: 20}
+    - name: Flamel-Falling-Right-03
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 22}
+        - {x: -1, y: 22}
+        - {x: -16, y: 8}
+        - {x: -16, y: -14}
+        - {x: -11, y: -20}
+        - {x: 6, y: -20}
+        - {x: 17, y: -13}
+        - {x: 17, y: 4}
+        - {x: 16, y: 16}
+    - name: Flamel-Falling-Right-04
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 22}
+        - {x: -1, y: 22}
+        - {x: -16, y: 8}
+        - {x: -16, y: -14}
+        - {x: -11, y: -20}
+        - {x: 6, y: -20}
+        - {x: 17, y: -13}
+        - {x: 17, y: 4}
+        - {x: 16, y: 16}
     outline: []
   spritePackingTag: 
   userData: 
