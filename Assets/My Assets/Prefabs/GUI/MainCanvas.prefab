@@ -35,7 +35,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &108176
 GameObject:
   m_ObjectHideFlags: 1
@@ -64,13 +64,14 @@ GameObject:
   - 224: {fileID: 22466074}
   - 222: {fileID: 22202370}
   - 114: {fileID: 11450398}
+  - 114: {fileID: 11469846}
   m_Layer: 5
   m_Name: MainScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &119816
 GameObject:
   m_ObjectHideFlags: 1
@@ -154,7 +155,6 @@ GameObject:
   - 223: {fileID: 22365084}
   - 114: {fileID: 11467998}
   - 114: {fileID: 11463892}
-  - 114: {fileID: 11404056}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -233,6 +233,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &168320
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22416870}
+  - 222: {fileID: 22282710}
+  - 114: {fileID: 11461976}
+  - 114: {fileID: 11494820}
+  m_Layer: 5
+  m_Name: BackButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &170010
 GameObject:
   m_ObjectHideFlags: 1
@@ -243,6 +261,7 @@ GameObject:
   - 224: {fileID: 22402718}
   - 222: {fileID: 22212288}
   - 114: {fileID: 11487646}
+  - 114: {fileID: 11412114}
   m_Layer: 5
   m_Name: MainPanel
   m_TagString: Untagged
@@ -322,17 +341,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &11404056
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 148354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80483ab9c502a6d4eb9fcd0fe458ccb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11405484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -414,6 +422,58 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11412114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 11487646}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11421526}
+        m_MethodName: StartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &11412932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -495,6 +555,7 @@ MonoBehaviour:
   - 6-1
   worldSevenNames:
   - 7-1
+  mainMenuObject: {fileID: 113244}
   mainPanelText: {fileID: 11448922}
 --- !u!114 &11427108
 MonoBehaviour:
@@ -814,7 +875,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: b7e308fe074e07c48b2cf1ed956e817a, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -924,6 +985,33 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11461976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 29069fd8edf603947aa4de91e99952da, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
 --- !u!114 &11462548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1015,7 +1103,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11404056}
+      - m_Target: {fileID: 11469846}
         m_MethodName: startButtonClick
         m_Mode: 1
         m_Arguments:
@@ -1092,6 +1180,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11469846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80483ab9c502a6d4eb9fcd0fe458ccb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSelectObject: {fileID: 107774}
 --- !u!114 &11473538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1131,8 +1231,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11404056}
-        m_MethodName: creditsButtonClick
+      - m_Target: {fileID: 11469846}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1370,8 +1470,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11404056}
-        m_MethodName: optionsButtonClick
+      - m_Target: {fileID: 11469846}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1449,7 +1549,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11404056}
+      - m_Target: {fileID: 11469846}
         m_MethodName: exitButtonClick
         m_Mode: 1
         m_Arguments:
@@ -1541,6 +1641,58 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11494820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 11461976}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11421526}
+        m_MethodName: backButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!222 &22202370
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -1619,6 +1771,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150600}
+--- !u!222 &22282710
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168320}
 --- !u!222 &22283062
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -1708,10 +1866,27 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22466074}
   m_RootOrder: 2
+  m_AnchorMin: {x: 0.58400005, y: 0.4691978}
+  m_AnchorMax: {x: 0.864, y: 0.64719784}
+  m_AnchoredPosition: {x: -0.70000076, y: 0.5}
+  m_SizeDelta: {x: 0.5, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &22416870
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22444482}
+  m_RootOrder: 10
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187, y: 27}
-  m_SizeDelta: {x: 204, y: 82}
+  m_AnchoredPosition: {x: 349, y: 193.8}
+  m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22437404
 RectTransform:
@@ -1784,6 +1959,7 @@ RectTransform:
   - {fileID: 22443860}
   - {fileID: 22453274}
   - {fileID: 22402718}
+  - {fileID: 22416870}
   m_Father: {fileID: 22473684}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
@@ -1854,10 +2030,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22466074}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163.6, y: -75}
-  m_SizeDelta: {x: 208, y: 84}
+  m_AnchorMin: {x: 0.16961725, y: 0.23854378}
+  m_AnchorMax: {x: 0.44132814, y: 0.4273956}
+  m_AnchoredPosition: {x: -0.7718048, y: 1}
+  m_SizeDelta: {x: -3.0437, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22462910
 RectTransform:
@@ -1892,10 +2068,10 @@ RectTransform:
   - {fileID: 22490878}
   m_Father: {fileID: 22473684}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1024, y: 455}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22470172
 RectTransform:
@@ -1945,10 +2121,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22466074}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164, y: 27}
-  m_SizeDelta: {x: 200, y: 80}
+  m_AnchorMin: {x: 0.16961725, y: 0.4691978}
+  m_AnchorMax: {x: 0.43839845, y: 0.64719784}
+  m_AnchoredPosition: {x: 0.39999962, y: 0.5}
+  m_SizeDelta: {x: -0.70000076, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22490688
 RectTransform:
@@ -1979,10 +2155,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22466074}
   m_RootOrder: 3
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 183.20001, y: -72.7}
-  m_SizeDelta: {x: 214, y: 96}
+  m_AnchorMin: {x: 0.574, y: 0.23180221}
+  m_AnchorMax: {x: 0.86025, y: 0.44500002}
+  m_AnchoredPosition: {x: 0.10000038, y: 0.80000305}
+  m_SizeDelta: {x: -0.29999924, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &100100000
 Prefab:

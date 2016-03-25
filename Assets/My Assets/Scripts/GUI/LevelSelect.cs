@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class LevelSelect : MonoBehaviour {
 
@@ -10,6 +11,8 @@ public class LevelSelect : MonoBehaviour {
     public List<string> worldFiveNames;
     public List<string> worldSixNames;
     public List<string> worldSevenNames;
+
+    public GameObject mainMenuObject;
 
     private List<List<string>> worldList;
 
@@ -68,5 +71,21 @@ public class LevelSelect : MonoBehaviour {
         mainPanelText.text = worldList[worldIndex][levelIndex];
     }
 
+    public void StartLevel()
+    {
+        int sceneIndex = 0;
+        for (int i = 0; i < worldIndex; i++)
+        {
+            sceneIndex += worldList[i].Count;
+        }
+
+        SceneManager.LoadScene(sceneIndex + levelIndex + 1);
+    }
+
+    public void backButtonClick()
+    {
+        mainMenuObject.SetActive(true);
+        this.gameObject.SetActive(false);
+    }
 	
 }
