@@ -1,0 +1,1800 @@
+fileFormatVersion: 2
+guid: a676c65aeadc58e4dbc6c61a7e657208
+timeCreated: 1458683072
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Drople-Idle-Left-01
+    21300002: Drople-Idle-Right-01
+    21300004: Drople-Death-Left-01
+    21300006: Drople-Death-Left-02
+    21300008: Drople-Death-Left-03
+    21300010: Drople-Death-Left-04
+    21300012: Drople-Death-Left-05
+    21300014: Drople-Death-Left-06
+    21300016: Drople-Death-Left-07
+    21300018: Drople-Death-Left-08
+    21300020: Drople-Death-Left-09
+    21300022: Drople-Death-Left-10
+    21300024: Drople-Death-Left-11
+    21300026: Drople-Death-Left-12
+    21300028: Drople-Death-Left-13
+    21300030: Drople-Death-Left-14
+    21300032: Drople-Death-Left-15
+    21300034: Drople-Death-Left-16
+    21300036: Drople-Death-Left-17
+    21300038: Drople-Death-Left-18
+    21300040: Drople-Death-Left-19
+    21300042: Drople-Death-Left-20
+    21300044: Drople-Death-Left-21
+    21300046: Drople-Death-Left-22
+    21300048: Drople-Death-Left-23
+    21300050: Drople-Death-Right-23
+    21300052: Drople-Death-Right-22
+    21300054: Drople-Death-Right-21
+    21300056: Drople-Death-Right-20
+    21300058: Drople-Death-Right-01
+    21300060: Drople-Death-Right-02
+    21300062: Drople-Death-Right-03
+    21300064: Drople-Death-Right-04
+    21300066: Drople-Death-Right-05
+    21300068: Drople-Death-Right-06
+    21300070: Drople-Death-Right-07
+    21300072: Drople-Death-Right-08
+    21300074: Drople-Death-Right-09
+    21300076: Drople-Death-Right-10
+    21300078: Drople-Death-Right-11
+    21300080: Drople-Death-Right-12
+    21300082: Drople-Death-Right-13
+    21300084: Drople-Death-Right-14
+    21300086: Drople-Death-Right-15
+    21300088: Drople-Death-Right-16
+    21300090: Drople-Death-Right-17
+    21300092: Drople-Death-Right-18
+    21300094: Drople-Death-Right-19
+    21300096: Drople-Holding-Left-01
+    21300098: Drople-Holding-Left-02
+    21300100: Drople-Holding-Left-03
+    21300102: Drople-Holding-Left-04
+    21300104: Drople-Holding-Right-01
+    21300106: Drople-Holding-Right-02
+    21300108: Drople-Holding-Right-03
+    21300110: Drople-Holding-Right-04
+    21300112: Drople-Walking-Left-01
+    21300114: Drople-Walking-Left-02
+    21300116: Drople-Walking-Left-03
+    21300118: Drople-Walking-Left-04
+    21300120: Drople-Walking-Right-01
+    21300122: Drople-Walking-Right-02
+    21300124: Drople-Walking-Right-03
+    21300126: Drople-Walking-Right-04
+    21300128: Drople-Falling-Left-01
+    21300130: Drople-Falling-Left-02
+    21300132: Drople-Falling-Left-03
+    21300134: Drople-Falling-Left-04
+    21300136: Drople-Falling-Right-01
+    21300138: Drople-Falling-Right-02
+    21300140: Drople-Falling-Right-03
+    21300142: Drople-Falling-Right-04
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Drople-Idle-Left-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 23}
+        - {x: -4, y: 23}
+        - {x: -15, y: 7}
+        - {x: -15, y: -13}
+        - {x: -11, y: -21}
+        - {x: 3, y: -21}
+        - {x: 14, y: -14}
+        - {x: 14, y: 10}
+    - name: Drople-Idle-Right-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -14, y: 13}
+        - {x: -14, y: -17}
+        - {x: -13, y: -21}
+        - {x: 13, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 6, y: 23}
+    - name: Drople-Death-Left-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 23}
+        - {x: -4, y: 23}
+        - {x: -15, y: 7}
+        - {x: -15, y: -13}
+        - {x: -11, y: -21}
+        - {x: 3, y: -21}
+        - {x: 14, y: -14}
+        - {x: 14, y: 10}
+    - name: Drople-Death-Left-02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 14}
+        - {x: -2, y: 23}
+        - {x: -5, y: 22}
+        - {x: -15, y: 0}
+        - {x: -15, y: -14}
+        - {x: -7, y: -19}
+        - {x: 6, y: -19}
+        - {x: 9, y: -17}
+        - {x: 14, y: -13}
+        - {x: 14, y: 4}
+    - name: Drople-Death-Left-03
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 23}
+        - {x: -5, y: 22}
+        - {x: -15, y: 0}
+        - {x: -15, y: -15}
+        - {x: -9, y: -17}
+        - {x: 12, y: -17}
+        - {x: 14, y: -15}
+        - {x: 14, y: 4}
+        - {x: 11, y: 14}
+    - name: Drople-Death-Left-04
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 22}
+        - {x: -4, y: 22}
+        - {x: -15, y: 7}
+        - {x: -15, y: -15}
+        - {x: -14, y: -17}
+        - {x: 10, y: -17}
+        - {x: 14, y: -16}
+        - {x: 14, y: 4}
+        - {x: 11, y: 13}
+    - name: Drople-Death-Left-05
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 21}
+        - {x: -5, y: 20}
+        - {x: -15, y: -2}
+        - {x: -15, y: -16}
+        - {x: -12, y: -17}
+        - {x: 13, y: -17}
+        - {x: 14, y: -16}
+        - {x: 14, y: 2}
+        - {x: 11, y: 12}
+    - name: Drople-Death-Left-06
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 20}
+        - {x: -15, y: -2}
+        - {x: -15, y: -15}
+        - {x: -11, y: -17}
+        - {x: 11, y: -17}
+        - {x: 14, y: -13}
+        - {x: 14, y: 4}
+        - {x: 0, y: 20}
+    - name: Drople-Death-Left-07
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 18}
+        - {x: -15, y: 0}
+        - {x: -15, y: -13}
+        - {x: -14, y: -17}
+        - {x: 14, y: -17}
+        - {x: 14, y: 14}
+        - {x: -2, y: 19}
+    - name: Drople-Death-Left-08
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 17}
+        - {x: -5, y: 16}
+        - {x: -17, y: -1}
+        - {x: -17, y: -17}
+        - {x: 15, y: -17}
+        - {x: 16, y: -16}
+        - {x: 16, y: -9}
+        - {x: 10, y: 7}
+    - name: Drople-Death-Left-09
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -2}
+        - {x: 0, y: 16}
+        - {x: -4, y: 16}
+        - {x: -5, y: 15}
+        - {x: -18, y: -14}
+        - {x: -18, y: -16}
+        - {x: -14, y: -20}
+        - {x: 17, y: -20}
+        - {x: 18, y: -18}
+        - {x: 18, y: -15}
+    - name: Drople-Death-Left-10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 15}
+        - {x: -21, y: -9}
+        - {x: -21, y: -24}
+        - {x: 17, y: -24}
+        - {x: 22, y: -20}
+        - {x: 22, y: -10}
+        - {x: 9, y: 5}
+        - {x: -2, y: 15}
+    - name: Drople-Death-Left-11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -24, y: -1}
+        - {x: -24, y: -22}
+        - {x: -20, y: -24}
+        - {x: 18, y: -24}
+        - {x: 24, y: -17}
+        - {x: 24, y: -10}
+        - {x: 5, y: 13}
+    - name: Drople-Death-Left-12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 9}
+        - {x: -5, y: 8}
+        - {x: -10, y: -3}
+        - {x: -22, y: -12}
+        - {x: -24, y: -14}
+        - {x: -24, y: -15}
+        - {x: -18, y: -24}
+        - {x: 21, y: -24}
+        - {x: 24, y: -18}
+        - {x: 24, y: -12}
+        - {x: 1, y: 9}
+    - name: Drople-Death-Left-13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 7}
+        - {x: -24, y: -11}
+        - {x: -24, y: -21}
+        - {x: -20, y: -24}
+        - {x: 15, y: -24}
+        - {x: 24, y: -21}
+        - {x: 24, y: -12}
+        - {x: 2, y: 7}
+    - name: Drople-Death-Left-14
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 4}
+        - {x: -6, y: 4}
+        - {x: -24, y: -12}
+        - {x: -24, y: -16}
+        - {x: -19, y: -22}
+        - {x: -11, y: -25}
+        - {x: 11, y: -25}
+        - {x: 23, y: -19}
+        - {x: 24, y: -16}
+        - {x: 24, y: -12}
+    - name: Drople-Death-Left-15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 2}
+        - {x: -6, y: 2}
+        - {x: -24, y: -12}
+        - {x: -24, y: -17}
+        - {x: -17, y: -24}
+        - {x: -15, y: -25}
+        - {x: 14, y: -25}
+        - {x: 18, y: -23}
+        - {x: 24, y: -16}
+        - {x: 24, y: -11}
+      - - {x: -14, y: -3}
+        - {x: -18, y: -6}
+        - {x: -18, y: -8}
+        - {x: -16, y: -10}
+        - {x: -13, y: -10}
+        - {x: -10, y: -9}
+        - {x: -10, y: -5}
+        - {x: -11, y: -3}
+    - name: Drople-Death-Left-16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -18}
+        - {x: -8, y: -20}
+        - {x: -7, y: -23}
+        - {x: -5, y: -25}
+        - {x: 22, y: -25}
+        - {x: 24, y: -18}
+        - {x: 24, y: -12}
+        - {x: 0, y: -1}
+        - {x: -8, y: -1}
+        - {x: -24, y: -12}
+        - {x: -24, y: -19}
+        - {x: -23, y: -23}
+        - {x: -21, y: -25}
+        - {x: -11, y: -25}
+        - {x: -8, y: -21}
+        - {x: -9, y: -17}
+        - {x: 0, y: -17}
+      - - {x: -13, y: -2}
+        - {x: -17, y: -2}
+        - {x: -19, y: -5}
+        - {x: -19, y: -7}
+        - {x: -17, y: -9}
+        - {x: -14, y: -9}
+        - {x: -11, y: -6}
+        - {x: -11, y: -3}
+    - name: Drople-Death-Left-17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -4}
+        - {x: -24, y: -9}
+        - {x: -24, y: -18}
+        - {x: -14, y: -24}
+        - {x: -10, y: -23}
+        - {x: -8, y: -21}
+        - {x: -9, y: -17}
+        - {x: 0, y: -17}
+        - {x: -6, y: -18}
+        - {x: -8, y: -20}
+        - {x: -7, y: -23}
+        - {x: -5, y: -25}
+        - {x: 24, y: -25}
+        - {x: 24, y: -14}
+        - {x: 20, y: -4}
+      - - {x: -16, y: 2}
+        - {x: -20, y: 2}
+        - {x: -22, y: -1}
+        - {x: -22, y: -3}
+        - {x: -20, y: -5}
+        - {x: -17, y: -5}
+        - {x: -14, y: -2}
+        - {x: -14, y: 1}
+    - name: Drople-Death-Left-18
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -25}
+        - {x: 21, y: -22}
+        - {x: 17, y: -22}
+        - {x: 16, y: -25}
+      - - {x: 17, y: -10}
+        - {x: 5, y: -7}
+        - {x: -10, y: -7}
+        - {x: -24, y: -12}
+        - {x: -24, y: -17}
+        - {x: -14, y: -24}
+        - {x: -13, y: -24}
+        - {x: -10, y: -23}
+        - {x: -8, y: -21}
+        - {x: -9, y: -17}
+        - {x: 0, y: -17}
+        - {x: -6, y: -18}
+        - {x: -8, y: -20}
+        - {x: -7, y: -23}
+        - {x: -4, y: -24}
+        - {x: 18, y: -24}
+        - {x: 24, y: -15}
+        - {x: 24, y: -13}
+      - - {x: 1, y: 0}
+        - {x: -2, y: -3}
+        - {x: -2, y: -6}
+        - {x: 0, y: -8}
+        - {x: 2, y: -8}
+        - {x: 6, y: -4}
+        - {x: 6, y: -2}
+        - {x: 4, y: 0}
+      - - {x: -20, y: 4}
+        - {x: -24, y: 2}
+        - {x: -24, y: -1}
+        - {x: -22, y: -3}
+        - {x: -19, y: -3}
+        - {x: -16, y: -2}
+        - {x: -16, y: 4}
+    - name: Drople-Death-Left-19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -23}
+        - {x: -8, y: -25}
+        - {x: 0, y: -25}
+        - {x: -1, y: -22}
+        - {x: -4, y: -21}
+        - {x: -7, y: -21}
+      - - {x: 24, y: -14}
+        - {x: 21, y: -10}
+        - {x: -24, y: -10}
+        - {x: -24, y: -20}
+        - {x: -19, y: -25}
+        - {x: 15, y: -25}
+        - {x: 19, y: -23}
+        - {x: 24, y: -19}
+      - - {x: 5, y: 4}
+        - {x: 2, y: 1}
+        - {x: 2, y: -2}
+        - {x: 4, y: -4}
+        - {x: 6, y: -4}
+        - {x: 10, y: -2}
+        - {x: 10, y: 2}
+        - {x: 9, y: 4}
+      - - {x: -25, y: 5}
+        - {x: -25, y: -1}
+        - {x: -22, y: -1}
+        - {x: -19, y: 2}
+        - {x: -19, y: 4}
+        - {x: -21, y: 6}
+    - name: Drople-Death-Left-20
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -11}
+        - {x: -24, y: -14}
+        - {x: -23, y: -17}
+        - {x: -25, y: -20}
+        - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: -14}
+        - {x: 23, y: -11}
+      - - {x: 0, y: -22}
+        - {x: 1, y: -25}
+        - {x: 4, y: -25}
+        - {x: 6, y: -23}
+        - {x: 5, y: -20}
+        - {x: 2, y: -20}
+      - - {x: 9, y: 8}
+        - {x: 8, y: 6}
+        - {x: 8, y: 0}
+        - {x: 12, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 6}
+        - {x: 15, y: 8}
+      - - {x: -25, y: 1}
+        - {x: -22, y: 2}
+        - {x: -22, y: 5}
+        - {x: -24, y: 7}
+        - {x: -25, y: 7}
+    - name: Drople-Death-Left-21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -18}
+        - {x: -25, y: -25}
+        - {x: -14, y: -25}
+        - {x: -14, y: -22}
+        - {x: -15, y: -19}
+        - {x: -18, y: -18}
+      - - {x: 16, y: -18}
+        - {x: 14, y: -21}
+        - {x: 16, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: -20}
+        - {x: 20, y: -18}
+      - - {x: -24, y: -14}
+        - {x: -23, y: -17}
+        - {x: 22, y: -17}
+        - {x: 24, y: -15}
+        - {x: 23, y: -12}
+        - {x: -22, y: -12}
+      - - {x: 19, y: 12}
+        - {x: 16, y: 11}
+        - {x: 16, y: 6}
+        - {x: 17, y: 4}
+        - {x: 20, y: 4}
+        - {x: 24, y: 6}
+        - {x: 24, y: 10}
+        - {x: 23, y: 12}
+    - name: Drople-Death-Left-22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: -20, y: -25}
+        - {x: -21, y: -22}
+        - {x: -25, y: -22}
+      - - {x: 16, y: -24}
+        - {x: 16, y: -25}
+        - {x: 23, y: -25}
+        - {x: 24, y: -24}
+        - {x: 23, y: -21}
+        - {x: 20, y: -21}
+      - - {x: -24, y: -14}
+        - {x: -23, y: -17}
+        - {x: 22, y: -17}
+        - {x: 24, y: -15}
+        - {x: 23, y: -12}
+        - {x: -22, y: -12}
+      - - {x: 21, y: 12}
+        - {x: 21, y: 9}
+        - {x: 23, y: 7}
+        - {x: 25, y: 7}
+        - {x: 25, y: 15}
+        - {x: 24, y: 15}
+    - name: Drople-Death-Left-23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Drople-Death-Right-23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Drople-Death-Right-22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -25}
+        - {x: -16, y: -25}
+        - {x: -17, y: -22}
+        - {x: -22, y: -21}
+        - {x: -24, y: -23}
+      - - {x: 25, y: -25}
+        - {x: 25, y: -22}
+        - {x: 21, y: -22}
+        - {x: 20, y: -25}
+      - - {x: -24, y: -14}
+        - {x: -23, y: -17}
+        - {x: 22, y: -17}
+        - {x: 24, y: -15}
+        - {x: 23, y: -12}
+        - {x: -22, y: -12}
+      - - {x: -25, y: 15}
+        - {x: -25, y: 7}
+        - {x: -23, y: 7}
+        - {x: -21, y: 9}
+        - {x: -21, y: 12}
+        - {x: -24, y: 15}
+    - name: Drople-Death-Right-21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -25}
+        - {x: -16, y: -25}
+        - {x: -14, y: -21}
+        - {x: -16, y: -18}
+        - {x: -21, y: -18}
+        - {x: -25, y: -20}
+      - - {x: 16, y: -18}
+        - {x: 14, y: -19}
+        - {x: 14, y: -23}
+        - {x: 16, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: -19}
+        - {x: 20, y: -18}
+      - - {x: -24, y: -14}
+        - {x: -23, y: -17}
+        - {x: 22, y: -17}
+        - {x: 24, y: -15}
+        - {x: 23, y: -12}
+        - {x: -22, y: -12}
+      - - {x: -22, y: 12}
+        - {x: -24, y: 11}
+        - {x: -24, y: 8}
+        - {x: -20, y: 4}
+        - {x: -18, y: 4}
+        - {x: -16, y: 6}
+        - {x: -16, y: 9}
+        - {x: -17, y: 12}
+    - name: Drople-Death-Right-20
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -11}
+        - {x: -24, y: -14}
+        - {x: -23, y: -17}
+        - {x: -25, y: -19}
+        - {x: -25, y: -23}
+        - {x: -24, y: -24}
+        - {x: -22, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: -11}
+      - - {x: -6, y: -22}
+        - {x: -5, y: -25}
+        - {x: -2, y: -25}
+        - {x: 0, y: -23}
+        - {x: -1, y: -20}
+        - {x: -4, y: -20}
+      - - {x: -14, y: 8}
+        - {x: -16, y: 6}
+        - {x: -16, y: 4}
+        - {x: -12, y: 0}
+        - {x: -8, y: 0}
+        - {x: -8, y: 5}
+        - {x: -9, y: 8}
+      - - {x: 22, y: 3}
+        - {x: 24, y: 1}
+        - {x: 25, y: 1}
+        - {x: 25, y: 7}
+        - {x: 22, y: 6}
+    - name: Drople-Death-Right-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -14, y: 13}
+        - {x: -14, y: -17}
+        - {x: -13, y: -21}
+        - {x: 13, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 6, y: 23}
+    - name: Drople-Death-Right-02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 4}
+        - {x: -14, y: -13}
+        - {x: -9, y: -19}
+        - {x: 8, y: -19}
+        - {x: 15, y: -15}
+        - {x: 15, y: 3}
+        - {x: 5, y: 23}
+        - {x: 2, y: 23}
+        - {x: -10, y: 13}
+    - name: Drople-Death-Right-03
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -14, y: 12}
+        - {x: -14, y: -14}
+        - {x: -12, y: -17}
+        - {x: 14, y: -17}
+        - {x: 15, y: -14}
+        - {x: 15, y: 10}
+        - {x: 5, y: 23}
+    - name: Drople-Death-Right-04
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 22}
+        - {x: -14, y: 8}
+        - {x: -14, y: -17}
+        - {x: 14, y: -17}
+        - {x: 15, y: -15}
+        - {x: 15, y: 10}
+        - {x: 7, y: 22}
+    - name: Drople-Death-Right-05
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 21}
+        - {x: -10, y: 11}
+        - {x: -14, y: 6}
+        - {x: -14, y: -12}
+        - {x: -12, y: -17}
+        - {x: 14, y: -17}
+        - {x: 15, y: -15}
+        - {x: 15, y: 9}
+        - {x: 6, y: 21}
+    - name: Drople-Death-Right-06
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 20}
+        - {x: -9, y: 10}
+        - {x: -14, y: 0}
+        - {x: -14, y: -11}
+        - {x: -10, y: -17}
+        - {x: 12, y: -17}
+        - {x: 15, y: -16}
+        - {x: 15, y: 0}
+        - {x: 5, y: 20}
+    - name: Drople-Death-Right-07
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 19}
+        - {x: 2, y: 19}
+        - {x: -9, y: 9}
+        - {x: -14, y: -1}
+        - {x: -14, y: -12}
+        - {x: -10, y: -17}
+        - {x: 11, y: -17}
+        - {x: 15, y: -13}
+        - {x: 15, y: -1}
+    - name: Drople-Death-Right-08
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 17}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: -15, y: -17}
+        - {x: 15, y: -17}
+        - {x: 17, y: -16}
+        - {x: 17, y: 4}
+        - {x: 5, y: 17}
+    - name: Drople-Death-Right-09
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 16}
+        - {x: -10, y: 6}
+        - {x: -18, y: -13}
+        - {x: -18, y: -17}
+        - {x: -15, y: -20}
+        - {x: 17, y: -20}
+        - {x: 18, y: -19}
+        - {x: 18, y: 7}
+        - {x: 7, y: 16}
+    - name: Drople-Death-Right-10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -24}
+        - {x: 21, y: -22}
+        - {x: 21, y: -11}
+        - {x: 17, y: -3}
+        - {x: 6, y: 15}
+        - {x: 1, y: 15}
+        - {x: -10, y: 6}
+        - {x: -22, y: -14}
+        - {x: -22, y: -20}
+        - {x: -17, y: -22}
+        - {x: -10, y: -24}
+        - {x: -5, y: -24}
+        - {x: -3, y: -22}
+        - {x: -4, y: -19}
+        - {x: 11, y: -24}
+    - name: Drople-Death-Right-11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -24, y: -7}
+        - {x: -24, y: -22}
+        - {x: -23, y: -24}
+        - {x: 17, y: -24}
+        - {x: 24, y: -18}
+        - {x: 24, y: -10}
+        - {x: 9, y: 13}
+    - name: Drople-Death-Right-12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 9}
+        - {x: -24, y: -10}
+        - {x: -24, y: -18}
+        - {x: -21, y: -24}
+        - {x: 22, y: -24}
+        - {x: 24, y: -21}
+        - {x: 24, y: -11}
+        - {x: 7, y: 9}
+    - name: Drople-Death-Right-13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 7}
+        - {x: -24, y: -10}
+        - {x: -24, y: -19}
+        - {x: -22, y: -24}
+        - {x: 18, y: -24}
+        - {x: 24, y: -19}
+        - {x: 24, y: -11}
+        - {x: 9, y: 7}
+    - name: Drople-Death-Right-14
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 4}
+        - {x: -24, y: -12}
+        - {x: -24, y: -21}
+        - {x: -14, y: -25}
+        - {x: 20, y: -25}
+        - {x: 24, y: -21}
+        - {x: 24, y: -12}
+        - {x: 7, y: 4}
+    - name: Drople-Death-Right-15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 2}
+        - {x: -24, y: -13}
+        - {x: -24, y: -19}
+        - {x: -14, y: -25}
+        - {x: 22, y: -25}
+        - {x: 24, y: -24}
+        - {x: 24, y: -11}
+        - {x: 14, y: 2}
+      - - {x: 12, y: -3}
+        - {x: 10, y: -5}
+        - {x: 10, y: -7}
+        - {x: 13, y: -10}
+        - {x: 16, y: -10}
+        - {x: 18, y: -8}
+        - {x: 18, y: -6}
+        - {x: 16, y: -4}
+    - name: Drople-Death-Right-16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -25}
+        - {x: 21, y: -25}
+        - {x: 24, y: -22}
+        - {x: 24, y: -9}
+        - {x: 13, y: -1}
+        - {x: -5, y: -1}
+        - {x: -24, y: -13}
+        - {x: -24, y: -15}
+        - {x: -18, y: -24}
+        - {x: -16, y: -25}
+        - {x: 6, y: -25}
+        - {x: 8, y: -21}
+        - {x: 7, y: -17}
+        - {x: 8, y: -21}
+      - - {x: 13, y: -2}
+        - {x: 11, y: -4}
+        - {x: 11, y: -6}
+        - {x: 14, y: -9}
+        - {x: 17, y: -9}
+        - {x: 19, y: -7}
+        - {x: 19, y: -5}
+        - {x: 17, y: -3}
+    - name: Drople-Death-Right-17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -24}
+        - {x: 19, y: -22}
+        - {x: 24, y: -19}
+        - {x: 24, y: -10}
+        - {x: 16, y: -4}
+        - {x: -9, y: -4}
+        - {x: -24, y: -12}
+        - {x: -24, y: -15}
+        - {x: -21, y: -25}
+        - {x: 2, y: -25}
+        - {x: 5, y: -24}
+        - {x: 8, y: -21}
+        - {x: 7, y: -17}
+        - {x: 8, y: -21}
+      - - {x: 16, y: 2}
+        - {x: 14, y: 0}
+        - {x: 14, y: -2}
+        - {x: 17, y: -5}
+        - {x: 20, y: -5}
+        - {x: 22, y: -3}
+        - {x: 22, y: -1}
+        - {x: 20, y: 1}
+    - name: Drople-Death-Right-18
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -25}
+        - {x: -17, y: -22}
+        - {x: -21, y: -22}
+        - {x: -22, y: -25}
+      - - {x: 9, y: -24}
+        - {x: 19, y: -22}
+        - {x: 24, y: -16}
+        - {x: 24, y: -13}
+        - {x: 23, y: -11}
+        - {x: 10, y: -7}
+        - {x: -8, y: -7}
+        - {x: -24, y: -12}
+        - {x: -24, y: -18}
+        - {x: -17, y: -24}
+        - {x: 6, y: -24}
+        - {x: 8, y: -21}
+        - {x: 7, y: -17}
+        - {x: 8, y: -21}
+      - - {x: -4, y: 0}
+        - {x: -6, y: -2}
+        - {x: -6, y: -4}
+        - {x: -2, y: -8}
+        - {x: 0, y: -8}
+        - {x: 2, y: -6}
+        - {x: 2, y: -3}
+        - {x: -1, y: 0}
+      - - {x: 18, y: 4}
+        - {x: 16, y: 2}
+        - {x: 16, y: 0}
+        - {x: 19, y: -3}
+        - {x: 22, y: -3}
+        - {x: 24, y: -1}
+        - {x: 24, y: 1}
+        - {x: 22, y: 3}
+    - name: Drople-Death-Right-19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -24}
+        - {x: 0, y: -25}
+        - {x: 8, y: -25}
+        - {x: 9, y: -24}
+        - {x: 8, y: -21}
+        - {x: 4, y: -21}
+      - - {x: -4, y: -18}
+        - {x: -10, y: -17}
+        - {x: 9, y: -18}
+        - {x: 7, y: -22}
+        - {x: 11, y: -25}
+        - {x: 18, y: -25}
+        - {x: 23, y: -21}
+        - {x: 24, y: -19}
+        - {x: 24, y: -13}
+        - {x: 20, y: -10}
+        - {x: -17, y: -10}
+        - {x: -24, y: -14}
+        - {x: -24, y: -21}
+        - {x: -17, y: -25}
+        - {x: -5, y: -25}
+        - {x: -1, y: -24}
+        - {x: 0, y: -21}
+        - {x: -1, y: -18}
+      - - {x: -8, y: 4}
+        - {x: -10, y: 2}
+        - {x: -10, y: 0}
+        - {x: -6, y: -4}
+        - {x: -4, y: -4}
+        - {x: -2, y: -2}
+        - {x: -2, y: 1}
+        - {x: -5, y: 4}
+      - - {x: 19, y: 4}
+        - {x: 19, y: 2}
+        - {x: 22, y: -1}
+        - {x: 25, y: -1}
+        - {x: 25, y: 5}
+        - {x: 21, y: 6}
+    - name: Drople-Holding-Left-01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 23}
+        - {x: -4, y: 23}
+        - {x: -15, y: 7}
+        - {x: -15, y: -13}
+        - {x: -11, y: -21}
+        - {x: 3, y: -21}
+        - {x: 14, y: -14}
+        - {x: 14, y: 10}
+    - name: Drople-Holding-Left-02
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22}
+        - {x: -15, y: 0}
+        - {x: -15, y: -20}
+        - {x: -13, y: -21}
+        - {x: 11, y: -21}
+        - {x: 14, y: -15}
+        - {x: 14, y: 8}
+        - {x: -2, y: 23}
+    - name: Drople-Holding-Left-03
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -5, y: 22}
+        - {x: -15, y: 4}
+        - {x: -15, y: -13}
+        - {x: -13, y: -20}
+        - {x: -8, y: -21}
+        - {x: 7, y: -21}
+        - {x: 14, y: -11}
+        - {x: 14, y: 7}
+        - {x: 0, y: 23}
+    - name: Drople-Holding-Left-04
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 23}
+        - {x: -15, y: 8}
+        - {x: -15, y: -13}
+        - {x: -11, y: -21}
+        - {x: 7, y: -21}
+        - {x: 14, y: -11}
+        - {x: 14, y: 7}
+        - {x: 1, y: 23}
+    - name: Drople-Holding-Right-01
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -14, y: 13}
+        - {x: -14, y: -17}
+        - {x: -13, y: -21}
+        - {x: 13, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 6, y: 23}
+    - name: Drople-Holding-Right-02
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 23}
+        - {x: -14, y: 8}
+        - {x: -14, y: -11}
+        - {x: -6, y: -21}
+        - {x: 10, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 4}
+        - {x: 8, y: 23}
+    - name: Drople-Holding-Right-03
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -14, y: 17}
+        - {x: -14, y: -19}
+        - {x: -10, y: -21}
+        - {x: 11, y: -21}
+        - {x: 15, y: -16}
+        - {x: 15, y: 3}
+        - {x: 7, y: 23}
+    - name: Drople-Holding-Right-04
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -11, y: 14}
+        - {x: -14, y: 3}
+        - {x: -14, y: -13}
+        - {x: -7, y: -21}
+        - {x: 13, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 6, y: 23}
+    - name: Drople-Walking-Left-01
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 23}
+        - {x: -4, y: 23}
+        - {x: -15, y: 7}
+        - {x: -15, y: -13}
+        - {x: -11, y: -21}
+        - {x: 3, y: -21}
+        - {x: 14, y: -14}
+        - {x: 14, y: 10}
+    - name: Drople-Walking-Left-02
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22}
+        - {x: -15, y: 0}
+        - {x: -15, y: -20}
+        - {x: -13, y: -21}
+        - {x: 11, y: -21}
+        - {x: 14, y: -15}
+        - {x: 14, y: 8}
+        - {x: -2, y: 23}
+    - name: Drople-Walking-Left-03
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -5, y: 22}
+        - {x: -15, y: 4}
+        - {x: -15, y: -13}
+        - {x: -13, y: -20}
+        - {x: -8, y: -21}
+        - {x: 7, y: -21}
+        - {x: 14, y: -11}
+        - {x: 14, y: 7}
+        - {x: 0, y: 23}
+    - name: Drople-Walking-Left-04
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 23}
+        - {x: -15, y: 8}
+        - {x: -15, y: -13}
+        - {x: -11, y: -21}
+        - {x: 7, y: -21}
+        - {x: 14, y: -11}
+        - {x: 14, y: 7}
+        - {x: 1, y: 23}
+    - name: Drople-Walking-Right-01
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -14, y: 13}
+        - {x: -14, y: -17}
+        - {x: -13, y: -21}
+        - {x: 13, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 6, y: 23}
+    - name: Drople-Walking-Right-02
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 23}
+        - {x: -14, y: 8}
+        - {x: -14, y: -11}
+        - {x: -6, y: -21}
+        - {x: 10, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 4}
+        - {x: 8, y: 23}
+    - name: Drople-Walking-Right-03
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -14, y: 17}
+        - {x: -14, y: -19}
+        - {x: -10, y: -21}
+        - {x: 11, y: -21}
+        - {x: 15, y: -16}
+        - {x: 15, y: 3}
+        - {x: 7, y: 23}
+    - name: Drople-Walking-Right-04
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -11, y: 14}
+        - {x: -14, y: 3}
+        - {x: -14, y: -13}
+        - {x: -7, y: -21}
+        - {x: 13, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 6, y: 23}
+    - name: Drople-Falling-Left-01
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 23}
+        - {x: -4, y: 23}
+        - {x: -15, y: 7}
+        - {x: -15, y: -13}
+        - {x: -11, y: -21}
+        - {x: 3, y: -21}
+        - {x: 14, y: -14}
+        - {x: 14, y: 10}
+    - name: Drople-Falling-Left-02
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 14}
+        - {x: -2, y: 23}
+        - {x: -5, y: 22}
+        - {x: -15, y: 0}
+        - {x: -15, y: -14}
+        - {x: -7, y: -19}
+        - {x: 6, y: -19}
+        - {x: 9, y: -17}
+        - {x: 14, y: -13}
+        - {x: 14, y: 4}
+    - name: Drople-Falling-Left-03
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 23}
+        - {x: -3, y: 22}
+        - {x: -15, y: 4}
+        - {x: -15, y: -14}
+        - {x: -8, y: -19}
+        - {x: 5, y: -19}
+        - {x: 14, y: -12}
+        - {x: 14, y: 6}
+        - {x: 1, y: 23}
+    - name: Drople-Falling-Left-04
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 23}
+        - {x: -3, y: 22}
+        - {x: -15, y: 4}
+        - {x: -15, y: -14}
+        - {x: -8, y: -19}
+        - {x: 5, y: -19}
+        - {x: 14, y: -12}
+        - {x: 14, y: 6}
+        - {x: 1, y: 23}
+    - name: Drople-Falling-Right-01
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -14, y: 13}
+        - {x: -14, y: -17}
+        - {x: -13, y: -21}
+        - {x: 13, y: -21}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 6, y: 23}
+    - name: Drople-Falling-Right-02
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 4}
+        - {x: -14, y: -13}
+        - {x: -9, y: -19}
+        - {x: 8, y: -19}
+        - {x: 15, y: -15}
+        - {x: 15, y: 3}
+        - {x: 5, y: 23}
+        - {x: 2, y: 23}
+        - {x: -10, y: 13}
+    - name: Drople-Falling-Right-03
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 6}
+        - {x: -14, y: -13}
+        - {x: -9, y: -19}
+        - {x: 8, y: -19}
+        - {x: 15, y: -15}
+        - {x: 15, y: 3}
+        - {x: 5, y: 23}
+        - {x: -2, y: 23}
+        - {x: -12, y: 15}
+    - name: Drople-Falling-Right-04
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 6}
+        - {x: -14, y: -13}
+        - {x: -9, y: -19}
+        - {x: 8, y: -19}
+        - {x: 15, y: -15}
+        - {x: 15, y: 3}
+        - {x: 5, y: 23}
+        - {x: -2, y: 23}
+        - {x: -12, y: 15}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
