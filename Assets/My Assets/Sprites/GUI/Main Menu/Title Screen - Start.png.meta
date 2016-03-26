@@ -1,0 +1,104 @@
+fileFormatVersion: 2
+guid: dc3e074e33db1f14a9efb4caf979bfd9
+timeCreated: 1457384157
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Title Screen - Start_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 400, y: 611, z: 1330, w: 455}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Title Screen - Start_0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 611
+        width: 570
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 254.17392, y: -79.944336}
+        - {x: 254.17392, y: 83.055664}
+        - {x: 253.17392, y: 84.055664}
+        - {x: 253.17392, y: 85.055664}
+        - {x: 246.17392, y: 92.055664}
+        - {x: 245.17392, y: 92.055664}
+        - {x: 241.17392, y: 96.055664}
+        - {x: 239.17392, y: 96.055664}
+        - {x: 234.17392, y: 101.055664}
+        - {x: 234.17392, y: 102.055664}
+        - {x: 232.17392, y: 104.055664}
+        - {x: -233.82608, y: 104.055664}
+        - {x: -237.82608, y: 100.055664}
+        - {x: -237.82608, y: 99.055664}
+        - {x: -240.82608, y: 96.055664}
+        - {x: -240.82608, y: 95.055664}
+        - {x: -245.82608, y: 90.055664}
+        - {x: -245.82608, y: 88.055664}
+        - {x: -247.82608, y: 87.055664}
+        - {x: -252.82608, y: 82.055664}
+        - {x: -252.82608, y: 81.055664}
+        - {x: -253.82608, y: 80.055664}
+        - {x: -253.82608, y: -75.944336}
+        - {x: -247.82608, y: -82.944336}
+        - {x: -247.82608, y: -83.944336}
+        - {x: -244.82608, y: -87.944336}
+        - {x: -242.82608, y: -91.944336}
+        - {x: -237.82608, y: -95.944336}
+        - {x: -237.82608, y: -97.944336}
+        - {x: -233.82608, y: -102.944336}
+        - {x: -232.82608, y: -103.944336}
+        - {x: 231.17392, y: -103.944336}
+        - {x: 234.17392, y: -102.944336}
+        - {x: 245.17392, y: -90.944336}
+        - {x: 245.17392, y: -89.944336}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

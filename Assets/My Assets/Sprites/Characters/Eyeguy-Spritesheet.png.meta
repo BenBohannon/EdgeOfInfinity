@@ -1,0 +1,940 @@
+fileFormatVersion: 2
+guid: 82ad49e6ed1c47a4b86f05c5eec329d3
+timeCreated: 1458683633
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Eyeguy-Death-Left-01
+    21300002: Eyeguy-Death-Left-02
+    21300004: Eyeguy-Death-Left-03
+    21300006: Eyeguy-Death-Left-04
+    21300008: Eyeguy-Death-Left-05
+    21300010: Eyeguy-Death-Left-06
+    21300012: Eyeguy-Death-Left-07
+    21300014: Eyeguy-Death-Left-08
+    21300016: Eyeguy-Death-Left-09
+    21300018: Eyeguy-Death-Left-10
+    21300020: Eyeguy-Death-Left-11
+    21300022: Eyeguy-Death-Left-12
+    21300024: Eyeguy-Death-Left-13
+    21300026: Eyeguy-Death-Right-01
+    21300028: Eyeguy-Death-Right-02
+    21300030: Eyeguy-Death-Right-03
+    21300032: Eyeguy-Death-Right-04
+    21300034: Eyeguy-Death-Right-05
+    21300036: Eyeguy-Death-Right-06
+    21300038: Eyeguy-Death-Right-07
+    21300040: Eyeguy-Death-Right-08
+    21300042: Eyeguy-Death-Right-09
+    21300044: Eyeguy-Death-Right-10
+    21300046: Eyeguy-Death-Right-11
+    21300048: Eyeguy-Death-Right-12
+    21300050: Eyeguy-Death-Right-13
+    21300052: Eyeguy-Idle-Left-01
+    21300054: Eyeguy-Idle-Right-01
+    21300056: Eyeguy-Walking-Left-01
+    21300058: Eyeguy-Walking-Left-02
+    21300060: Eyeguy-Walking-Left-03
+    21300062: Eyeguy-Walking-Left-04
+    21300064: Eyeguy-Walking-Left-05
+    21300066: Eyeguy-Walking-Left-06
+    21300068: Eyeguy-Walking-Left-07
+    21300070: Eyeguy-Walking-Left-08
+    21300072: Eyeguy-Walking-Right-01
+    21300074: Eyeguy-Walking-Right-02
+    21300076: Eyeguy-Walking-Right-03
+    21300078: Eyeguy-Walking-Right-04
+    21300080: Eyeguy-Walking-Right-05
+    21300082: Eyeguy-Walking-Right-06
+    21300084: Eyeguy-Walking-Right-07
+    21300086: Eyeguy-Walking-Right-08
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Eyeguy-Death-Left-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 25}
+        - {x: -8, y: 25}
+        - {x: -14, y: 21}
+        - {x: -16, y: -7}
+        - {x: -16, y: -25}
+        - {x: -4, y: -25}
+        - {x: -1, y: -20}
+        - {x: -3, y: -23}
+    - name: Eyeguy-Death-Left-02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -13, y: 18}
+        - {x: -15, y: -2}
+        - {x: -15, y: -25}
+        - {x: 11, y: -25}
+        - {x: 16, y: -13}
+        - {x: 16, y: 21}
+        - {x: 14, y: 25}
+    - name: Eyeguy-Death-Left-03
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -24}
+        - {x: 18, y: -24}
+        - {x: 18, y: 24}
+        - {x: 17, y: 25}
+    - name: Eyeguy-Death-Left-04
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -24}
+        - {x: 18, y: 25}
+        - {x: -14, y: 25}
+        - {x: -17, y: 24}
+        - {x: -17, y: -21}
+        - {x: -14, y: -24}
+        - {x: -12, y: -24}
+        - {x: -6, y: -18}
+        - {x: 7, y: -24}
+    - name: Eyeguy-Death-Left-05
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -24}
+        - {x: 14, y: -24}
+        - {x: 19, y: -14}
+        - {x: 19, y: 25}
+    - name: Eyeguy-Death-Left-06
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -25}
+        - {x: 11, y: -25}
+        - {x: 20, y: -10}
+        - {x: 20, y: 21}
+        - {x: 18, y: 25}
+        - {x: -15, y: 25}
+        - {x: -19, y: 23}
+    - name: Eyeguy-Death-Left-07
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 24}
+        - {x: -15, y: 24}
+        - {x: -17, y: 22}
+        - {x: -17, y: -21}
+        - {x: -14, y: -25}
+        - {x: 3, y: -25}
+        - {x: 21, y: -1}
+        - {x: 22, y: 0}
+    - name: Eyeguy-Death-Left-08
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 21}
+        - {x: -17, y: -22}
+        - {x: -15, y: -25}
+        - {x: 2, y: -25}
+        - {x: 22, y: -12}
+        - {x: 22, y: 21}
+    - name: Eyeguy-Death-Left-09
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -18}
+        - {x: -14, y: -25}
+        - {x: 9, y: -25}
+        - {x: 23, y: -23}
+        - {x: 23, y: 12}
+        - {x: 12, y: 16}
+    - name: Eyeguy-Death-Left-10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 12}
+        - {x: -16, y: 1}
+        - {x: -16, y: -25}
+        - {x: 22, y: -25}
+        - {x: 23, y: -21}
+        - {x: 23, y: -2}
+        - {x: 21, y: 12}
+    - name: Eyeguy-Death-Left-11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 4}
+        - {x: -5, y: 3}
+        - {x: -21, y: -17}
+        - {x: -21, y: -23}
+        - {x: -19, y: -25}
+        - {x: 20, y: -25}
+        - {x: 21, y: -24}
+        - {x: 21, y: -3}
+        - {x: 13, y: 4}
+    - name: Eyeguy-Death-Left-12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -8, y: -8}
+        - {x: -17, y: -18}
+        - {x: -17, y: -22}
+        - {x: -14, y: -25}
+        - {x: 21, y: -25}
+        - {x: 21, y: -14}
+        - {x: 9, y: -7}
+    - name: Eyeguy-Death-Left-13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -15}
+        - {x: -15, y: -22}
+        - {x: -15, y: -24}
+        - {x: -14, y: -25}
+        - {x: 21, y: -25}
+        - {x: 21, y: -20}
+        - {x: 16, y: -15}
+    - name: Eyeguy-Death-Right-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -25}
+        - {x: 16, y: -23}
+        - {x: 16, y: -21}
+        - {x: 12, y: 20}
+        - {x: 8, y: 25}
+        - {x: -11, y: 25}
+        - {x: -16, y: 23}
+        - {x: -16, y: 5}
+        - {x: -10, y: -21}
+        - {x: -8, y: -25}
+        - {x: 2, y: -25}
+        - {x: 3, y: -24}
+        - {x: 3, y: -23}
+        - {x: 5, y: -25}
+    - name: Eyeguy-Death-Right-02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 3}
+        - {x: -11, y: -22}
+        - {x: -8, y: -25}
+        - {x: 15, y: -25}
+        - {x: 15, y: 16}
+        - {x: 14, y: 22}
+        - {x: 11, y: 25}
+        - {x: -13, y: 25}
+        - {x: -16, y: 24}
+    - name: Eyeguy-Death-Right-03
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -18, y: 18}
+        - {x: -18, y: -8}
+        - {x: -15, y: -24}
+        - {x: 16, y: -24}
+        - {x: 16, y: 24}
+        - {x: 13, y: 25}
+    - name: Eyeguy-Death-Right-04
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -17}
+        - {x: -17, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 25}
+    - name: Eyeguy-Death-Right-05
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: -19, y: 25}
+        - {x: -19, y: -7}
+        - {x: -17, y: -22}
+        - {x: -11, y: -24}
+        - {x: 15, y: -24}
+        - {x: 18, y: -23}
+        - {x: 18, y: 24}
+    - name: Eyeguy-Death-Right-06
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -20, y: 19}
+        - {x: -20, y: 1}
+        - {x: -14, y: -22}
+        - {x: -8, y: -25}
+        - {x: -3, y: -25}
+        - {x: 1, y: -23}
+        - {x: 9, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: 25}
+    - name: Eyeguy-Death-Right-07
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 24}
+        - {x: -22, y: -13}
+        - {x: -3, y: -25}
+        - {x: 11, y: -25}
+        - {x: 15, y: -23}
+        - {x: 17, y: -15}
+        - {x: 17, y: 24}
+    - name: Eyeguy-Death-Right-08
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 21}
+        - {x: -1, y: 16}
+        - {x: -1, y: 9}
+        - {x: -1, y: 18}
+        - {x: -10, y: 21}
+        - {x: -17, y: 21}
+        - {x: -22, y: 14}
+        - {x: -22, y: -12}
+        - {x: -1, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -19}
+        - {x: 17, y: 18}
+        - {x: 13, y: 21}
+    - name: Eyeguy-Death-Right-09
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16}
+        - {x: -23, y: 13}
+        - {x: -23, y: -22}
+        - {x: -5, y: -25}
+        - {x: 12, y: -25}
+        - {x: 15, y: -17}
+        - {x: 15, y: 9}
+        - {x: 11, y: 16}
+    - name: Eyeguy-Death-Right-10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 12}
+        - {x: -23, y: 4}
+        - {x: -23, y: -23}
+        - {x: -21, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 9}
+        - {x: 8, y: 12}
+    - name: Eyeguy-Death-Right-11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -7}
+        - {x: -21, y: -25}
+        - {x: 21, y: -25}
+        - {x: 21, y: -16}
+        - {x: 12, y: 0}
+        - {x: 1, y: 4}
+        - {x: -9, y: 4}
+        - {x: -20, y: -3}
+    - name: Eyeguy-Death-Right-12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -7}
+        - {x: -8, y: -7}
+        - {x: -19, y: -11}
+        - {x: -21, y: -15}
+        - {x: -21, y: -24}
+        - {x: -20, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -23}
+        - {x: 17, y: -20}
+        - {x: 15, y: -16}
+    - name: Eyeguy-Death-Right-13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -15}
+        - {x: -21, y: -21}
+        - {x: -21, y: -25}
+        - {x: 15, y: -25}
+        - {x: 15, y: -23}
+        - {x: 9, y: -15}
+    - name: Eyeguy-Idle-Left-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -24}
+        - {x: 15, y: 15}
+        - {x: 15, y: 21}
+        - {x: 11, y: 25}
+        - {x: -9, y: 25}
+        - {x: -16, y: 23}
+        - {x: -16, y: -25}
+        - {x: -5, y: -25}
+        - {x: -4, y: -24}
+        - {x: -3, y: -25}
+        - {x: 11, y: -25}
+    - name: Eyeguy-Idle-Right-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 25}
+        - {x: -9, y: 25}
+        - {x: -15, y: 20}
+        - {x: -15, y: 3}
+        - {x: -12, y: -24}
+        - {x: -10, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: -2}
+        - {x: 14, y: 17}
+    - name: Eyeguy-Walking-Left-01
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 12}
+        - {x: 14, y: 25}
+        - {x: -20, y: 25}
+        - {x: -22, y: 18}
+        - {x: -22, y: -25}
+        - {x: 25, y: -25}
+    - name: Eyeguy-Walking-Left-02
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -23}
+        - {x: 25, y: -21}
+        - {x: 25, y: 3}
+        - {x: 14, y: 25}
+        - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: -4, y: -25}
+        - {x: -2, y: -23}
+        - {x: -3, y: -16}
+        - {x: 19, y: -23}
+    - name: Eyeguy-Walking-Left-03
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -14, y: 20}
+        - {x: -14, y: -12}
+        - {x: -2, y: -25}
+        - {x: 13, y: -25}
+        - {x: 14, y: -21}
+        - {x: 14, y: 20}
+        - {x: 12, y: 25}
+    - name: Eyeguy-Walking-Left-04
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -15, y: 18}
+        - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: -12, y: -25}
+        - {x: -5, y: -25}
+        - {x: -2, y: -24}
+        - {x: 1, y: -19}
+        - {x: 1, y: -15}
+        - {x: 9, y: -25}
+        - {x: 24, y: -25}
+        - {x: 24, y: 25}
+    - name: Eyeguy-Walking-Left-05
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: -14, y: 25}
+        - {x: -25, y: 4}
+        - {x: -25, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 15}
+        - {x: 19, y: 23}
+    - name: Eyeguy-Walking-Left-06
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -15, y: 25}
+        - {x: -18, y: 23}
+        - {x: -18, y: -22}
+        - {x: -17, y: -25}
+        - {x: 10, y: -25}
+        - {x: 22, y: -12}
+        - {x: 22, y: 1}
+        - {x: 16, y: 21}
+    - name: Eyeguy-Walking-Left-07
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -15, y: 23}
+        - {x: -15, y: -18}
+        - {x: -5, y: -25}
+        - {x: 15, y: -25}
+        - {x: 15, y: 23}
+        - {x: 9, y: 25}
+    - name: Eyeguy-Walking-Left-08
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: -2}
+        - {x: 18, y: 23}
+        - {x: 12, y: 25}
+    - name: Eyeguy-Walking-Right-01
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 6}
+        - {x: 16, y: 25}
+        - {x: -15, y: 25}
+        - {x: -25, y: 4}
+        - {x: -25, y: -24}
+        - {x: -23, y: -25}
+        - {x: 18, y: -25}
+        - {x: 22, y: -22}
+    - name: Eyeguy-Walking-Right-02
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -25, y: 8}
+        - {x: -25, y: -21}
+        - {x: -21, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 22}
+        - {x: 13, y: 25}
+    - name: Eyeguy-Walking-Right-03
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -14, y: 21}
+        - {x: -14, y: -10}
+        - {x: -11, y: -25}
+        - {x: 7, y: -25}
+        - {x: 14, y: -12}
+        - {x: 14, y: 25}
+    - name: Eyeguy-Walking-Right-04
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 25}
+        - {x: -12, y: 25}
+        - {x: -18, y: 23}
+        - {x: -24, y: -15}
+        - {x: -24, y: -20}
+        - {x: -19, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 9}
+        - {x: 14, y: 21}
+    - name: Eyeguy-Walking-Right-05
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -8}
+        - {x: -25, y: -20}
+        - {x: -21, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: -6}
+        - {x: 17, y: 22}
+        - {x: 9, y: 25}
+        - {x: -11, y: 25}
+        - {x: -15, y: 21}
+    - name: Eyeguy-Walking-Right-06
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -22, y: -25}
+        - {x: 13, y: -25}
+        - {x: 18, y: -22}
+        - {x: 18, y: 22}
+        - {x: 8, y: 25}
+    - name: Eyeguy-Walking-Right-07
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -15, y: 20}
+        - {x: -15, y: -25}
+        - {x: 2, y: -25}
+        - {x: 15, y: -15}
+        - {x: 15, y: 23}
+        - {x: 9, y: 25}
+    - name: Eyeguy-Walking-Right-08
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 8}
+        - {x: -20, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 22}
+        - {x: 14, y: 25}
+        - {x: -12, y: 25}
+        - {x: -19, y: 23}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
