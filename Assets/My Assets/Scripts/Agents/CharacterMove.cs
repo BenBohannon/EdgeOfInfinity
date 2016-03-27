@@ -50,20 +50,20 @@ public class CharacterMove : MonoBehaviour {
 	public virtual void Update () {
 
         //If game is paused, do nothing.
-        if (MasterDriver.isPaused)
-        {
-            return;
-        }
+        //if (MasterDriver.isPaused)
+        //{
+        //    return;
+        //}
 	}
 
     //Update for Physics things.
     public virtual void FixedUpdate()
     {
         //If game is paused, do nothing.
-        if (MasterDriver.isPaused)
-        {
-            return;
-        }
+        //if (MasterDriver.isPaused)
+        //{
+        //    return;
+        //}
 
         //If the character is walking, move him in the direction he's walking.
         if (autoWalk)

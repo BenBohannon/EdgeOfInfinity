@@ -44,10 +44,13 @@ public class PauseWatcher : MonoBehaviour {
 	public void togglePaused () {
 		isPaused = !isPaused;
         pauseScreen.SetActive(isPaused);
-        //if (isPaused) {
-        //    Time.timeScale = 0; //Stop time
-        //} else {
-        //    Time.timeScale = 1; //Go back to "normal" speed
-        //}
+        if (isPaused)
+        {
+            Time.timeScale = 0; //Stop time
+        }
+        else
+        {
+            Time.timeScale = 1; //Go back to "normal" speed
+        }
 	}
 }
