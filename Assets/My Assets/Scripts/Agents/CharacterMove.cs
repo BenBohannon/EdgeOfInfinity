@@ -49,11 +49,22 @@ public class CharacterMove : MonoBehaviour {
 	// Update is called once per frame
 	public virtual void Update () {
 
+        //If game is paused, do nothing.
+        if (MasterDriver.isPaused)
+        {
+            return;
+        }
 	}
 
     //Update for Physics things.
     public virtual void FixedUpdate()
     {
+        //If game is paused, do nothing.
+        if (MasterDriver.isPaused)
+        {
+            return;
+        }
+
         //If the character is walking, move him in the direction he's walking.
         if (autoWalk)
         {
@@ -78,8 +89,11 @@ public class CharacterMove : MonoBehaviour {
 		previousPosition = GetComponent<Transform> ().position;
         //The following section is for falling death
         //It keeps track of how far the character has fallen
-        if (hit.collider == null)
+        if (hit.collider == null && myRigidbody.velocity.y < -0.1f)
         {
+            myAnimator.ResetTrigger("isWalking");
+            myAnimator.ResetTrigger("isIdle");
+            myAnimator.SetTrigger("isFalling");  
             falling = true;
             if (prevPos.x == 0.0f && prevPos.y == 0.0f)
             {
@@ -105,6 +119,9 @@ public class CharacterMove : MonoBehaviour {
             }
             else
             {
+                //Stop falling.
+                myAnimator.ResetTrigger("isFalling");
+                myAnimator.SetTrigger("isWalking");   
                 falling = false;
                 distanceFallen = 0.0f;
                 prevPos = new Vector2(0.0f, 0.0f);

@@ -7,30 +7,6 @@ public class PotatoCharacter : DraggableCharacter {
         base.Start();
     }
 
-    public override void FixedUpdate()
-    {
-        if (myRigidbody.velocity.y < -.1)
-        {          
-            if (!falling)
-            {
-                falling = true;
-                myAnimator.ResetTrigger("isWalking");
-                myAnimator.ResetTrigger("isIdle");
-                myAnimator.SetTrigger("isFalling");               
-            }
-        }
-        else if (myRigidbody.velocity.y >= 0)
-        {                        
-            if (falling)
-            {
-                falling = false;
-                myAnimator.ResetTrigger("isFalling");
-                myAnimator.SetTrigger("isWalking");                
-            }
-        }
-        base.FixedUpdate();        
-    }
-
     override public void OnCollisionEnter2D(Collision2D coll)
     {
         Vector3 pos = transform.position + (isMovingRight ? new Vector3(1f, 0, 0) : new Vector3(-1f, 0, 0));
