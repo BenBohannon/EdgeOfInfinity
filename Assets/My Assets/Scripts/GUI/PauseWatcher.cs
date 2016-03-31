@@ -4,12 +4,34 @@ using System.Collections;
 public class PauseWatcher : MonoBehaviour {
 
 	public string pauseButton = "p";
-	public bool isPaused = false;
-	public Canvas pauseScreen;
+	public GameObject pauseScreen;
+    private static PauseWatcher singleton;
+
+    private bool isPaused
+    {
+        get
+        {
+            return MasterDriver.isPaused;
+        }
+        set
+        {
+            MasterDriver.isPaused = value;
+        }
+    }
 
 	// Use this for initialization
 	void Start () {
-		pauseScreen.enabled = false;
+        //Only allow one PauseWatcher
+        if (singleton == null)
+        {
+            singleton = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+
+		pauseScreen.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -21,11 +43,14 @@ public class PauseWatcher : MonoBehaviour {
 
 	public void togglePaused () {
 		isPaused = !isPaused;
-		pauseScreen.enabled = !pauseScreen.enabled;
-		if (isPaused) {
-			Time.timeScale = 0; //Stop time
-		} else {
-			Time.timeScale = 1; //Go back to "normal" speed
-		}
+        pauseScreen.SetActive(isPaused);
+        if (isPaused)
+        {
+            Time.timeScale = 0; //Stop time
+        }
+        else
+        {
+            Time.timeScale = 1; //Go back to "normal" speed
+        }
 	}
 }

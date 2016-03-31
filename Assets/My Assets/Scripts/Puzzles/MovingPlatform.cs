@@ -1,21 +1,25 @@
 ﻿using UnityEngine;
 //using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(Collider2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
-public class MovingPlatform : Activatable
+//[RequireComponent(typeof(SliderJoint2D))]
+public class MovingPlatform : WaitPlatform
 {
     private Transform currentWaypoint;
     private int wayPointIndex;
     private double beginWait;
+//	private SliderJoint2D joint;
     //Animator anim;
 
     public bool active;
     public int speed = 5;
     public double timeAtWaypoint;
     public Transform[] waypoints;
+
 
     // Use this for initialization
     void Start()
@@ -99,16 +103,93 @@ public class MovingPlatform : Activatable
                     }
                 }
             }
+			heldCharacters.Sort(new posComparer());
+
+			//Calculate the max distance from the starting platform we need.
+			float maxDistance = -(spacePadding * (heldCharacters.Count - 1)) / 2f;
+
+			//Move each character to their new position.
+			for (int i = 0; i < heldCharacters.Count; i++)
+			{
+				Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
+				heldCharacters[i].StartCoroutine(heldCharacters[i].walkToAndStop(myPlace, this));
+			}
         }
     }
 
-    void OnTriggerEnter2D(Collider2D coll)
-    {
-        if (coll.gameObject.tag != "Ally")
+	void OnTriggerEnter2D(Collider2D coll)
+	{
+		if (coll.gameObject.tag != "Ally")
         {
             beginWait = Time.time;
         }
-    }
+		//If this player is being dragged, don't try and make it stop...
+		if (coll.gameObject.layer == 10)
+		{
+			return;
+		}
+
+		if (coll.gameObject.tag == "Ally")
+		{
+//			ConnectTo (coll.gameObject.GetComponent<Rigidbody2D> ());
+			//If this plaform is full, let the character pass.
+			if (heldCharacters.Count >= space)
+			{
+				return;
+			}
+
+			//Otherwise, add them to the list and make them stop here.
+			CharacterMove character = coll.gameObject.GetComponent<CharacterMove>();
+			heldCharacters.Add(character);
+
+			//Calculate the max distance from the starting platform we need.
+			float maxDistance = -(spacePadding * (heldCharacters.Count - 1)) / 2f;
+
+			//Stop any current movement.
+			StopAllCoroutines();
+
+			//Sort the characters based on position.
+			heldCharacters.Sort(new posComparer());
+
+			//Move each character to their new position.
+			for (int i = 0; i < heldCharacters.Count; i++)
+			{
+				Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
+				StartCoroutine(heldCharacters[i].walkToAndStop(myPlace, this));
+				heldCharacters [i].transform.parent = transform;
+			}
+
+		}
+	}
+
+	public void removeCharacter(CharacterMove character)
+	{
+		character.transform.parent = null;
+		heldCharacters.Remove(character);
+
+		//Sort the characters based on x position.
+		heldCharacters.Sort(new posComparer());
+
+		//Calculate the max distance from the starting platform we need.
+		float maxDistance = -(spacePadding * (heldCharacters.Count - 1)) / 2f;
+
+		//Move each character to their new position.
+		for (int i = 0; i < heldCharacters.Count; i++)
+		{
+			heldCharacters[i].StopCoroutine("walkToAndStop");
+			Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
+			heldCharacters[i].StartCoroutine(heldCharacters[i].walkToAndStop(myPlace, this));
+		}
+
+	}
+
+//    void OnTriggerEnter2D(Collider2D coll)
+//    {
+//        if (coll.gameObject.tag != "Ally")
+//        {
+//            beginWait = Time.time;
+//        }
+//    }
 
     public override void Activate()
     {

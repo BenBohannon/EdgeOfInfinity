@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 [RequireComponent(typeof(Collider2D))]
-public class WaitPlatform : MonoBehaviour {
+public class WaitPlatform : Activatable {
 
     public int space = 1;
     public float spacePadding = 2f;
@@ -25,7 +25,7 @@ public class WaitPlatform : MonoBehaviour {
                 return;
             }
 
-            //Otherwise, add them to the lsit and make them stop here.
+            //Otherwise, add them to the list and make them stop here.
             CharacterMove character = coll.gameObject.GetComponent<CharacterMove>();
             heldCharacters.Add(character);
 
@@ -50,6 +50,7 @@ public class WaitPlatform : MonoBehaviour {
 
     public void removeCharacter(CharacterMove character)
     {
+		character.transform.parent = null;
         heldCharacters.Remove(character);
 
         //Sort the characters based on x position.
@@ -67,7 +68,12 @@ public class WaitPlatform : MonoBehaviour {
         }
 
     }
-    
+
+	public override void Activate()
+	{
+		return;
+//		active = !active;
+	}
 }
 
 public class posComparer : IComparer<CharacterMove>
