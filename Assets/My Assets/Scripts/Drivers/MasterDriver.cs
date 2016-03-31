@@ -11,9 +11,11 @@ public class MasterDriver : MonoBehaviour {
     public Texture2D cursorTexture;
     public Texture2D cursorDownTexture;
 
+    public static bool isPaused = false;
     public float dragSpeed = 10.0f;
-
     public static LevelDriver levelDriver;
+
+    private bool wasPaused = false;
 
     //Initialize things on the global scale.
     void Awake()
@@ -42,14 +44,23 @@ public class MasterDriver : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!isPaused)
         {
-            Cursor.SetCursor(cursorDownTexture, new Vector2(13, 13), CursorMode.Auto);
-        }
+            if (wasPaused || Input.GetMouseButtonDown(0))
+            {
+                Cursor.SetCursor(cursorDownTexture, new Vector2(13, 13), CursorMode.Auto);
+            }
 
-        if (Input.GetMouseButtonUp(0))
+            if (Input.GetMouseButtonUp(0))
+            {
+                Cursor.SetCursor(cursorTexture, new Vector2(13, 13), CursorMode.Auto);
+            }
+            wasPaused = false;
+        }
+        else if (!wasPaused)
         {
-            Cursor.SetCursor(cursorTexture, new Vector2(13, 13), CursorMode.Auto);
+            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            wasPaused = true;
         }
     }
 

@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: 6f0e81157b7a7664aa400d1eca8a9739
+timeCreated: 1458921856
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Level Select Left Arrow_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Level Select Left Arrow_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 402
+        width: 218
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.13305, y: 120.4548}
+        - {x: -96.86695, y: 25.454803}
+        - {x: -96.86695, y: 9.454803}
+        - {x: -91.86695, y: 2.4548035}
+        - {x: 80.13305, y: -118.5452}
+        - {x: 96.13305, y: -118.5452}
+        - {x: 98.13305, y: -115.5452}
+        - {x: 98.13305, y: 119.4548}
+        - {x: 96.13305, y: 120.4548}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

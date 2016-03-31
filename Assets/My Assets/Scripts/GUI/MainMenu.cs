@@ -3,14 +3,13 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
+    public GameObject levelSelectObject;
+
 	
 	public void startButtonClick()
     {
-
+        levelSelectObject.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 
     public void creditsButtonClick()
