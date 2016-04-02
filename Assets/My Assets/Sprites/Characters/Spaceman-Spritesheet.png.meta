@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 2643ad443cbae2743aac43352eb556e0
+timeCreated: 1459575155
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spaceman_Idle_Left_1
+    21300002: Spaceman_Idle_Left_2
+    21300004: Spaceman_Idle_Left_3
+    21300006: Spaceman_Idle_Left_4
+    21300008: Spaceman_Idle_Left_5
+    21300010: Spaceman_Idle_Left_6
+    21300012: Spaceman_Idle_Right_1
+    21300014: Spaceman_Idle_Right_2
+    21300016: Spaceman_Idle_Right_3
+    21300018: Spaceman_Idle_Right_4
+    21300020: Spaceman_Idle_Right_5
+    21300022: Spaceman_Idle_Right_6
+    21300024: Spaceman_Falling_Left_1
+    21300026: Spaceman_Falling_Left_2
+    21300028: Spaceman_Falling_Left_3
+    21300030: Spaceman_Falling_Left_4
+    21300032: Spaceman_Falling_Right_1
+    21300034: Spaceman_Falling_Right_2
+    21300036: Spaceman_Falling_Right_3
+    21300038: Spaceman_Falling_Right_4
+    21300040: Spaceman_Holding_Left_1
+    21300042: Spaceman_Holding_Left_2
+    21300044: Spaceman_Holding_Left_3
+    21300046: Spaceman_Holding_Left_4
+    21300048: Spaceman_Holding_Left_5
+    21300050: Spaceman_Holding_Left_6
+    21300052: Spaceman_Holding_Left_7
+    21300054: Spaceman_Holding_Right_1
+    21300056: Spaceman_Holding_Right_2
+    21300058: Spaceman_Holding_Right_3
+    21300060: Spaceman_Holding_Right_4
+    21300062: Spaceman_Holding_Right_5
+    21300064: Spaceman_Holding_Right_6
+    21300066: Spaceman_Holding_Right_7
+    21300068: Spaceman_Walking_Left_1
+    21300070: Spaceman_Walking_Left_2
+    21300072: Spaceman_Walking_Left_3
+    21300074: Spaceman_Walking_Left_4
+    21300076: Spaceman_Walking_Left_5
+    21300078: Spaceman_Walking_Left_6
+    21300080: Spaceman_Walking_Left_7
+    21300082: Spaceman_Walking_Right_1
+    21300084: Spaceman_Walking_Right_2
+    21300086: Spaceman_Walking_Right_3
+    21300088: Spaceman_Walking_Right_4
+    21300090: Spaceman_Walking_Right_5
+    21300092: Spaceman_Walking_Right_6
+    21300094: Spaceman_Walking_Right_7
+    21300096: Spaceman_Death_Left_1
+    21300098: Spaceman_Death_Left_2
+    21300100: Spaceman_Death_Left_3
+    21300102: Spaceman_Death_Left_4
+    21300104: Spaceman_Death_Left_5
+    21300106: Spaceman_Death_Left_6
+    21300108: Spaceman_Death_Left_7
+    21300110: Spaceman_Death_Left_8
+    21300112: Spaceman_Death_Left_9
+    21300114: Spaceman_Death_Left_10
+    21300116: Spaceman_Death_Left_11
+    21300118: Spaceman_Death_Left_12
+    21300120: Spaceman_Death_Right_1
+    21300122: Spaceman_Death_Right_2
+    21300124: Spaceman_Death_Right_3
+    21300126: Spaceman_Death_Right_4
+    21300128: Spaceman_Death_Right_5
+    21300130: Spaceman_Death_Right_6
+    21300132: Spaceman_Death_Right_7
+    21300134: Spaceman_Death_Right_8
+    21300136: Spaceman_Death_Right_9
+    21300138: Spaceman_Death_Right_10
+    21300140: Spaceman_Death_Right_11
+    21300142: Spaceman_Death_Right_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spaceman_Idle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 21}
+        - {x: -20, y: 8}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 20}
+        - {x: 21, y: 21}
+    - name: Spaceman_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -20, y: 14}
+        - {x: -20, y: -19}
+        - {x: -17, y: -25}
+        - {x: 18, y: -25}
+        - {x: 23, y: -17}
+        - {x: 23, y: 8}
+        - {x: 18, y: 20}
+    - name: Spaceman_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -20, y: 2}
+        - {x: -20, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -21}
+        - {x: 23, y: 7}
+        - {x: 18, y: 20}
+    - name: Spaceman_Idle_Left_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 21}
+        - {x: -20, y: 12}
+        - {x: -20, y: -25}
+        - {x: 20, y: -25}
+        - {x: 23, y: -6}
+        - {x: 23, y: 18}
+        - {x: 15, y: 21}
+    - name: Spaceman_Idle_Left_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 22}
+        - {x: -12, y: 22}
+        - {x: -18, y: 10}
+        - {x: -20, y: -1}
+        - {x: -20, y: -10}
+        - {x: -14, y: -25}
+        - {x: 16, y: -25}
+        - {x: 23, y: -11}
+        - {x: 23, y: 6}
+        - {x: 21, y: 14}
+    - name: Spaceman_Idle_Left_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 22}
+        - {x: -12, y: 22}
+        - {x: -20, y: 8}
+        - {x: -20, y: -17}
+        - {x: -14, y: -25}
+        - {x: 16, y: -25}
+        - {x: 21, y: -23}
+        - {x: 23, y: -11}
+        - {x: 23, y: 21}
+    - name: Spaceman_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 21}
+        - {x: -23, y: 20}
+        - {x: -23, y: -25}
+        - {x: 19, y: -25}
+        - {x: 20, y: -23}
+        - {x: 20, y: 17}
+        - {x: 19, y: 21}
+    - name: Spaceman_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 12}
+        - {x: 12, y: 20}
+        - {x: -16, y: 20}
+        - {x: -23, y: 9}
+        - {x: -23, y: -18}
+        - {x: -22, y: -25}
+        - {x: 15, y: -25}
+        - {x: 20, y: -12}
+        - {x: 20, y: 3}
+    - name: Spaceman_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -23, y: 8}
+        - {x: -23, y: -19}
+        - {x: -17, y: -25}
+        - {x: 15, y: -25}
+        - {x: 20, y: -12}
+        - {x: 20, y: 3}
+        - {x: 12, y: 20}
+    - name: Spaceman_Idle_Right_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 21}
+        - {x: -23, y: 16}
+        - {x: -23, y: -18}
+        - {x: -22, y: -25}
+        - {x: 15, y: -25}
+        - {x: 20, y: -13}
+        - {x: 20, y: 4}
+        - {x: 13, y: 21}
+    - name: Spaceman_Idle_Right_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 22}
+        - {x: -23, y: 9}
+        - {x: -23, y: -19}
+        - {x: -18, y: -25}
+        - {x: 15, y: -25}
+        - {x: 20, y: -13}
+        - {x: 20, y: 7}
+        - {x: 11, y: 22}
+    - name: Spaceman_Idle_Right_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 22}
+        - {x: -23, y: 9}
+        - {x: -23, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 21}
+        - {x: 17, y: 22}
+    - name: Spaceman_Falling_Left_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -20, y: 10}
+        - {x: -20, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -15}
+        - {x: 23, y: 6}
+        - {x: 14, y: 22}
+    - name: Spaceman_Falling_Left_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -20, y: 11}
+        - {x: -20, y: -15}
+        - {x: -19, y: -22}
+        - {x: -14, y: -25}
+        - {x: 19, y: -25}
+        - {x: 23, y: -21}
+        - {x: 23, y: 18}
+        - {x: 16, y: 22}
+    - name: Spaceman_Falling_Left_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -20, y: 10}
+        - {x: -20, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -15}
+        - {x: 23, y: 6}
+        - {x: 14, y: 22}
+    - name: Spaceman_Falling_Left_4
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 350
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 22}
+        - {x: -20, y: 14}
+        - {x: -20, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -18}
+        - {x: 23, y: 8}
+        - {x: 14, y: 22}
+    - name: Spaceman_Falling_Right_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -23, y: 11}
+        - {x: -23, y: -24}
+        - {x: -18, y: -25}
+        - {x: 18, y: -25}
+        - {x: 20, y: -14}
+        - {x: 20, y: 7}
+        - {x: 11, y: 23}
+    - name: Spaceman_Falling_Right_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 23}
+        - {x: -11, y: 23}
+        - {x: -20, y: 15}
+        - {x: -23, y: 7}
+        - {x: -23, y: -11}
+        - {x: -17, y: -25}
+        - {x: 14, y: -25}
+        - {x: 20, y: -9}
+        - {x: 20, y: 9}
+        - {x: 10, y: 22}
+    - name: Spaceman_Falling_Right_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -23, y: 11}
+        - {x: -23, y: -24}
+        - {x: -18, y: -25}
+        - {x: 18, y: -25}
+        - {x: 20, y: -14}
+        - {x: 20, y: 7}
+        - {x: 11, y: 23}
+    - name: Spaceman_Falling_Right_4
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23}
+        - {x: -23, y: 20}
+        - {x: -23, y: -25}
+        - {x: 16, y: -25}
+        - {x: 20, y: -12}
+        - {x: 20, y: 9}
+        - {x: 11, y: 23}
+    - name: Spaceman_Holding_Left_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 21}
+        - {x: -17, y: 13}
+        - {x: -17, y: -24}
+        - {x: -16, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 19}
+        - {x: 17, y: 21}
+    - name: Spaceman_Holding_Left_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 20}
+        - {x: -17, y: 14}
+        - {x: -17, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 11}
+        - {x: 17, y: 20}
+    - name: Spaceman_Holding_Left_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 20}
+        - {x: -17, y: 14}
+        - {x: -17, y: -20}
+        - {x: -12, y: -25}
+        - {x: 17, y: -25}
+        - {x: 20, y: -20}
+        - {x: 20, y: 10}
+        - {x: 17, y: 20}
+    - name: Spaceman_Holding_Left_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 17}
+        - {x: 19, y: 21}
+        - {x: -13, y: 21}
+        - {x: -17, y: 8}
+        - {x: -17, y: -16}
+        - {x: -12, y: -25}
+        - {x: 20, y: -25}
+    - name: Spaceman_Holding_Left_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22}
+        - {x: -17, y: 16}
+        - {x: -17, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 12}
+        - {x: 17, y: 22}
+    - name: Spaceman_Holding_Left_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 23}
+        - {x: -17, y: 11}
+        - {x: -17, y: -24}
+        - {x: 20, y: -24}
+        - {x: 20, y: 17}
+        - {x: 16, y: 23}
+    - name: Spaceman_Holding_Left_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 250
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22}
+        - {x: -17, y: 15}
+        - {x: -17, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 8}
+        - {x: 17, y: 22}
+    - name: Spaceman_Holding_Right_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 21}
+        - {x: -11, y: 21}
+        - {x: -20, y: 13}
+        - {x: -20, y: -9}
+        - {x: -18, y: -22}
+        - {x: -16, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -16}
+        - {x: 17, y: 9}
+    - name: Spaceman_Holding_Right_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -20, y: 11}
+        - {x: -20, y: -19}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -21}
+        - {x: 17, y: 19}
+        - {x: 15, y: 20}
+    - name: Spaceman_Holding_Right_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 20}
+        - {x: -20, y: -22}
+        - {x: -19, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -15}
+        - {x: 17, y: 17}
+        - {x: 10, y: 20}
+    - name: Spaceman_Holding_Right_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 21}
+        - {x: -20, y: 20}
+        - {x: -20, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 21}
+    - name: Spaceman_Holding_Right_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 22}
+        - {x: -19, y: 14}
+        - {x: -20, y: 9}
+        - {x: -20, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 14}
+        - {x: 13, y: 22}
+    - name: Spaceman_Holding_Right_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 23}
+        - {x: -20, y: 17}
+        - {x: -20, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 12}
+        - {x: 14, y: 23}
+    - name: Spaceman_Holding_Right_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 22}
+        - {x: -20, y: 10}
+        - {x: -20, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 16}
+        - {x: 13, y: 22}
+    - name: Spaceman_Walking_Left_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 21}
+        - {x: -20, y: 8}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 20}
+        - {x: 21, y: 21}
+    - name: Spaceman_Walking_Left_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 20}
+        - {x: -13, y: 20}
+        - {x: -20, y: 9}
+        - {x: -20, y: -14}
+        - {x: -18, y: -23}
+        - {x: -13, y: -25}
+        - {x: 18, y: -25}
+        - {x: 23, y: -17}
+        - {x: 23, y: 8}
+    - name: Spaceman_Walking_Left_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 20}
+        - {x: -15, y: 20}
+        - {x: -20, y: 3}
+        - {x: -20, y: -17}
+        - {x: -16, y: -25}
+        - {x: 17, y: -25}
+        - {x: 23, y: -12}
+        - {x: 23, y: -2}
+        - {x: 19, y: 11}
+    - name: Spaceman_Walking_Left_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 21}
+        - {x: -20, y: 13}
+        - {x: -20, y: -13}
+        - {x: -19, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 16}
+        - {x: 15, y: 21}
+    - name: Spaceman_Walking_Left_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 22}
+        - {x: -20, y: 19}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 17}
+        - {x: 12, y: 22}
+    - name: Spaceman_Walking_Left_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 23}
+        - {x: -12, y: 23}
+        - {x: -20, y: 9}
+        - {x: -20, y: -18}
+        - {x: -16, y: -24}
+        - {x: 18, y: -24}
+        - {x: 21, y: -21}
+        - {x: 23, y: -10}
+        - {x: 23, y: 21}
+    - name: Spaceman_Walking_Left_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -20, y: 13}
+        - {x: -20, y: -23}
+        - {x: -19, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 17}
+        - {x: 16, y: 22}
+    - name: Spaceman_Walking_Right_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 21}
+        - {x: -23, y: 20}
+        - {x: -23, y: -25}
+        - {x: 19, y: -25}
+        - {x: 20, y: -23}
+        - {x: 20, y: 17}
+        - {x: 19, y: 21}
+    - name: Spaceman_Walking_Right_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -23, y: 8}
+        - {x: -23, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 3}
+        - {x: 12, y: 20}
+    - name: Spaceman_Walking_Right_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -23, y: 8}
+        - {x: -23, y: -19}
+        - {x: -16, y: -25}
+        - {x: 13, y: -25}
+        - {x: 20, y: -15}
+        - {x: 20, y: 2}
+        - {x: 12, y: 20}
+    - name: Spaceman_Walking_Right_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 21}
+        - {x: -23, y: 13}
+        - {x: -23, y: -16}
+        - {x: -18, y: -25}
+        - {x: 13, y: -25}
+        - {x: 20, y: -11}
+        - {x: 20, y: 15}
+        - {x: 10, y: 21}
+    - name: Spaceman_Walking_Right_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 22}
+        - {x: -23, y: 10}
+        - {x: -23, y: -22}
+        - {x: -21, y: -25}
+        - {x: 19, y: -25}
+        - {x: 20, y: -20}
+        - {x: 20, y: 5}
+        - {x: 12, y: 22}
+    - name: Spaceman_Walking_Right_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -23, y: 15}
+        - {x: -23, y: -18}
+        - {x: -21, y: -24}
+        - {x: 17, y: -24}
+        - {x: 20, y: -19}
+        - {x: 20, y: 11}
+        - {x: 14, y: 23}
+    - name: Spaceman_Walking_Right_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 22}
+        - {x: -16, y: 22}
+        - {x: -23, y: 12}
+        - {x: -23, y: -25}
+        - {x: 16, y: -25}
+        - {x: 20, y: -13}
+        - {x: 20, y: 9}
+    - name: Spaceman_Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 21}
+        - {x: -20, y: 8}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 20}
+        - {x: 21, y: 21}
+    - name: Spaceman_Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23}
+        - {x: -20, y: 19}
+        - {x: -20, y: -23}
+        - {x: -18, y: -24}
+        - {x: 23, y: -24}
+        - {x: 23, y: 22}
+        - {x: 18, y: 23}
+    - name: Spaceman_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -20, y: 6}
+        - {x: -20, y: -17}
+        - {x: -17, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -24}
+        - {x: 23, y: 16}
+        - {x: 15, y: 22}
+    - name: Spaceman_Death_Left_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 20}
+        - {x: -12, y: 20}
+        - {x: -20, y: 2}
+        - {x: -20, y: -19}
+        - {x: -17, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -20}
+        - {x: 23, y: 6}
+        - {x: 13, y: 19}
+    - name: Spaceman_Death_Left_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 17}
+        - {x: -20, y: 8}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: -4}
+        - {x: 21, y: 9}
+        - {x: 15, y: 17}
+    - name: Spaceman_Death_Left_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 17}
+        - {x: -20, y: 8}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: -4}
+        - {x: 21, y: 9}
+        - {x: 15, y: 17}
+    - name: Spaceman_Death_Left_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 17}
+        - {x: -20, y: 8}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: -4}
+        - {x: 21, y: 9}
+        - {x: 15, y: 17}
+    - name: Spaceman_Death_Left_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 18}
+        - {x: -11, y: 17}
+        - {x: -20, y: 2}
+        - {x: -20, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 9}
+        - {x: 15, y: 18}
+    - name: Spaceman_Death_Left_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 3}
+        - {x: 12, y: 4}
+        - {x: 13, y: 4}
+        - {x: 16, y: 7}
+        - {x: 20, y: 18}
+        - {x: -13, y: 18}
+        - {x: -20, y: 11}
+        - {x: -20, y: -23}
+        - {x: -19, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: -2}
+        - {x: 22, y: -1}
+    - name: Spaceman_Death_Left_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 6}
+        - {x: -23, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 6}
+    - name: Spaceman_Death_Left_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 6}
+        - {x: -25, y: -16}
+        - {x: -25, y: -24}
+        - {x: -24, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -24}
+        - {x: 23, y: -7}
+        - {x: 20, y: 6}
+    - name: Spaceman_Death_Left_12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 6}
+        - {x: -20, y: 3}
+        - {x: -25, y: -11}
+        - {x: -25, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 0}
+        - {x: 17, y: 6}
+    - name: Spaceman_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 21}
+        - {x: -23, y: 20}
+        - {x: -23, y: -25}
+        - {x: 19, y: -25}
+        - {x: 20, y: -23}
+        - {x: 20, y: 17}
+        - {x: 19, y: 21}
+    - name: Spaceman_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -15}
+        - {x: -20, y: -24}
+        - {x: 17, y: -24}
+        - {x: 20, y: -14}
+        - {x: 20, y: 19}
+        - {x: 19, y: 23}
+    - name: Spaceman_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 22}
+        - {x: -23, y: -16}
+        - {x: -20, y: -25}
+        - {x: 17, y: -25}
+        - {x: 20, y: -15}
+        - {x: 20, y: 18}
+        - {x: 19, y: 22}
+    - name: Spaceman_Death_Right_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 12}
+        - {x: 10, y: 19}
+        - {x: 9, y: 20}
+        - {x: -23, y: 20}
+        - {x: -23, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 20, y: -15}
+        - {x: 20, y: 1}
+    - name: Spaceman_Death_Right_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 17}
+        - {x: -15, y: 17}
+        - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: -21, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: -7}
+        - {x: 17, y: 9}
+    - name: Spaceman_Death_Right_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 17}
+        - {x: -15, y: 17}
+        - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: -21, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: -7}
+        - {x: 17, y: 9}
+    - name: Spaceman_Death_Right_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 17}
+        - {x: -15, y: 17}
+        - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: -21, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: -7}
+        - {x: 17, y: 9}
+    - name: Spaceman_Death_Right_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 18}
+        - {x: -23, y: 7}
+        - {x: -23, y: -24}
+        - {x: -22, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 5}
+        - {x: 9, y: 18}
+    - name: Spaceman_Death_Right_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 18}
+        - {x: -23, y: -25}
+        - {x: 20, y: -25}
+        - {x: 20, y: 15}
+        - {x: 14, y: 18}
+    - name: Spaceman_Death_Right_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 6}
+        - {x: -23, y: -25}
+        - {x: 23, y: -25}
+        - {x: 23, y: 5}
+        - {x: 22, y: 6}
+    - name: Spaceman_Death_Right_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 6}
+        - {x: -18, y: 2}
+        - {x: -23, y: -4}
+        - {x: -23, y: -24}
+        - {x: -21, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: -8}
+        - {x: 23, y: 6}
+    - name: Spaceman_Death_Right_12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 5}
+        - {x: 6, y: 6}
+        - {x: -13, y: 6}
+        - {x: -18, y: 2}
+        - {x: -23, y: -3}
+        - {x: -23, y: -24}
+        - {x: -21, y: -25}
+        - {x: 24, y: -25}
+        - {x: 25, y: -23}
+        - {x: 25, y: -16}
+        - {x: 21, y: -6}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
