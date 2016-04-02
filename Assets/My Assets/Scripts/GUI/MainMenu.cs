@@ -4,6 +4,7 @@ using System.Collections;
 public class MainMenu : MonoBehaviour {
 
     public GameObject levelSelectObject;
+    public GameObject optionsMenuObject;
 
 	
 	public void startButtonClick()
@@ -19,7 +20,7 @@ public class MainMenu : MonoBehaviour {
 
     public void optionsButtonClick()
     {
-
+        optionsMenuObject.SetActive(true);
     }
 
     public void exitButtonClick()

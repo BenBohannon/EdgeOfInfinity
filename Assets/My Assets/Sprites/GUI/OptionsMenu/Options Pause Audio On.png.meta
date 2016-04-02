@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: ede9efba5d7695a46be7dd89b22f58cf
+timeCreated: 1459608796
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Options Pause Audio On_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Options Pause Audio On_3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 271
+        width: 621
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 277.5322, y: 59.30783}
+        - {x: 248.5322, y: 148.30783}
+        - {x: 170.5322, y: 179.30783}
+        - {x: 142.5322, y: 188.30783}
+        - {x: 117.532196, y: 188.30783}
+        - {x: 119.532196, y: 158.30783}
+        - {x: 183.5322, y: 132.30783}
+        - {x: 221.5322, y: -82.69217}
+        - {x: 116.532196, y: -161.69217}
+        - {x: 116.532196, y: -187.69217}
+        - {x: 161.5322, y: -187.69217}
+        - {x: 250.5322, y: -122.69217}
+        - {x: 268.5322, y: -76.69217}
+        - {x: 277.5322, y: -34.69217}
+      - - {x: -24.467804, y: 156.30783}
+        - {x: -275.4678, y: 84.30783}
+        - {x: -275.4678, y: -100.69217}
+        - {x: -25.467804, y: -167.69217}
+        - {x: -0.46780396, y: -167.69217}
+        - {x: 6.532196, y: -165.69217}
+        - {x: 6.532196, y: 147.30783}
+        - {x: 1.532196, y: 156.30783}
+      - - {x: 75.532196, y: 134.30783}
+        - {x: 75.532196, y: -102.69217}
+        - {x: 77.532196, y: -124.69217}
+        - {x: 125.532196, y: -124.69217}
+        - {x: 143.5322, y: -110.69217}
+        - {x: 187.5322, y: -42.69217}
+        - {x: 187.5322, y: 59.30783}
+        - {x: 128.5322, y: 134.30783}
+      - - {x: 25.532196, y: 80.30783}
+        - {x: 25.532196, y: -83.69217}
+        - {x: 53.532196, y: -83.69217}
+        - {x: 100.532196, y: -67.69217}
+        - {x: 100.532196, y: 65.30783}
+        - {x: 44.532196, y: 80.30783}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
