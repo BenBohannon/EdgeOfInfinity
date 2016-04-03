@@ -12,8 +12,6 @@ public class OptionsMenu : MonoBehaviour {
 
 	public void AudioClick()
     {
-        Debug.Log("Click!");
-
         audioEnabled = !audioEnabled;
 
         AudioListener.pause = !audioEnabled;
