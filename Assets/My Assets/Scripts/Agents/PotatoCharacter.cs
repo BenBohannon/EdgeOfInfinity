@@ -49,13 +49,13 @@ public class PotatoCharacter : DraggableCharacter {
         }
     }
 
-    override public void die()
-    {
-        myAnimator.ResetTrigger("isWalking");
-        myAnimator.SetTrigger("isDead");
-        autoWalk = false;
-        StartCoroutine("DeathCountdown", 78);        
-    }
+    //override public void die()
+    //{
+    //    myAnimator.ResetTrigger("isWalking");
+    //    myAnimator.SetTrigger("isDead");
+    //    autoWalk = false;
+    //    StartCoroutine("DeathCountdown", 78);        
+    //}
 
     private IEnumerator DeathCountdown(int duration)
     {
@@ -63,15 +63,12 @@ public class PotatoCharacter : DraggableCharacter {
         while (timer < duration)
         {
             timer++;
-            Debug.Log(timer);
             yield return new WaitForFixedUpdate();
         }
         //When time is up, remove the character
         if (timer == duration)
         {
             Destroy(this.gameObject);
-            print("dead");
         }
-        Debug.Log("Countdown Complete!");
     }
 }

@@ -10,6 +10,7 @@ public class CharacterMove : MonoBehaviour {
     protected Rigidbody2D myRigidbody;
     protected Collider2D myCollider;
 
+    public float deathTime = 2f;
     public float dropDistanceBeforeDeath = 6.0f;
     protected float distanceFallen = 0.0f;
     protected Vector3 prevPos = new Vector2(0.0f, 0.0f);
@@ -49,21 +50,11 @@ public class CharacterMove : MonoBehaviour {
 	// Update is called once per frame
 	public virtual void Update () {
 
-        //If game is paused, do nothing.
-        //if (MasterDriver.isPaused)
-        //{
-        //    return;
-        //}
 	}
 
     //Update for Physics things.
     public virtual void FixedUpdate()
     {
-        //If game is paused, do nothing.
-        //if (MasterDriver.isPaused)
-        //{
-        //    return;
-        //}
 
         //If the character is walking, move him in the direction he's walking.
         if (autoWalk)
@@ -170,9 +161,14 @@ public class CharacterMove : MonoBehaviour {
 
     public virtual void die()
     {
-        //Override and put death animations here!
+        //Stop walking, and put on the selected character's layer.
+        autoWalk = false;
+        gameObject.layer = 10;
+
+
+        myAnimator.SetTrigger("isDying");
                 
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, deathTime);
     }
 
 

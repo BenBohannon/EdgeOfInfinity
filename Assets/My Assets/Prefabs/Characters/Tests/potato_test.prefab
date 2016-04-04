@@ -91,6 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5f21c87a950a53419feeb550c449a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathTime: 1.8
   dropDistanceBeforeDeath: 6
   autoWalk: 1
   isMovingRight: 1

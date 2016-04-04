@@ -48,7 +48,7 @@ public class ToggleLaser : Activatable {
         isOn = !isOn;
     }
 
-    public virtual void OnCollisionEnter2D(Collision2D coll)
+    public virtual void OnTriggerEnter2D(Collider2D coll)
     {
         // If a character hits this, kill it
         CharacterMove character = coll.transform.GetComponent<CharacterMove>();

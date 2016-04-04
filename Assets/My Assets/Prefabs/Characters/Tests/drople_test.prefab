@@ -12,7 +12,7 @@ GameObject:
   - 95: {fileID: 9593040}
   - 50: {fileID: 5018492}
   - 61: {fileID: 6172198}
-  - 114: {fileID: 11401324}
+  - 114: {fileID: 11497274}
   m_Layer: 8
   m_Name: drople_test
   m_TagString: Ally
@@ -80,7 +80,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11401324
+--- !u!114 &11497274
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -88,9 +88,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 150904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a925af25e4fa82c499addb5866da9157, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ba031c0ef069a44698c7ec88d2b5dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathTime: 2.5
   dropDistanceBeforeDeath: 6
   autoWalk: 1
   isMovingRight: 1
