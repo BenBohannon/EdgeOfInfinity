@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 426575ebda6d55443af9d7a9c4a95ca5
+timeCreated: 1459801158
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Level Complete_0
+    21300002: Level Complete_1
+    21300004: Level Complete_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Level Complete_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 777
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -388.5, y: 95}
+        - {x: -388.5, y: -93}
+        - {x: -386.5, y: -95}
+        - {x: 388.5, y: -95}
+        - {x: 388.5, y: 95}
+    - name: Level Complete_1
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 8
+        width: 767
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -383.5, y: 94.5}
+        - {x: -383.5, y: -94.5}
+        - {x: 380.5, y: -94.5}
+        - {x: 383.5, y: -92.5}
+        - {x: 383.5, y: 94.5}
+    - name: Level Complete_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1558
+        height: 1017
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 775, y: -491.5}
+        - {x: 777, y: -489.5}
+        - {x: 779, y: -484.5}
+        - {x: 779, y: 489.5}
+        - {x: 777, y: 494.5}
+        - {x: 775, y: 496.5}
+        - {x: 772, y: 502.5}
+        - {x: 765, y: 508.5}
+        - {x: -766, y: 508.5}
+        - {x: -771, y: 504.5}
+        - {x: -771, y: 503.5}
+        - {x: -774, y: 501.5}
+        - {x: -778, y: 492.5}
+        - {x: -778, y: 489.5}
+        - {x: -779, y: 488.5}
+        - {x: -779, y: -479.5}
+        - {x: -778, y: -487.5}
+        - {x: -774, y: -496.5}
+        - {x: -768, y: -502.5}
+        - {x: -767, y: -502.5}
+        - {x: -766, y: -504.5}
+        - {x: -761, y: -506.5}
+        - {x: -759, y: -506.5}
+        - {x: -755, y: -508.5}
+        - {x: 757, y: -508.5}
+        - {x: 764, y: -505.5}
+        - {x: 772, y: -497.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
