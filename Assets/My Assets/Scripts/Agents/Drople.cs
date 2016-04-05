@@ -27,7 +27,7 @@ public class Drople : DraggableCharacter {
         myCollider.offset = new Vector2(myCollider.offset.x, 0.18f);
     }
 
-    void OnTriggerEnter2D(Collider2D coll)
+    override public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "Water")
         {

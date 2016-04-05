@@ -210,4 +210,16 @@ public class CharacterMove : MonoBehaviour {
         myAnimator.SetTrigger("isIdle");
     }
 
+    public virtual void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "Water")
+        {
+            die();
+        }
+        if (coll.gameObject.tag == "Lava")
+        {
+            die();
+        }
+    }
+
 }

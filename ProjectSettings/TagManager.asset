@@ -10,6 +10,7 @@ TagManager:
   - Crate
   - Heavy Crate
   - Water
+  - Lava
   layers:
   - Default
   - TransparentFX

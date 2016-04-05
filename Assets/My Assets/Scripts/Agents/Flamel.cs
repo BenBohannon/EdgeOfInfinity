@@ -6,7 +6,7 @@ using System.Collections;
  */
 public class Flamel : DraggableCharacter {
 
-    void OnTriggerEnter2D(Collider2D coll)
+    override public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "Water")
         {
