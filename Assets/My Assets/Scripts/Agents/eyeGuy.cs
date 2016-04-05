@@ -6,16 +6,38 @@ using System.Collections;
  */
 public class eyeGuy : CharacterMove {
     public float sight;
+    public GameObject beam;
+    
+    private float activationTime;
+    private GameObject instantiatedBeam;
+    private float prevX;
+    private float prevY;
 
-	// Use this for initialization
-	override public void Start () {
+    // Use this for initialization
+    override public void Start () {
+        beam.SetActive(false);
         base.Start();
 	}
 	
 	// Update is called once per frame
 	override public void Update () {
-        Vector3 pos = transform.position + (isMovingRight ? new Vector3(1f, 0, 0) : new Vector3(-1f, 0, 0));
+        float currentX = transform.position.x;
+        float currentY = transform.position.y;
+        if (instantiatedBeam != null && instantiatedBeam.activeSelf)
+        {
+            instantiatedBeam.transform.position += new Vector3(currentX - prevX, currentY - prevY, 0);
+            prevX = transform.position.x;
+            prevY = transform.position.y;
+            if (Time.time > activationTime + 0.3f)
+            {
+                instantiatedBeam.SetActive(false);
+                Destroy(instantiatedBeam);
+                prevX = 0f;
+                prevY = 0f;
+            }
+        }
 
+        Vector3 pos = transform.position + (isMovingRight ? new Vector3(1f, 0, 0) : new Vector3(-1f, 0, 0));
         //If we see an "Ally"
         RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(isMovingRight ? 0.2f : -0.2f, 0), sight, MasterDriver.regularCharacterMask);
         if (hit.collider != null) {
@@ -23,6 +45,13 @@ public class eyeGuy : CharacterMove {
             {
                 CharacterMove character = hit.transform.GetComponent<CharacterMove>();
                 character.die();
+                instantiatedBeam = Instantiate(beam);
+                instantiatedBeam.transform.position = transform.position + new Vector3(isMovingRight ? 2.7f : -2.7f, 0.4f, 0);
+                instantiatedBeam.transform.localScale = new Vector3(1.2f, 1, 1);
+                instantiatedBeam.SetActive(true);
+                activationTime = Time.time;
+                prevX = transform.position.x;
+                prevY = transform.position.y;
             }
 
         }
@@ -40,5 +69,6 @@ public class eyeGuy : CharacterMove {
         {
             die();
         }
+        base.OnCollisionEnter2D(coll);
     }
 }
