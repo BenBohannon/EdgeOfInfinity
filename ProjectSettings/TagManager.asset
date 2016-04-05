@@ -3,18 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Character
-  - Enemy
-  - Ally
-  - Crate
-  - Heavy Crate
-  - Water
-<<<<<<< HEAD
-  - Flamel
-=======
-  - Lava
->>>>>>> origin/master
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -24,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - Characters
-  - Walls-Floors
-  - Selected Character
-  - NonDraggableArea
-  - BackgroundObject
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -51,22 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Wall
-    uniqueID: 272562471
-    locked: 0
-  - name: Background Object
-    uniqueID: 1980803085
-    locked: 0
-  - name: Pre-Character
-    uniqueID: 2072149081
-    locked: 0
-  - name: Character
-    uniqueID: 3212940779
-    locked: 0
-  - name: Foreground Object
-    uniqueID: 722086331
-    locked: 0
-  - name: Floor
-    uniqueID: 1540878921
     locked: 0
