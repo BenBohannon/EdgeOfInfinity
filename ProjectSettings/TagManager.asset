@@ -10,7 +10,11 @@ TagManager:
   - Crate
   - Heavy Crate
   - Water
+<<<<<<< HEAD
   - Flamel
+=======
+  - Lava
+>>>>>>> origin/master
   layers:
   - Default
   - TransparentFX
