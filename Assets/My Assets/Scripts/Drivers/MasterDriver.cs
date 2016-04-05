@@ -15,6 +15,8 @@ public class MasterDriver : MonoBehaviour {
     public float dragSpeed = 10.0f;
     public static LevelDriver levelDriver;
 
+    public GameObject endLevelObject;
+
     private bool wasPaused = false;
 
     //Initialize things on the global scale.

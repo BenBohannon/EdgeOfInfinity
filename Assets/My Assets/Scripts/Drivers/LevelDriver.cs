@@ -12,6 +12,8 @@ public class LevelDriver : MonoBehaviour {
     [HideInInspector]
     public float levelTime = 0;
 
+    public int parTime = 1;
+
     void Awake()
     {
         //Overwrite the last levelDriver with this one.
@@ -21,6 +23,7 @@ public class LevelDriver : MonoBehaviour {
         }
 
         MasterDriver.levelDriver = this;
+        Time.timeScale = 1;
     }
 
     void Start()
@@ -51,8 +54,11 @@ public class LevelDriver : MonoBehaviour {
 
     private void EndLevel()
     {
-        //TODO: Show some success screen or menu that tells the player how they've done.
+        //Show some success screen or menu that tells the player how they've done.
+        EndLevelMenu canvas = Instantiate(MasterDriver.master.endLevelObject).GetComponent<EndLevelMenu>();
 
+        Time.timeScale = 0;
 
+        canvas.setupMenu(levelTime, parTime, savedCharacters);
     }
 }
