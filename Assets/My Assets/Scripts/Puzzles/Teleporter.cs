@@ -59,7 +59,15 @@ public class Teleporter : Activatable
         if (coll.gameObject.tag == "Ally" && connectedTeleporterColl.enabled == true)
         {
             //Moves the ally to the connected teleporter
-            coll.gameObject.transform.position = connectedTeleporter.transform.position + new Vector3(0, 0.23f, 0);
+            DraggableCharacter character = coll.transform.GetComponent<DraggableCharacter>();
+            if (character.isMovingRight)
+            {
+                coll.gameObject.transform.position = connectedTeleporter.transform.position + new Vector3(.5f, 0.23f, 0);
+            }
+            else
+            {
+                coll.gameObject.transform.position = connectedTeleporter.transform.position + new Vector3(-.5f, 0.23f, 0);
+            }
             connectedTeleporterColl.enabled = false;
             teleporting = true;
             teleportedTime = Time.time;

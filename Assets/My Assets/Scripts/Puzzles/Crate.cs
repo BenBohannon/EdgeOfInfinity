@@ -16,7 +16,7 @@ public class Crate : MonoBehaviour
         
     public virtual void OnCollisionStay2D(Collision2D coll)
     {       
-        CharacterMove character = coll.transform.GetComponent<CharacterMove>();
+        DraggableCharacter character = coll.transform.GetComponent<DraggableCharacter>();
         if (character != null && myRigidbody.velocity.magnitude < .64
                 && System.Math.Abs(character.transform.position.y - this.transform.position.y) < 1.5)                
         {

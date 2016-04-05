@@ -51,7 +51,7 @@ public class ToggleLaser : Activatable {
     public virtual void OnTriggerEnter2D(Collider2D coll)
     {
         // If a character hits this, kill it
-        CharacterMove character = coll.transform.GetComponent<CharacterMove>();
+        DraggableCharacter character = coll.transform.GetComponent<DraggableCharacter>();
         if (character != null)
         {
             character.die();

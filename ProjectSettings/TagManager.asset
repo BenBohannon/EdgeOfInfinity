@@ -10,6 +10,7 @@ TagManager:
   - Crate
   - Heavy Crate
   - Water
+  - Flamel
   layers:
   - Default
   - TransparentFX

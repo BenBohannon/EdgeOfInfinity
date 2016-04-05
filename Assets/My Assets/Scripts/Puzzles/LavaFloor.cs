@@ -18,7 +18,7 @@ public class LavaFloor : MonoBehaviour {
     {
         // If a character hits this, kill it
         CharacterMove character = coll.transform.GetComponent<CharacterMove>();
-        if (character != null)
+        if (character != null && coll.transform.childCount == 0)
         {
             character.die();
         }
