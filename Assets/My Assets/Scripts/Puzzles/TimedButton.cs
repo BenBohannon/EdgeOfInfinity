@@ -54,7 +54,6 @@ public class TimedButton : MonoBehaviour
         while (timer != duration)
         {
             timer++;
-            Debug.Log(timer);
             yield return new WaitForSeconds(1);
         }
         //When time is up, reset sprite, colliders, and duration
@@ -68,6 +67,5 @@ public class TimedButton : MonoBehaviour
                 a.Activate();
             }
         }
-        Debug.Log("Countdown Complete!");
     }
 }
