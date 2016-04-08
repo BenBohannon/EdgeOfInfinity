@@ -108,12 +108,26 @@ public class MovingPlatform : WaitPlatform
 			//Calculate the max distance from the starting platform we need.
 			float maxDistance = -(spacePadding * (heldCharacters.Count - 1)) / 2f;
 
-			//Move each character to their new position.
-			for (int i = 0; i < heldCharacters.Count; i++)
-			{
-				Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
-				heldCharacters[i].StartCoroutine(heldCharacters[i].walkToAndStop(myPlace, this));
-			}
+            List<CharacterMove> removeList = new List<CharacterMove>();
+
+            //Move each character to their new position.
+            for (int i = 0; i < heldCharacters.Count; i++)
+            {
+                if (heldCharacters[i].myWaitPlatform == this)
+                {
+                    Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
+                    StartCoroutine(heldCharacters[i].walkToAndStop(myPlace));
+                }
+                else
+                {
+                    removeList.Add(heldCharacters[i]);
+                }
+            }
+
+            foreach (CharacterMove c in removeList)
+            {
+                heldCharacters.Remove(c);
+            }
         }
     }
 
@@ -141,6 +155,7 @@ public class MovingPlatform : WaitPlatform
 			//Otherwise, add them to the list and make them stop here.
 			CharacterMove character = coll.gameObject.GetComponent<CharacterMove>();
 			heldCharacters.Add(character);
+            character.myWaitPlatform = this;
 
 			//Calculate the max distance from the starting platform we need.
 			float maxDistance = -(spacePadding * (heldCharacters.Count - 1)) / 2f;
@@ -151,13 +166,27 @@ public class MovingPlatform : WaitPlatform
 			//Sort the characters based on position.
 			heldCharacters.Sort(new posComparer());
 
-			//Move each character to their new position.
-			for (int i = 0; i < heldCharacters.Count; i++)
-			{
-				Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
-				StartCoroutine(heldCharacters[i].walkToAndStop(myPlace, this));
-				heldCharacters [i].transform.parent = transform;
-			}
+            List<CharacterMove> removeList = new List<CharacterMove>();
+
+            //Move each character to their new position.
+            for (int i = 0; i < heldCharacters.Count; i++)
+            {
+                if (heldCharacters[i].myWaitPlatform == this)
+                {
+                    Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
+                    StartCoroutine(heldCharacters[i].walkToAndStop(myPlace));
+                    heldCharacters[i].transform.parent = transform;
+                }
+                else
+                {
+                    removeList.Add(heldCharacters[i]);
+                }
+            }
+
+            foreach (CharacterMove c in removeList)
+            {
+                removeCharacter(c);
+            }
 
 		}
 	}
@@ -166,6 +195,7 @@ public class MovingPlatform : WaitPlatform
 	{
 		character.transform.parent = null;
 		heldCharacters.Remove(character);
+        character.myWaitPlatform = null;
 
 		//Sort the characters based on x position.
 		heldCharacters.Sort(new posComparer());
@@ -178,7 +208,7 @@ public class MovingPlatform : WaitPlatform
 		{
 			heldCharacters[i].StopCoroutine("walkToAndStop");
 			Vector2 myPlace = new Vector2(transform.position.x + maxDistance + (i * spacePadding), heldCharacters[i].transform.position.y);
-			heldCharacters[i].StartCoroutine(heldCharacters[i].walkToAndStop(myPlace, this));
+			heldCharacters[i].StartCoroutine(heldCharacters[i].walkToAndStop(myPlace));
 		}
 
 	}

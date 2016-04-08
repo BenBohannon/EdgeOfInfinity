@@ -30,7 +30,7 @@ public class EndElevator : MonoBehaviour {
 
     IEnumerator absorbCharacter(CharacterMove character)
     {
-        yield return StartCoroutine(character.walkToAndStop(new Vector2(transform.position.x, character.transform.position.y), null));
+        yield return StartCoroutine(character.walkToAndStop(new Vector2(transform.position.x, character.transform.position.y)));
 
         myAnimator.SetTrigger("isClosed");
         doorAnimator.SetTrigger("isClosed");

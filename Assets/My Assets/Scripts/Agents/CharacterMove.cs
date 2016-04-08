@@ -24,7 +24,7 @@ public class CharacterMove : MonoBehaviour {
     public bool falling = false;
     public Vector3 previousPosition;
 
-    protected WaitPlatform myWaitPlatform; //Platform this character is currently waiting on.
+    public WaitPlatform myWaitPlatform; //Platform this character is currently waiting on.
 
 	// Use this for initialization
 	public virtual void Start () {
@@ -174,10 +174,8 @@ public class CharacterMove : MonoBehaviour {
 
 
     //Move the character to the specified position and stops them there.
-    public IEnumerator walkToAndStop(Vector2 pos, WaitPlatform platform)
+    public IEnumerator walkToAndStop(Vector2 pos)
     {
-        myWaitPlatform = platform;
-
         //Stop automatic movement.
         autoWalk = false;
 
