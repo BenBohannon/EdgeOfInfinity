@@ -827,7 +827,7 @@ Transform:
   - {fileID: 1100601309}
   - {fileID: 1875488355}
   m_Father: {fileID: 0}
-  m_RootOrder: 116
+  m_RootOrder: 115
 --- !u!1 &174887585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,52 +1171,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 403492, guid: 89f3b5109346db045b5553ff6f108ecb, type: 2}
   m_PrefabInternal: {fileID: 238762954}
---- !u!1001 &252653111
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -26.092775
-      objectReference: {fileID: 0}
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 17.259914
-      objectReference: {fileID: 0}
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 416098, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 197418, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-      propertyPath: m_Name
-      value: potato_test (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: dad0af5da626ac84f923a3457834a78a, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &254618965
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,7 +2051,7 @@ Transform:
   - {fileID: 913059143}
   - {fileID: 2026349622}
   m_Father: {fileID: 0}
-  m_RootOrder: 114
+  m_RootOrder: 113
 --- !u!1 &464254207
 GameObject:
   m_ObjectHideFlags: 0
@@ -3939,7 +3893,7 @@ Transform:
   - {fileID: 479328997}
   - {fileID: 405766016}
   m_Father: {fileID: 0}
-  m_RootOrder: 113
+  m_RootOrder: 112
 --- !u!1001 &1100601308
 Prefab:
   m_ObjectHideFlags: 0
@@ -4022,7 +3976,7 @@ Transform:
   - {fileID: 364192475}
   - {fileID: 960540286}
   m_Father: {fileID: 0}
-  m_RootOrder: 112
+  m_RootOrder: 111
 --- !u!1001 &1124745688
 Prefab:
   m_ObjectHideFlags: 0
