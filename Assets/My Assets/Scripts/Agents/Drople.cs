@@ -17,7 +17,7 @@ public class Drople : DraggableCharacter {
 
     override public void FixedUpdate()
     {
-        myRigidbody.gravityScale = gravity;
+        //myRigidbody.gravityScale = gravity;
         base.FixedUpdate();
     }
 
@@ -31,7 +31,7 @@ public class Drople : DraggableCharacter {
     {
         if (coll.gameObject.tag == "Water")
         {
-            gravity = 0.1f;
+            myRigidbody.gravityScale = 0.1f;
             speed = 1.5f;
 
             inWater = true;
@@ -45,7 +45,7 @@ public class Drople : DraggableCharacter {
     {
         if (coll.gameObject.tag == "Water")
         {
-            gravity = 1.0f;
+            myRigidbody.gravityScale = 1.0f;
             speed = 3.0f;
 
             inWater = false;
