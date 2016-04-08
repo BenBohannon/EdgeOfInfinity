@@ -641,6 +641,10 @@ Prefab:
       propertyPath: m_Name
       value: Last Teleporter
       objectReference: {fileID: 0}
+    - target: {fileID: 11412736, guid: 9854c516ccfd85840b5468f009e42633, type: 2}
+      propertyPath: connectedTeleporter
+      value: 
+      objectReference: {fileID: 698502155}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9854c516ccfd85840b5468f009e42633, type: 2}
   m_IsPrefabParent: 0
@@ -6232,6 +6236,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9854c516ccfd85840b5468f009e42633, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &698502155 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11412736, guid: 9854c516ccfd85840b5468f009e42633,
+    type: 2}
+  m_PrefabInternal: {fileID: 698502154}
+  m_Script: {fileID: 11500000, guid: 71f92d95cd74559428874116babf50eb, type: 3}
 --- !u!1001 &702707023
 Prefab:
   m_ObjectHideFlags: 0
@@ -7156,7 +7166,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 13
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

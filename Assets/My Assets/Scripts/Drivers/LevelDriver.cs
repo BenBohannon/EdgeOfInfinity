@@ -39,6 +39,11 @@ public class LevelDriver : MonoBehaviour {
     void Update()
     {
         levelTime += Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
 	public void saveCharacter(CharacterMove character)

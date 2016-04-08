@@ -4016,7 +4016,7 @@ Transform:
   - {fileID: 364192475}
   - {fileID: 960540286}
   m_Father: {fileID: 0}
-  m_RootOrder: 111
+  m_RootOrder: 112
 --- !u!1001 &1124745688
 Prefab:
   m_ObjectHideFlags: 0
@@ -6959,6 +6959,10 @@ Prefab:
       propertyPath: requiredCharacters.Array.data[2]
       value: 
       objectReference: {fileID: 144255478}
+    - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
+      propertyPath: parTime
+      value: 90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
   m_IsPrefabParent: 0

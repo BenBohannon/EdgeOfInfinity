@@ -3187,6 +3187,10 @@ Prefab:
       propertyPath: requiredCharacters.Array.data[1]
       value: 
       objectReference: {fileID: 334531534}
+    - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
+      propertyPath: parTime
+      value: 45
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
   m_IsPrefabParent: 0
