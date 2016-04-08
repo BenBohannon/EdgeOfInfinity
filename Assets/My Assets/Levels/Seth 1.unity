@@ -1070,6 +1070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSource: {fileID: 329946645}
+  audioClips: []
 --- !u!114 &334531534 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11446160, guid: dad0af5da626ac84f923a3457834a78a,
@@ -2347,7 +2348,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 441274, guid: 69425e964a159dd42bc1971f1794cd32, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69425e964a159dd42bc1971f1794cd32, type: 2}
@@ -3149,7 +3150,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: requiredCharacters.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 420988, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: m_LocalPosition.x

@@ -1250,7 +1250,7 @@ MonoBehaviour:
   worldFourNames:
   - 4-1 Escape Hatch
   worldFiveNames:
-  - 5-1 Bad Friend
+  - 5-1 Eye World
   worldSixNames:
   - 6-1 Prison Break
   worldSevenNames:
@@ -1953,7 +1953,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jordan Eggleston
+  m_Text: 'Jordan Eggleston
+
+    Haris Aslam'
 --- !u!114 &11461764
 MonoBehaviour:
   m_ObjectHideFlags: 1
