@@ -4,6 +4,7 @@ using System.Collections;
 public class PauseMenu : MonoBehaviour {
 
     public GameObject optionsMenuObject;
+    public GameObject controlsObject;
 
     public void optionsClick()
     {
@@ -12,7 +13,12 @@ public class PauseMenu : MonoBehaviour {
 
     public void controlsClick()
     {
+        controlsObject.SetActive(true);
+    }
 
+    public void controlsClose()
+    {
+        controlsObject.SetActive(false);
     }
 
     public void exitClick()

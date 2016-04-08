@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: e0f5a21de81011d44ba257c8e9dd1605
+timeCreated: 1460084989
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Drag Instructions_0
+    21300002: Drag Instructions_1
+    21300004: Drag Instructions_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Drag Instructions_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 773
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -341.5, y: 228}
+        - {x: -341.5, y: -228}
+        - {x: 341.5, y: -228}
+        - {x: 341.5, y: 228}
+    - name: Drag Instructions_1
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 773
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -341.3333, y: 228}
+        - {x: -341.3333, y: -228}
+        - {x: 342.6667, y: -228}
+        - {x: 342.6667, y: 228}
+    - name: Drag Instructions_2
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 0
+        width: 773
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -341.16663, y: 228}
+        - {x: -341.16663, y: -228}
+        - {x: 341.83337, y: -228}
+        - {x: 341.83337, y: 228}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

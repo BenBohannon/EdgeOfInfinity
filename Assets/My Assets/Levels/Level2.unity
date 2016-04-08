@@ -388,7 +388,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22435408, guid: 935389de1a30405418c879159cf54136, type: 2}
       propertyPath: m_RootOrder
-      value: 63
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 22435408, guid: 935389de1a30405418c879159cf54136, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -430,18 +430,23 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 161334, guid: 935389de1a30405418c879159cf54136, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 11490394, guid: 935389de1a30405418c879159cf54136, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1379339490}
-    - target: {fileID: 11490394, guid: 935389de1a30405418c879159cf54136, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: togglePaused
+    - target: {fileID: 161334, guid: 935389de1a30405418c879159cf54136, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 180218, guid: 935389de1a30405418c879159cf54136, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11496570, guid: 935389de1a30405418c879159cf54136, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8cdf6f9a2fe578a4780f0ee9139de107,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 935389de1a30405418c879159cf54136, type: 2}
   m_IsPrefabParent: 0
