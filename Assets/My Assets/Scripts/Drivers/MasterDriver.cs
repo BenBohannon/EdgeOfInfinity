@@ -26,6 +26,8 @@ public class MasterDriver : MonoBehaviour {
         if (master == null)
         {
             master = this;
+            DontDestroyOnLoad(this);
+            DontDestroyOnLoad(this.gameObject);
         }
         else if (master != this)
         {

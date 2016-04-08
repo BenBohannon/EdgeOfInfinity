@@ -69,7 +69,7 @@ public class CharacterMove : MonoBehaviour {
         //If we hit something to land on.
         RaycastHit2D hit = Physics2D.Raycast(pos, new Vector2(0, -1), dropDistanceBeforeDeath, MasterDriver.regularCharacterMask);
         //had to update the following line to avoid the character rapidly changing direction in the air/water
-        if (avoidsLedges /*&& (prevPos.y - transform.position.y < 0.001 && prevPos.y - transform.position.y > -0.999)*/ && !inWater)
+        if (avoidsLedges && (prevPos.y - transform.position.y < 0.001 && prevPos.y - transform.position.y > -0.999) && !inWater)
         {
             if (hit.collider == null)
             {

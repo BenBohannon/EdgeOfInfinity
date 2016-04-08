@@ -1274,6 +1274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSource: {fileID: 329946645}
+  audioClips: []
 --- !u!1 &337457582
 GameObject:
   m_ObjectHideFlags: 0
@@ -4041,7 +4042,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: requiredCharacters.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 420988, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: m_LocalPosition.x
@@ -4081,7 +4082,7 @@ Prefab:
       objectReference: {fileID: 472324670}
     - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: charactersToSave
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: requiredCharacters.Array.data[1]

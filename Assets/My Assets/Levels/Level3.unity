@@ -6887,7 +6887,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: requiredCharacters.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 420988, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: m_LocalPosition.x
@@ -6936,6 +6936,10 @@ Prefab:
     - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: parTime
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
+      propertyPath: charactersToSave
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
