@@ -44,6 +44,10 @@ public class eyeGuy : CharacterMove {
             if (hit.transform.tag == "Ally")
             {
                 CharacterMove character = hit.transform.GetComponent<CharacterMove>();
+                if (character is Flamel)
+                {
+                    return;
+                }
                 character.die();
                 instantiatedBeam = Instantiate(beam);
                 instantiatedBeam.transform.position = transform.position + new Vector3(isMovingRight ? 2.7f : -2.7f, 0.4f, 0);
