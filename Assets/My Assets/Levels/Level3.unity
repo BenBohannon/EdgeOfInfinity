@@ -2004,6 +2004,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a62fa1920c1b24c43885adad6fce08c2, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &433195389 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11447622, guid: a62fa1920c1b24c43885adad6fce08c2,
+    type: 2}
+  m_PrefabInternal: {fileID: 433195388}
+  m_Script: {fileID: 11500000, guid: 7eb54244fdf9b6048a82d769f83aec85, type: 3}
 --- !u!1001 &451904817
 Prefab:
   m_ObjectHideFlags: 0
@@ -5908,6 +5914,14 @@ Prefab:
     - target: {fileID: 161334, guid: 935389de1a30405418c879159cf54136, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490394, guid: 935389de1a30405418c879159cf54136, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 433195389}
+    - target: {fileID: 11490394, guid: 935389de1a30405418c879159cf54136, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: togglePaused
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 935389de1a30405418c879159cf54136, type: 2}
