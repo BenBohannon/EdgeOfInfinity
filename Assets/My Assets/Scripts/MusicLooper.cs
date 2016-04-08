@@ -21,7 +21,7 @@ public class MusicLooper : MonoBehaviour {
 	 * If you want to use non-.mp3 music files, add the string "*.xxx" to this array, where .xxx is the
 	 * extension you want.
 	 */
-	private readonly string[] fileExtensions = {"*.mp3"};
+	private readonly string[] fileExtensions = {"*.mp3", "*.wav"};
 
 
 	//Load the path to each music file into musicFiles.
@@ -42,7 +42,7 @@ public class MusicLooper : MonoBehaviour {
 			int index;
 			do {
 				index = Random.Range (0, musicFiles.Count);
-			} while (index == previousIndex);
+			} while (index == previousIndex && musicFiles.Count > 1);
 			previousIndex = index;
 			string path = pathInResources + Path.GetFileNameWithoutExtension(musicFiles[index].ToString ());
 			//Resources.Load expects a path relative to the Resources directory, that has no extension.
