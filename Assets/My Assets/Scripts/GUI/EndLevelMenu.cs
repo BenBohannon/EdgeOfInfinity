@@ -17,7 +17,7 @@ public class EndLevelMenu : MonoBehaviour {
 
     private string secondsToTime(float seconds)
     {
-        return (((int)seconds)/60) + ":" + (((int)seconds)%60);
+        return (((int)seconds)/60) + ":" + (((int)seconds)%60).ToString("00");
     }
 
     public void MainMenuClick()

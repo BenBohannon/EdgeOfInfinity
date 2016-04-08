@@ -1943,6 +1943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSource: {fileID: 329946645}
+  audioClips: []
 --- !u!4 &330190099 stripped
 Transform:
   m_PrefabParentObject: {fileID: 486728, guid: 2b721d86b7df62e4fac0b88a18e201f2, type: 2}
@@ -7723,7 +7724,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11421072, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: requiredCharacters.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 420988, guid: 16580fa6b9277d94b85c6ea34d253591, type: 2}
       propertyPath: m_LocalPosition.x
