@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour {
 
     public GameObject levelSelectObject;
     public GameObject optionsMenuObject;
+    public GameObject creditsMenuObject;
 
 	
 	public void startButtonClick()
@@ -15,7 +16,7 @@ public class MainMenu : MonoBehaviour {
 
     public void creditsButtonClick()
     {
-
+        creditsMenuObject.SetActive(true);
     }
 
     public void optionsButtonClick()
