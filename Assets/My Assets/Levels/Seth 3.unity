@@ -506,7 +506,7 @@ Transform:
   - {fileID: 330190099}
   - {fileID: 1161262148}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
 --- !u!114 &82713277 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11410652, guid: 19b1cff0520a6a442b0caf1ef72a8b57,
@@ -550,7 +550,7 @@ Transform:
   - {fileID: 2037648735}
   - {fileID: 1151244495}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
 --- !u!1 &84892675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +1439,7 @@ Transform:
   - {fileID: 861559518}
   - {fileID: 213473684}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
 --- !u!1001 &236463705
 Prefab:
   m_ObjectHideFlags: 0
@@ -4599,7 +4599,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 13
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4620,7 +4620,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 840236255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.32, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4636,11 +4636,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c15788de6df42498d33b16788bd11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.2
-  heightMax: 50
-  heightMin: -50
-  widthMax: 50
-  widthMin: -50
+  scrollSpeed: 0.3
+  heightMax: 100
+  heightMin: -100
+  widthMax: 100
+  widthMin: -100
 --- !u!114 &840236262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7563,7 +7563,7 @@ Transform:
   - {fileID: 269309922}
   - {fileID: 329946644}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!1001 &1296499717
 Prefab:
   m_ObjectHideFlags: 0
@@ -9705,7 +9705,7 @@ Transform:
   - {fileID: 1333524493}
   - {fileID: 1180478632}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
 --- !u!4 &1614149916 stripped
 Transform:
   m_PrefabParentObject: {fileID: 452198, guid: 54d38cd9aab38bd45a03027799861cc8, type: 2}
@@ -10454,7 +10454,7 @@ Transform:
   - {fileID: 2034545446}
   - {fileID: 2006404846}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
 --- !u!4 &1750623248 stripped
 Transform:
   m_PrefabParentObject: {fileID: 463288, guid: a97e347f52e8d824680b0b0edfbb8126, type: 2}

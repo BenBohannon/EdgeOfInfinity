@@ -852,7 +852,7 @@ Transform:
   - {fileID: 1018611797}
   - {fileID: 889762565}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
 --- !u!1001 &714323914
 Prefab:
   m_ObjectHideFlags: 0
@@ -1102,11 +1102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c15788de6df42498d33b16788bd11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.2
-  heightMax: 50
-  heightMin: -50
-  widthMax: 50
-  widthMin: -50
+  scrollSpeed: 0.3
+  heightMax: 100
+  heightMin: -100
+  widthMax: 100
+  widthMin: -100
 --- !u!114 &840236262
 MonoBehaviour:
   m_ObjectHideFlags: 0

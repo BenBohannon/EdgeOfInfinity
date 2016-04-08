@@ -1517,7 +1517,7 @@ Transform:
   - {fileID: 2131111863}
   - {fileID: 682823060}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1001 &515715775
 Prefab:
   m_ObjectHideFlags: 0
@@ -2037,7 +2037,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 840236255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.32, y: 0, z: -10}
+  m_LocalPosition: {x: -11.32, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2053,11 +2053,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c15788de6df42498d33b16788bd11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.2
-  heightMax: 50
-  heightMin: -50
-  widthMax: 50
-  widthMin: -50
+  scrollSpeed: 0.3
+  heightMax: 100
+  heightMin: -100
+  widthMax: 100
+  widthMin: -100
 --- !u!114 &840236262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3009,7 +3009,7 @@ Transform:
   - {fileID: 269309922}
   - {fileID: 329946644}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &1299631327 stripped
 Transform:
   m_PrefabParentObject: {fileID: 486728, guid: 2b721d86b7df62e4fac0b88a18e201f2, type: 2}
@@ -3776,7 +3776,7 @@ Transform:
   - {fileID: 1371876268}
   - {fileID: 671469554}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1001 &1612965245
 Prefab:
   m_ObjectHideFlags: 0
@@ -4911,7 +4911,7 @@ Transform:
   - {fileID: 1806245904}
   - {fileID: 82187744}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
 --- !u!1 &2082581966
 GameObject:
   m_ObjectHideFlags: 0

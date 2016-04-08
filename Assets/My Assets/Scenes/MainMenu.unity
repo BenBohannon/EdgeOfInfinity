@@ -164,6 +164,40 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 135034, guid: 59d76e0de4279cd4d8afc30f3812c680, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11480028, guid: 59d76e0de4279cd4d8afc30f3812c680, type: 2}
+      propertyPath: m_Text
+      value: 'Shyam Subramaniyam
+
+        Richard Valentine
+
+        Matthew Ielusic
+
+        Alan Hesu
+
+        Larry He
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 22406966, guid: 59d76e0de4279cd4d8afc30f3812c680, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -65
+      objectReference: {fileID: 0}
+    - target: {fileID: 22467512, guid: 59d76e0de4279cd4d8afc30f3812c680, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 22447228, guid: 59d76e0de4279cd4d8afc30f3812c680, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22447228, guid: 59d76e0de4279cd4d8afc30f3812c680, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -62
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59d76e0de4279cd4d8afc30f3812c680, type: 2}
   m_IsPrefabParent: 0
