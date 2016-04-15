@@ -8,14 +8,14 @@ public class MusicLooper : MonoBehaviour {
 	//The audio source that will play music.  This script will load random music clips into the source at run time.
 	public AudioSource defaultSource;
 
-    public List<AudioClip> audioClips = new List<AudioClip>();
+    public static List<AudioClip> audioClips;
 
 	//We don't want to repeat songs; store the previous song's index into musicFiles here.
 	private int previousIndex = -1;
 	//Path to the file music files will be in.  Due to how Unity loads files, songs MUST be somewhere in Assets/Resources.
-	private readonly string pathName = "LevelAmbientMusic";
+	private static readonly string pathName = "LevelAmbientMusic";
 	//Resoures.Load() assumes its path its relative to the Resources directory.  Put that path here.
-	private readonly string pathInResources = "LevelAmbientMusic/";
+	private static readonly string pathInResources = "LevelAmbientMusic/";
 
 	/*
 	 * If you want to use non-.mp3 music files, add the string "*.xxx" to this array, where .xxx is the
@@ -26,9 +26,9 @@ public class MusicLooper : MonoBehaviour {
 
 	//Load the path to each music file into musicFiles.
 	void Start () {
-        foreach(AudioClip o in Resources.LoadAll<AudioClip>(pathName))
+        if (audioClips == null)
         {
-            audioClips.Add(o);
+            loadAudioClips();
         }
 	}
 
@@ -45,4 +45,13 @@ public class MusicLooper : MonoBehaviour {
 			defaultSource.Play ();
 		}
 	}
+
+    public static void loadAudioClips()
+    {
+        audioClips = new List<AudioClip>();
+        foreach (AudioClip o in Resources.LoadAll<AudioClip>(pathName))
+        {
+            audioClips.Add(o);
+        }
+    }
 }

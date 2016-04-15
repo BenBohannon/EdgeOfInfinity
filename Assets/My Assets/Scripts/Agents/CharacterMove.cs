@@ -9,6 +9,7 @@ public class CharacterMove : MonoBehaviour {
     protected Animator myAnimator;
     protected Rigidbody2D myRigidbody;
     protected Collider2D myCollider;
+    protected SpriteRenderer myRenderer;
 
     public float deathTime = 2f;
     public float dropDistanceBeforeDeath = 6.0f;
@@ -31,6 +32,7 @@ public class CharacterMove : MonoBehaviour {
         myAnimator = gameObject.GetComponent<Animator>();
         myRigidbody = gameObject.GetComponent<Rigidbody2D>();
         myCollider = gameObject.GetComponent<Collider2D>();
+        myRenderer = gameObject.GetComponent<SpriteRenderer>();
         
         //If starting out walking, start the walking animation.
         if (autoWalk)
@@ -40,7 +42,7 @@ public class CharacterMove : MonoBehaviour {
 
         if (!isMovingRight)
         {
-            transform.Rotate(0, 180, 0);
+            myRenderer.flipX = true;
         }
 
         //Set the animation speed based on the Character speed.
@@ -150,11 +152,11 @@ public class CharacterMove : MonoBehaviour {
         isMovingRight = !isMovingRight;
         if (!isMovingRight)
         {
-			transform.Rotate (0, 180, 0);
+            myRenderer.flipX = true;
         }
         else
         {
-			transform.Rotate (0, 180, 0);
+            myRenderer.flipX = false;
         }
     }
 

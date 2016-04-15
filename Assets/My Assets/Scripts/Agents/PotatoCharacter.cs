@@ -35,19 +35,19 @@ public class PotatoCharacter : DraggableCharacter {
         }
     }
 
-    override public void reverseDirection()
-    {
-        //Reverse movement direction and animation facing.
-        isMovingRight = !isMovingRight;
-        if (!isMovingRight)
-        {
-            transform.Rotate(0, 180, 0);
-        }
-        else
-        {
-            transform.Rotate(0, 180, 0);
-        }
-    }
+    //override public void reverseDirection()
+    //{
+    //    //Reverse movement direction and animation facing.
+    //    isMovingRight = !isMovingRight;
+    //    if (!isMovingRight)
+    //    {
+    //        myRenderer.flipX = true;
+    //    }
+    //    else
+    //    {
+    //        myRenderer.flipX = false;
+    //    }
+    //}
 
     //override public void die()
     //{

@@ -44,6 +44,8 @@ public class MasterDriver : MonoBehaviour {
         Physics2D.IgnoreLayerCollision(8, 10, true);
 
         Cursor.SetCursor(cursorTexture, new Vector2(13, 13), CursorMode.Auto);
+
+        MusicLooper.loadAudioClips();
     }
 
     void Update()
