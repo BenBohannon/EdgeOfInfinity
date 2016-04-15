@@ -45,7 +45,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -91,6 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a925af25e4fa82c499addb5866da9157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathTime: 2
   dropDistanceBeforeDeath: 6
   autoWalk: 1
   isMovingRight: 1
@@ -98,6 +99,7 @@ MonoBehaviour:
   avoidsLedges: 0
   falling: 0
   previousPosition: {x: 0, y: 0, z: 0}
+  myWaitPlatform: {fileID: 0}
 --- !u!212 &21240754
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -139,6 +141,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 9cf727c336577124999aa2db483eebca, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 174962}

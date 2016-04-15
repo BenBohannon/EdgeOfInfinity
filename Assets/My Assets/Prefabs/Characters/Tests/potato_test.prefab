@@ -45,7 +45,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -99,6 +99,7 @@ MonoBehaviour:
   avoidsLedges: 0
   falling: 0
   previousPosition: {x: 0, y: 0, z: 0}
+  myWaitPlatform: {fileID: 0}
 --- !u!212 &21218308
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -155,6 +156,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Potato
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Interpolate
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
